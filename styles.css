@@ -1,0 +1,1472 @@
+@font-face {
+  font-family: "DaMingApk";
+  src: url("assets/font.ttf") format("truetype");
+}
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+  background: #202020;
+  color: #e8e8e8;
+  font-family: "DaMingApk", SimSun, serif;
+}
+
+.app {
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  min-height: 100vh;
+}
+
+.hide-chrome .app {
+  grid-template-columns: 1fr;
+}
+
+.hide-chrome .sidebar {
+  display: none;
+}
+
+.hide-chrome .stage-flow-controls {
+  display: none !important;
+}
+
+.sidebar {
+  box-sizing: border-box;
+  max-height: 100vh;
+  overflow: auto;
+  padding: 14px;
+  border-right: 1px solid #3a3a3a;
+  background: #181818;
+}
+
+.title {
+  margin-bottom: 12px;
+  color: #f7f7f7;
+  font-size: 18px;
+}
+
+.gallery-link {
+  display: inline-block;
+  margin: -4px 0 12px;
+  color: #d8b45c;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.filter,
+.page-select,
+.flow-select,
+.flow-buttons button,
+.quick-pages button,
+.stage-flow-controls button {
+  box-sizing: border-box;
+  border: 1px solid #565656;
+  background: #0f0f0f;
+  color: #f0f0f0;
+  font-family: Consolas, monospace;
+  font-size: 13px;
+}
+
+.filter,
+.page-select,
+.flow-select {
+  width: 100%;
+}
+
+.filter {
+  height: 30px;
+  margin-bottom: 10px;
+  padding: 0 8px;
+}
+
+.page-select {
+  height: calc(100vh - 312px);
+}
+
+.flow-panel {
+  margin-bottom: 12px;
+  border-bottom: 1px solid #303030;
+  padding-bottom: 12px;
+}
+
+.evidence-panel {
+  margin-bottom: 12px;
+  border-bottom: 1px solid #303030;
+  padding-bottom: 12px;
+}
+
+.action-panel {
+  margin-bottom: 12px;
+  border-bottom: 1px solid #303030;
+  padding-bottom: 12px;
+}
+
+.flow-title {
+  margin-bottom: 6px;
+  color: #d8d8d8;
+  font-family: Consolas, monospace;
+  font-size: 12px;
+}
+
+.flow-select {
+  height: 28px;
+}
+
+.flow-buttons,
+.quick-pages {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 6px;
+  margin-top: 8px;
+}
+
+.flow-buttons button,
+.quick-pages button,
+.action-row,
+.stage-flow-controls button {
+  min-height: 28px;
+  cursor: pointer;
+}
+
+.flow-buttons button:disabled,
+.stage-flow-controls button:disabled {
+  cursor: default;
+  opacity: 0.45;
+}
+
+.flow-meta {
+  min-height: 34px;
+  margin-top: 8px;
+  color: #b8b8b8;
+  font-family: Consolas, monospace;
+  font-size: 12px;
+  line-height: 1.45;
+}
+
+.flow-evidence {
+  display: grid;
+  gap: 6px;
+}
+
+.evidence-card {
+  box-sizing: border-box;
+  border: 1px solid #3f4a4f;
+  border-radius: 6px;
+  background: #101416;
+  color: #dfe7e4;
+  font-family: Consolas, "Microsoft YaHei", monospace;
+  font-size: 12px;
+  line-height: 1.4;
+  padding: 8px;
+}
+
+.evidence-badge {
+  display: inline-block;
+  max-width: 100%;
+  border: 1px solid #63737a;
+  border-radius: 999px;
+  background: #1a262b;
+  color: #b9e4ef;
+  font-size: 12px;
+  line-height: 1.2;
+  margin-bottom: 6px;
+  padding: 3px 7px;
+}
+
+.evidence-open_dungeon_team,
+.evidence-map_dungeon_team_event {
+  border-color: #a98539;
+  background: #211a0d;
+  color: #f0d078;
+}
+
+.evidence-dungeon_battle_settlement,
+.evidence-field_monster_settlement {
+  border-color: #8a665a;
+  background: #241713;
+  color: #efb4a2;
+}
+
+.evidence-placeholder {
+  border-color: #656565;
+  background: #202020;
+  color: #aaa;
+}
+
+.evidence-source {
+  margin-bottom: 6px;
+  color: #8fa1a7;
+}
+
+.evidence-row {
+  display: grid;
+  grid-template-columns: 42px minmax(0, 1fr);
+  gap: 6px;
+  padding: 2px 0;
+}
+
+.evidence-label {
+  color: #7f8f95;
+}
+
+.evidence-value {
+  color: #f2f2f2;
+  overflow-wrap: anywhere;
+}
+
+.evidence-conclusion {
+  margin-top: 7px;
+  border-top: 1px solid #263237;
+  color: #c9d5d1;
+  padding-top: 7px;
+}
+
+.action-toggle {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin: 4px 0 8px;
+  color: #b8b8b8;
+  font-family: Consolas, monospace;
+  font-size: 12px;
+}
+
+.page-actions {
+  display: grid;
+  gap: 6px;
+  max-height: 152px;
+  overflow: auto;
+}
+
+.action-row {
+  box-sizing: border-box;
+  width: 100%;
+  border: 1px solid #5a4d2e;
+  background: #14110a;
+  color: #f0d078;
+  font-family: Consolas, monospace;
+  font-size: 12px;
+  line-height: 1.25;
+  padding: 6px 7px;
+  text-align: left;
+}
+
+.action-row:hover {
+  background: #211907;
+}
+
+.action-empty {
+  border: 1px dashed #3f3f3f;
+  color: #8d8d8d;
+  font-family: Consolas, monospace;
+  font-size: 12px;
+  line-height: 1.35;
+  padding: 7px;
+}
+
+.meta {
+  margin-top: 10px;
+  color: #b8b8b8;
+  font-family: Consolas, monospace;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.viewport {
+  display: grid;
+  place-items: center;
+  overflow: auto;
+  padding: 24px;
+  position: relative;
+}
+
+.stage {
+  position: relative;
+  width: 960px;
+  height: 640px;
+  overflow: hidden;
+  background: #fff;
+  color: #111;
+}
+
+.backend-error {
+  position: absolute;
+  z-index: 80;
+  right: 16px;
+  bottom: 16px;
+  max-width: 360px;
+  box-sizing: border-box;
+  border: 1px solid #b85a52;
+  background: rgba(28, 7, 5, 0.92);
+  color: #ffe4de;
+  font-family: Consolas, monospace;
+  font-size: 13px;
+  line-height: 1.4;
+  padding: 10px 12px;
+}
+
+.stage-flow-controls {
+  position: fixed;
+  right: 18px;
+  bottom: 18px;
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  background: rgba(16, 16, 16, 0.82);
+  padding: 8px;
+}
+
+.stage-flow-controls[hidden] {
+  display: none;
+}
+
+.stage-flow-controls button {
+  min-width: 64px;
+}
+
+.stage-flow-controls span {
+  color: #f2f2f2;
+  font-family: Consolas, monospace;
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.node {
+  position: absolute;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.node.has-action {
+  cursor: pointer;
+  pointer-events: auto;
+}
+
+.node.has-action:hover {
+  outline: 1px solid rgba(216, 180, 92, 0.55);
+  outline-offset: -1px;
+}
+
+.node.play-action {
+  cursor: pointer;
+}
+
+.show-action-hotspots .node.has-action {
+  outline: 1px solid rgba(216, 180, 92, 0.65);
+  outline-offset: -1px;
+}
+
+.show-action-hotspots .node.has-action::after {
+  content: "";
+  position: absolute;
+  right: 3px;
+  top: 3px;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: #f0d078;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.55);
+  pointer-events: none;
+}
+
+.tag-Dialog,
+.tag-Panel {
+  overflow: visible;
+  pointer-events: none;
+}
+
+.tag-Scene {
+  overflow: hidden;
+}
+
+.tag-List,
+.tag-Grid {
+  overflow: hidden;
+}
+
+.tag-Progress {
+  overflow: hidden;
+}
+
+.play-mode .tag-Button,
+.play-mode .tag-Static {
+  z-index: 5;
+}
+
+.asset {
+  position: absolute;
+  user-select: none;
+  pointer-events: none;
+}
+
+.asset-fill {
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.asset-center {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.nine-slice {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  pointer-events: none;
+}
+
+.progress-fill {
+  position: absolute;
+  inset: 0 auto 0 0;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.list-sample-cell {
+  position: absolute;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.label {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  white-space: pre-wrap;
+}
+
+.tw-text-canvas {
+  position: absolute;
+  z-index: 2;
+  left: 0;
+  top: 0;
+  pointer-events: none;
+}
+
+.tag-Button .label,
+.tag-Check .label {
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
+
+.tag-Static .label,
+.tag-RollStatic .label {
+  line-height: 1.35;
+}
+
+.tag-Edit {
+  border: 1px solid #8e8e8e;
+  background: #fff;
+}
+
+.show-placeholders .placeholder {
+  border: 1px dashed rgba(0, 0, 0, 0.18);
+}
+
+.play-mode:not(.show-placeholders) .node.placeholder[data-owner-page="ShellUser"][data-name="imgHead"],
+.play-mode:not(.show-placeholders) .node.placeholder[data-owner-page="ShellUser"][data-name="imgCareer"] {
+  visibility: hidden;
+}
+
+.flow-tip {
+  position: absolute;
+  z-index: 10;
+  max-width: 300px;
+  border: 1px solid rgba(0, 0, 0, 0.72);
+  background: rgba(255, 255, 240, 0.94);
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.28);
+  box-sizing: border-box;
+  color: #111;
+  font-size: 18px;
+  line-height: 1.35;
+  padding: 8px 10px;
+  pointer-events: none;
+}
+
+.flow-marker {
+  position: absolute;
+  z-index: 11;
+  width: 34px;
+  height: 34px;
+  margin-left: -17px;
+  margin-top: -17px;
+  border: 3px solid #d72818;
+  border-radius: 50%;
+  box-sizing: border-box;
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.86), 0 0 12px rgba(215, 40, 24, 0.75);
+  pointer-events: none;
+}
+
+.flow-marker::after {
+  content: "";
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  width: 42px;
+  height: 4px;
+  background: #d72818;
+  transform: rotate(35deg);
+  transform-origin: left center;
+}
+
+.play-hotspot {
+  position: absolute;
+  z-index: 12;
+  display: grid;
+  place-items: center;
+  box-sizing: border-box;
+  border: 2px solid rgba(214, 42, 24, 0.82);
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(255, 245, 194, 0.78) 0 24%, rgba(255, 220, 80, 0.25) 25% 52%, rgba(255, 220, 80, 0.06) 53% 100%);
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.72), 0 0 18px rgba(214, 42, 24, 0.42);
+  color: #6f210c;
+  cursor: pointer;
+  font-family: "DaMingApk", SimSun, serif;
+  padding: 0;
+  text-align: center;
+}
+
+.play-hotspot span {
+  display: grid;
+  place-items: center;
+  width: 42px;
+  height: 42px;
+  border: 1px solid rgba(110, 54, 14, 0.72);
+  border-radius: 50%;
+  background: rgba(255, 244, 204, 0.92);
+  font-size: 16px;
+  line-height: 1;
+  pointer-events: none;
+  user-select: none;
+}
+
+.play-hotspot.is-coordinate span {
+  border-style: dashed;
+  font-size: 18px;
+}
+
+.play-hotspot:hover {
+  background: radial-gradient(circle, rgba(255, 238, 148, 0.92) 0 28%, rgba(255, 210, 65, 0.32) 29% 58%, rgba(255, 220, 80, 0.1) 59% 100%);
+}
+
+.play-mode:not(.show-guide-overlay) .play-hotspot {
+  border-color: transparent;
+  background: transparent;
+  box-shadow: none;
+  color: transparent;
+}
+
+.play-mode:not(.show-guide-overlay) .play-hotspot:hover {
+  background: transparent;
+}
+
+.play-mode:not(.show-guide-overlay) .play-hotspot span,
+.play-mode:not(.show-guide-overlay) .play-map-target span {
+  display: none;
+}
+
+.play-equip-fixture {
+  position: absolute;
+  z-index: 12;
+  box-sizing: border-box;
+  border: 1px solid #5e3e16;
+  background: linear-gradient(#f6e5b6, #d3a85b);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.35);
+  color: #2b1603;
+  cursor: pointer;
+  font-family: "DaMingApk", SimSun, serif;
+  padding: 5px 12px;
+  text-align: left;
+}
+
+.play-equip-fixture span {
+  display: block;
+  font-size: 20px;
+  line-height: 42px;
+}
+
+.play-dungeon-monster {
+  position: absolute;
+  z-index: 12;
+  width: 111px;
+  height: 91px;
+  image-rendering: auto;
+  pointer-events: none;
+}
+
+.play-unconfirmed-monster,
+.battle-unconfirmed-monster {
+  display: grid;
+  place-items: center;
+  box-sizing: border-box;
+  border: 1px dashed rgba(92, 62, 22, 0.82);
+  background: rgba(255, 241, 203, 0.78);
+  color: #5b3410;
+  font-family: "DaMingApk", SimSun, serif;
+  font-size: 18px;
+  text-align: center;
+}
+
+.play-reviewed-dungeon,
+.battle-reviewed-dungeon {
+  display: grid;
+  place-items: center;
+  box-sizing: border-box;
+  border: 1px solid rgba(47, 138, 69, 0.9);
+  background: rgba(224, 243, 209, 0.86);
+  color: #1d3b18;
+  font-family: "DaMingApk", SimSun, serif;
+  padding: 8px;
+  text-align: center;
+}
+
+.play-reviewed-dungeon strong,
+.battle-reviewed-dungeon strong,
+.play-reviewed-dungeon small,
+.battle-reviewed-dungeon small {
+  display: block;
+  max-width: 100%;
+  overflow-wrap: anywhere;
+}
+
+.play-reviewed-dungeon strong,
+.battle-reviewed-dungeon strong {
+  font-size: 16px;
+  line-height: 1.15;
+}
+
+.play-reviewed-dungeon small,
+.battle-reviewed-dungeon small {
+  margin-top: 4px;
+  color: #315b25;
+  font-family: Consolas, monospace;
+  font-size: 9px;
+  line-height: 1.15;
+}
+
+.battle-reviewed-dungeon {
+  width: 160px;
+  min-height: 76px;
+}
+
+.play-map-target {
+  position: absolute;
+  z-index: 13;
+  width: 112px;
+  height: 92px;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  padding: 0;
+}
+
+.play-map-target span {
+  display: grid;
+  place-items: center;
+  width: 62px;
+  height: 62px;
+  margin: 14px auto 0;
+  border: 2px dashed rgba(92, 62, 22, 0.9);
+  border-radius: 50%;
+  background: rgba(255, 241, 203, 0.82);
+  color: #5b3410;
+  font: 700 30px/1 "DaMingApk", SimSun, serif;
+  pointer-events: none;
+  user-select: none;
+}
+
+.play-map-target:hover span {
+  background: rgba(255, 231, 142, 0.9);
+}
+
+.play-mode:not(.show-guide-overlay) .play-map-target span {
+  display: none;
+}
+
+.field-monster-slot {
+  position: absolute;
+  z-index: 12;
+  transform: translate(-50%, -50%);
+  width: 68px;
+  height: 48px;
+  box-sizing: border-box;
+  border: 1px dashed rgba(94, 57, 18, 0.76);
+  border-radius: 50%;
+  background: rgba(250, 238, 199, 0.48);
+  color: #4c2405;
+  font: 12px/1.1 Consolas, monospace;
+  pointer-events: none;
+  text-align: center;
+}
+
+.field-monster-slot span {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+
+.field-monster-slot.is-current {
+  border-style: solid;
+  background: rgba(255, 225, 118, 0.5);
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.55);
+}
+
+.field-monster-slot.is-reviewed {
+  border-color: rgba(47, 138, 69, 0.9);
+  background: rgba(224, 243, 209, 0.68);
+}
+
+.play-battle-layer {
+  position: absolute;
+  z-index: 1;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.play-battle-layer .battle-bg {
+  position: absolute;
+  inset: 0;
+  background: #92b06c url("assets/data/map/6_cw_xsc.png") center / cover no-repeat;
+  filter: saturate(0.82) brightness(0.95);
+}
+
+.battle-sprite {
+  position: absolute;
+  transform: translate(-50%, -100%);
+}
+
+.battle-sprite img {
+  display: block;
+  user-select: none;
+  pointer-events: none;
+}
+
+.battle-player {
+  animation: battle-player-attack 1.8s infinite;
+}
+
+.battle-player img {
+  width: 95px;
+  height: 112px;
+}
+
+.battle-monster {
+  animation: battle-monster-hit 1.8s infinite;
+}
+
+.battle-monster img {
+  width: 111px;
+  height: 91px;
+}
+
+.battle-unconfirmed-monster {
+  width: 132px;
+  height: 76px;
+  padding: 8px;
+}
+
+.battle-hit {
+  position: absolute;
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.95) 0 18%, rgba(255, 221, 74, 0.72) 19% 42%, rgba(236, 60, 32, 0) 70%);
+  opacity: 0;
+}
+
+.battle-hit-monster {
+  animation: battle-hit-flash 1.8s infinite;
+}
+
+.battle-hit-player {
+  animation: battle-hit-flash 1.8s 0.9s infinite;
+}
+
+.battle-slot {
+  position: absolute;
+  z-index: 4;
+  transform: translate(-50%, -50%);
+  min-width: 38px;
+  height: 18px;
+  border: 1px solid rgba(38, 36, 30, 0.52);
+  background: rgba(255, 246, 204, 0.78);
+  color: #271b0d;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+  pointer-events: none;
+}
+
+.battle-slot.is-defender {
+  background: rgba(225, 238, 255, 0.78);
+}
+
+.play-miss {
+  animation: play-miss-shake 140ms linear;
+}
+
+.runtime-equip-slot {
+  position: absolute;
+  z-index: 15;
+  display: grid;
+  place-items: center;
+  box-sizing: border-box;
+  border: 1px solid rgba(222, 30, 30, 0.78);
+  background: rgba(255, 245, 220, 0.78);
+  color: #381800;
+  font-size: 15px;
+  line-height: 1.2;
+  padding: 4px;
+  text-align: center;
+  pointer-events: none;
+}
+
+.runtime-equip-list,
+.runtime-strengthen-equip-list {
+  position: absolute;
+  z-index: 15;
+  box-sizing: border-box;
+  overflow: hidden;
+  padding: 10px;
+  pointer-events: none;
+}
+
+.runtime-strengthen-equip-list {
+  display: grid;
+  grid-template-columns: repeat(4, 101px);
+  align-content: start;
+  gap: 15px;
+}
+
+.runtime-equipment-card {
+  width: 98px;
+  height: 98px;
+  border: 0;
+  background: transparent;
+  color: #351800;
+  cursor: pointer;
+  font-family: "DaMingApk", SimSun, serif;
+  padding: 0;
+  pointer-events: auto;
+  position: relative;
+  text-align: center;
+}
+
+.runtime-equipment-card::before {
+  content: "";
+  position: absolute;
+  inset: 4px;
+  border: 1px solid rgba(82, 58, 25, 0.78);
+  background: rgba(244, 232, 202, 0.78);
+  box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.34);
+}
+
+.runtime-equipment-card.is-equipped::before {
+  border-color: rgba(47, 138, 69, 0.9);
+  background: rgba(224, 243, 209, 0.78);
+}
+
+.runtime-equipment-card.is-reviewed::before {
+  border-color: rgba(47, 138, 69, 0.9);
+  background: rgba(224, 243, 209, 0.86);
+}
+
+.runtime-equipment-card.is-static {
+  cursor: default;
+}
+
+.runtime-equipment-card strong,
+.runtime-equipment-card small,
+.runtime-equipment-id {
+  position: relative;
+  z-index: 1;
+  display: block;
+}
+
+.runtime-equipment-id {
+  margin-top: 18px;
+  color: #8a2b16;
+  font-family: Consolas, monospace;
+  font-size: 14px;
+}
+
+.runtime-equipment-card strong {
+  margin: 4px auto 0;
+  max-width: 74px;
+  font-size: 15px;
+  line-height: 1.15;
+}
+
+.runtime-equipment-card small {
+  margin-top: 4px;
+  color: #6c4b26;
+  font-family: Consolas, monospace;
+  font-size: 9px;
+  line-height: 1;
+}
+
+.runtime-strengthen-equip-icon {
+  position: absolute;
+  z-index: 15;
+  display: grid;
+  place-items: center;
+  box-sizing: border-box;
+  color: #351800;
+  font-family: "DaMingApk", SimSun, serif;
+  font-size: 14px;
+  line-height: 1.2;
+  padding: 8px;
+  text-align: center;
+  white-space: pre-line;
+  pointer-events: none;
+}
+
+.runtime-pack-grid,
+.runtime-skill-list,
+.runtime-general-grid,
+.runtime-partner-list,
+.runtime-battle-result,
+.runtime-login-server-list {
+  position: absolute;
+  z-index: 15;
+  box-sizing: border-box;
+  overflow: hidden;
+  color: #2d1600;
+  font-family: "DaMingApk", SimSun, serif;
+}
+
+.runtime-login-server-list {
+  display: grid;
+  align-content: start;
+  gap: 7px;
+  padding: 8px;
+}
+
+.runtime-login-server-item {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  align-content: center;
+  min-height: 42px;
+  border: 1px solid #6b4315;
+  background: linear-gradient(#f7e7bd, #d5aa5d);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.35);
+  color: #2b1603;
+  cursor: pointer;
+  font-family: inherit;
+  text-align: center;
+}
+
+.runtime-login-server-item.is-selected {
+  border-color: #2f8a45;
+  background: linear-gradient(#ddf2ce, #a6ca72);
+}
+
+.runtime-login-server-item:hover {
+  filter: brightness(1.08);
+}
+
+.runtime-login-server-item strong {
+  display: block;
+  font-size: 18px;
+  line-height: 1.15;
+}
+
+.runtime-login-server-item small {
+  display: block;
+  margin-top: 2px;
+  color: #6c3c0b;
+  font-family: Consolas, monospace;
+  font-size: 10px;
+  line-height: 1.1;
+}
+
+.runtime-pack-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 10px 8px;
+  padding: 8px;
+}
+
+.runtime-skill-list {
+  display: grid;
+  align-content: start;
+  gap: 6px;
+  padding: 7px;
+}
+
+.runtime-skill-card {
+  min-height: 40px;
+  box-sizing: border-box;
+  border: 1px solid #6b4315;
+  background: rgba(249, 232, 188, 0.92);
+  padding: 5px 7px;
+}
+
+.runtime-skill-card.is-reviewed {
+  border-color: #2f8a45;
+  background: rgba(224, 243, 209, 0.92);
+}
+
+.runtime-skill-card span,
+.runtime-skill-card small {
+  display: block;
+  max-width: 100%;
+  overflow-wrap: anywhere;
+}
+
+.runtime-skill-card span {
+  font-size: 16px;
+  line-height: 1.15;
+}
+
+.runtime-skill-card small {
+  margin-top: 3px;
+  color: #6c3c0b;
+  font-family: Consolas, monospace;
+  font-size: 10px;
+  line-height: 1.15;
+}
+
+.runtime-reviewed-gather-list {
+  position: absolute;
+  z-index: 15;
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: minmax(130px, 1fr);
+  gap: 6px;
+  box-sizing: border-box;
+  overflow: hidden;
+  padding: 5px;
+  color: #2d1600;
+  font-family: "DaMingApk", SimSun, serif;
+}
+
+.runtime-reviewed-gather-row {
+  min-width: 0;
+  border: 1px solid #2f8a45;
+  background: rgba(224, 243, 209, 0.9);
+  padding: 3px 5px;
+}
+
+.runtime-reviewed-gather-row span,
+.runtime-reviewed-gather-row small {
+  display: block;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.runtime-reviewed-gather-row span {
+  font-size: 14px;
+  line-height: 1.15;
+}
+
+.runtime-reviewed-gather-row small {
+  margin-top: 2px;
+  color: #315b25;
+  font-family: Consolas, monospace;
+  font-size: 9px;
+  line-height: 1.1;
+}
+
+.runtime-reviewed-ball-list {
+  position: absolute;
+  z-index: 15;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(148px, 1fr));
+  gap: 6px;
+  box-sizing: border-box;
+  overflow: hidden;
+  padding: 6px;
+  color: #2d1600;
+  font-family: "DaMingApk", SimSun, serif;
+}
+
+.runtime-reviewed-ball-row {
+  min-width: 0;
+  border: 1px solid #8a5a18;
+  background: rgba(245, 226, 176, 0.92);
+  padding: 4px 6px;
+}
+
+.runtime-reviewed-ball-row span,
+.runtime-reviewed-ball-row small {
+  display: block;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.runtime-reviewed-ball-row span {
+  font-size: 14px;
+  line-height: 1.15;
+}
+
+.runtime-reviewed-ball-row small {
+  margin-top: 2px;
+  color: #70420d;
+  font-family: Consolas, monospace;
+  font-size: 9px;
+  line-height: 1.1;
+}
+
+.runtime-reviewed-map-info {
+  position: absolute;
+  z-index: 15;
+  box-sizing: border-box;
+  border: 1px solid rgba(47, 138, 69, 0.9);
+  background: rgba(224, 243, 209, 0.9);
+  color: #1d3b18;
+  font-family: "DaMingApk", SimSun, serif;
+  padding: 6px 8px;
+  pointer-events: none;
+}
+
+.runtime-reviewed-map-info strong,
+.runtime-reviewed-map-info small {
+  display: block;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.runtime-reviewed-map-info strong {
+  font-size: 16px;
+  line-height: 1.15;
+}
+
+.runtime-reviewed-map-info small {
+  margin-top: 3px;
+  color: #315b25;
+  font-family: Consolas, monospace;
+  font-size: 10px;
+  line-height: 1.1;
+}
+
+.runtime-reviewed-hideplace {
+  position: absolute;
+  z-index: 16;
+  max-width: 150px;
+  border: 1px solid rgba(47, 138, 69, 0.9);
+  background: rgba(224, 243, 209, 0.92);
+  box-sizing: border-box;
+  color: #1d3b18;
+  font-family: "DaMingApk", SimSun, serif;
+  padding: 4px 6px;
+  pointer-events: none;
+}
+
+.runtime-reviewed-hideplace span,
+.runtime-reviewed-hideplace small {
+  display: block;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.runtime-reviewed-hideplace span {
+  font-size: 13px;
+  line-height: 1.15;
+}
+
+.runtime-reviewed-hideplace small {
+  margin-top: 2px;
+  color: #315b25;
+  font-family: Consolas, monospace;
+  font-size: 9px;
+  line-height: 1.1;
+}
+
+.runtime-pack-item,
+.runtime-general-slot {
+  border: 1px solid #6b4315;
+  background: linear-gradient(#f7e7bd, #d5aa5d);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.35);
+  color: #2b1603;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.runtime-pack-item {
+  min-height: 76px;
+  padding: 6px;
+}
+
+.runtime-pack-item span,
+.runtime-general-slot span {
+  display: block;
+  font-size: 18px;
+  line-height: 1.25;
+}
+
+.runtime-pack-item small,
+.runtime-general-slot small,
+.runtime-partner-row small {
+  display: block;
+  margin-top: 4px;
+  color: #6c3c0b;
+  font-family: Consolas, monospace;
+  font-size: 11px;
+  line-height: 1.2;
+}
+
+.runtime-pack-item.is-equipped {
+  border-color: #2f8a45;
+  background: linear-gradient(#ddf2ce, #a6ca72);
+}
+
+.runtime-pack-item.is-reviewed {
+  border-color: #2f8a45;
+  background: linear-gradient(#eff8df, #b9d37c);
+}
+
+.runtime-general-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-rows: repeat(2, minmax(0, 1fr));
+  gap: 12px 18px;
+  padding: 12px;
+}
+
+.runtime-general-slot:hover,
+.runtime-pack-item:hover {
+  filter: brightness(1.08);
+}
+
+.runtime-general-slot.is-reviewed {
+  border-color: #2f8a45;
+  background: linear-gradient(#eff8df, #b9d37c);
+}
+
+.runtime-partner-list {
+  display: grid;
+  align-content: start;
+  gap: 7px;
+  padding: 8px;
+}
+
+.runtime-partner-row {
+  border: 1px solid #7a5620;
+  background: rgba(249, 232, 188, 0.92);
+  padding: 7px 9px;
+}
+
+.runtime-partner-row.is-reviewed {
+  border-color: #2f8a45;
+  background: rgba(224, 243, 209, 0.92);
+}
+
+.runtime-partner-row span {
+  display: block;
+  font-size: 18px;
+}
+
+.runtime-battle-result {
+  display: grid;
+  align-content: start;
+  gap: 12px;
+  padding: 8px;
+  color: #5d2300;
+  font-size: 20px;
+}
+
+.runtime-empty {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  height: 100%;
+  color: #6a4d2a;
+  font-size: 20px;
+  text-align: center;
+}
+
+.runtime-evidence-panel {
+  position: absolute;
+  z-index: 18;
+  box-sizing: border-box;
+  pointer-events: none;
+  padding: 10px 12px;
+  border: 1px solid rgba(122, 84, 31, 0.88);
+  background: rgba(250, 239, 205, 0.94);
+  box-shadow: 0 10px 24px rgba(48, 26, 6, 0.18);
+  color: #40200a;
+  font-family: "DaMingApk", SimSun, serif;
+}
+
+.runtime-evidence-title {
+  font-size: 18px;
+  line-height: 1.2;
+  color: #6f2703;
+}
+
+.runtime-evidence-list {
+  margin: 8px 0 0;
+  padding-left: 16px;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.runtime-evidence-list li + li {
+  margin-top: 4px;
+}
+
+.runtime-reviewed-evidence {
+  opacity: 0.92;
+}
+
+.runtime-reviewed-evidence .runtime-evidence-title {
+  font-size: 16px;
+}
+
+.runtime-reviewed-evidence .runtime-evidence-list {
+  font-family: Consolas, monospace;
+  font-size: 12px;
+}
+
+.runtime-prison-board {
+  position: absolute;
+  z-index: 16;
+  box-sizing: border-box;
+  border: 1px solid rgba(117, 74, 29, 0.92);
+  background:
+    linear-gradient(rgba(252, 246, 226, 0.96), rgba(232, 214, 172, 0.96));
+  box-shadow: 0 16px 28px rgba(40, 22, 7, 0.24);
+}
+
+.runtime-prison-caption {
+  padding: 10px 14px 0;
+  color: #64240a;
+  font-family: "DaMingApk", SimSun, serif;
+  font-size: 19px;
+}
+
+.runtime-prison-hotspot {
+  position: absolute;
+  box-sizing: border-box;
+  display: grid;
+  place-items: center;
+  border: 1px dashed rgba(93, 57, 13, 0.6);
+  background: rgba(255, 247, 221, 0.55);
+  color: #4b2200;
+  font-family: inherit;
+  font-size: 14px;
+  line-height: 1.15;
+  text-align: center;
+  padding: 6px;
+}
+
+.runtime-prison-hotspot span {
+  pointer-events: none;
+}
+
+.runtime-prison-hotspot.is-prisonerSlot {
+  background: rgba(255, 241, 204, 0.62);
+}
+
+.runtime-prison-hotspot.is-oldManOverlay {
+  background: rgba(190, 225, 162, 0.32);
+  color: #31501a;
+  font-size: 12px;
+}
+
+.runtime-prison-hotspot.is-search {
+  background: linear-gradient(rgba(250, 237, 188, 0.96), rgba(213, 170, 93, 0.96));
+}
+
+.runtime-prison-hotspot.is-clickable {
+  cursor: pointer;
+  border-style: solid;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.35);
+}
+
+.runtime-prison-hotspot.is-clickable:hover {
+  filter: brightness(1.05);
+}
+
+.runtime-battle-summary {
+  position: absolute;
+  left: 16px;
+  right: 16px;
+  bottom: 12px;
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.runtime-battle-summary span {
+  border: 1px solid rgba(112, 65, 18, 0.72);
+  background: rgba(248, 235, 198, 0.92);
+  color: #512100;
+  font-family: Consolas, monospace;
+  font-size: 12px;
+  line-height: 1.2;
+  padding: 4px 6px;
+}
+
+@keyframes battle-player-attack {
+  0%,
+  42%,
+  100% {
+    transform: translate(-50%, -100%);
+  }
+  18% {
+    transform: translate(-18%, -108%);
+  }
+}
+
+@keyframes battle-monster-hit {
+  0%,
+  35%,
+  100% {
+    transform: translate(-50%, -100%);
+    filter: none;
+  }
+  22% {
+    transform: translate(-43%, -100%);
+    filter: brightness(1.45);
+  }
+}
+
+@keyframes battle-hit-flash {
+  0%,
+  18%,
+  100% {
+    opacity: 0;
+    transform: scale(0.6);
+  }
+  23% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  32% {
+    opacity: 0;
+    transform: scale(1.4);
+  }
+}
+
+@keyframes play-miss-shake {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  33% {
+    transform: translateX(-3px);
+  }
+  66% {
+    transform: translateX(3px);
+  }
+}
