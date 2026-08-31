@@ -1,0 +1,15 @@
+﻿strTitle,strFile,nNum,strDesc
+BackSound,music/bgm_city.ogg,1,背景音乐
+BattleSound,music/bgm_battle.ogg,1,通用背景音乐
+BossSound,music/bgm_battle_boss.ogg,1,世界BOSS战斗音乐
+snd_award_money,music/coin.ogg,1,获得或领取金币
+snd_battle_fault,music/lose.ogg,1,战斗失败
+snd_battle_victor,music/win.ogg,1,战斗胜利
+snd_equipup_correct,music/succeed.ogg,1,强化装备成功
+snd_equipup_fault,music/failed.ogg,1,强化装备失败
+snd_exam_correct,music/right.ogg,1,考试答题正确
+snd_exam_fault,music/wrong.ogg,1,考试答题错误
+snd_found_hideplace,music/find_point.ogg,1,发现隐藏点
+snd_salegoods,music/store_open.ogg,1,倒卖场
+snd_task_complete,music/mission.ogg,1,完成任务
+snd_uplev,music/level_up.ogg,1,人物升级

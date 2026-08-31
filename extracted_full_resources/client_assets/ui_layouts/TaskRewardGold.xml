@@ -1,0 +1,7 @@
+<Dialog Rect="200,100,176,31"
+		WireFrame="1">
+	<Static Name="staRewardCaty"
+		Rect="3,4,172,23"
+		Rich="1"/>
+</Dialog>
+

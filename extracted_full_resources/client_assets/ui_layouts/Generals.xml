@@ -1,0 +1,13 @@
+<Panel Rect="307,111,235,168">
+	<Image Name="imgGerneral"
+		Rect="24,6,108,129"
+		DrawMode="2"/>
+	<Static Name="staName"
+		Rect="-1,137,154,24"
+		Rich="1"
+		AlignH="2"/>
+	<Static Name="StaZhao"
+		Rect="157,131,39,27"
+		Background="icon_letterzhao:2"/>
+</Panel>
+

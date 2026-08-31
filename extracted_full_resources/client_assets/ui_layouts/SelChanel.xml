@@ -1,0 +1,31 @@
+<Panel Rect="179,91,168,392"
+		Background="dialog_rim17:1">
+	<Button Name="BtnClose"
+		Rect="2,-8,163,62"
+		Background="button_comchatbtn:2"/>
+	<Button Name="BtnAll"
+		Rect="2,57,163,83"
+		Background="button_combtn1:2"
+		TextId="400817"
+		TextOffset="0,3"
+		FontSize="24"/>
+	<Button Name="BtnWorld"
+		Rect="2,140,163,83"
+		Background="button_combtn1:2"
+		TextId="400818"
+		TextOffset="0,3"
+		FontSize="24"/>
+	<Button Name="BtnGuild"
+		Rect="2,223,163,83"
+		Background="button_combtn1:2"
+		TextId="400819"
+		TextOffset="0,3"
+		FontSize="24"/>
+	<Button Name="BtnPersonal"
+		Rect="2,306,163,83"
+		Background="button_combtn1:2"
+		TextId="400820"
+		TextOffset="0,3"
+		FontSize="24"/>
+</Panel>
+

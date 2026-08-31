@@ -1,0 +1,17 @@
+<Dialog Modal="1"
+		Rect="-480,-320,960,640"
+		Background="dialog_rimbg5:2"
+		Anchor="8">
+	<Image Name="Image_0"
+		Rect="0,0,960,640"
+		Background="dialog_bgniub1:2"/>
+	<Button Name="ButReturn"
+		Rect="877,552,84,88"
+		Background="button_btnback:2"/>
+	<Static Name="StaticNiuRen"
+		Rect="14,6,20,20"/>
+	<Panel Name="PnlNiuRenList"
+		Rect="67,150,836,267"
+		Templ="NiuRenList"/>
+</Dialog>
+

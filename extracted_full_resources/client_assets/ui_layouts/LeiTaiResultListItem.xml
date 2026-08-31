@@ -1,0 +1,14 @@
+<Panel Rect="152,111,651,30">
+	<Static Name="staResult"
+		Rect="1,3,581,24"
+		Rich="2"
+		ClickEnable="1"/>
+	<Static Name="staZhanBao"
+		Rect="582,3,68,24"
+		Rich="2"
+		ClickEnable="1"/>
+	<Static Name="staAtt1"
+		Rect="101,3,298,24"
+		ClickEnable="1"/>
+</Panel>
+

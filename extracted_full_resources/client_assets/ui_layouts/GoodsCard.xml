@@ -1,0 +1,25 @@
+<Panel Rect="171,149,185,255">
+	<Image Name="Image_0"
+		Rect="2,2,180,250"
+		Background="dialog_rim10:3"/>
+	<Image Name="PriceChangeImage"
+		Rect="152,83,21,30"
+		DrawMode="2"/>
+	<Static Name="GoodsName"
+		Rect="2,10,180,23"
+		AlignH="2"/>
+	<Image Name="GoodsImage"
+		Rect="52,54,80,80"
+		DrawMode="2"/>
+	<Image Rect="84,59,9,22"/>
+	<Static Name="GoodsPrice"
+		Rect="2,159,180,23"
+		AlignH="2"/>
+	<Button Name="BtnTransaction"
+		Rect="2,127,180,181"
+		Background="button_combtn1:2"
+		TextId="400437"
+		TextOffset="0,3"
+		FontSize="24"/>
+</Panel>
+

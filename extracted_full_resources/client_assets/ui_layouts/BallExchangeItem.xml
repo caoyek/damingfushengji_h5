@@ -1,0 +1,30 @@
+<Panel Rect="42,203,878,55">
+	<Static Name="staName"
+		Rect="17,4,153,48"
+		Rich="1"
+		ClickEnable="1"
+		AlignH="2"
+		AlignV="2"/>
+	<Static Name="staLevel"
+		Rect="231,4,125,48"
+		AlignH="2"
+		AlignV="2"/>
+	<Progress Name="Progress_0"
+		Rect="416,16,234,28"
+		Background="dialog_progress9bg:3"
+		ProgressImage="dialog_progressbig"/>
+	<Static Name="staExchange"
+		Rect="726,4,102,48"
+		TextId="400985"
+		ClickEnable="1"
+		AlignH="2"
+		AlignV="2"/>
+	<Static Name="staProgress"
+		Rect="436,21,198,23"
+		AlignH="2"
+		AlignV="2"/>
+	<Image Name="Image_0"
+		Rect="17,51,845,4"
+		Background="dialog_compart:5"/>
+</Panel>
+

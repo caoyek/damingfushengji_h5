@@ -1,0 +1,18 @@
+<Panel Rect="41,105,880,372">
+	<Static Name="StcTitleText"
+		Rect="47,20,48,22"
+		TextId="510002"/>
+	<Static Name="StcOperateText"
+		Rect="613,20,52,23"
+		TextId="510000"/>
+	<List Name="LstMail"
+		Rect="0,56,880,316"
+		ItemView="MailSocItem"
+		SelectBackground="dialog_selectstring:3"
+		ItemSpace="6"
+		Scrollbar="1"/>
+	<Static Name="Static_0"
+		Rect="756,20,41,24"
+		TextId="510006"/>
+</Panel>
+

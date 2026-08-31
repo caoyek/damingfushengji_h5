@@ -1,0 +1,10 @@
+<Panel Rect="217,136,223,37">
+	<Static Name="StaStatus"
+		Rect="141,4,66,27"
+		Rich="1"/>
+	<Static Name="staEnemyName"
+		Rect="8,4,122,26"
+		Rich="1"
+		ClickEnable="1"/>
+</Panel>
+

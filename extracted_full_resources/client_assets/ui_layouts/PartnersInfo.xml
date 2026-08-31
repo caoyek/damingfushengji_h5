@@ -1,0 +1,31 @@
+<Panel Rect="264,143,493,64">
+	<Static Name="StaPartnerName"
+		Rect="2,27,104,22"
+		Rich="1"/>
+	<Static Name="StaPartnerLev"
+		Rect="143,27,51,22"
+		AlignH="2"/>
+	<Static Name="StaPartnerProfession"
+		Rect="220,29,90,22"
+		AlignH="2"/>
+	<Static Name="StaBack"
+		Rect="357,9,65,55"
+		TextId="400036"
+		Underline="1"
+		TextColor="ff009c48"
+		ClickEnable="1"
+		AlignH="2"
+		AlignV="2"/>
+	<Static Name="StaFire"
+		Rect="427,9,63,55"
+		TextId="400037"
+		Underline="1"
+		TextColor="ff009c48"
+		ClickEnable="1"
+		AlignH="2"
+		AlignV="2"/>
+	<Image Name="Image_0"
+		Rect="5,57,486,4"
+		Background="dialog_compart:5"/>
+</Panel>
+

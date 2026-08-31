@@ -1,0 +1,7 @@
+﻿strBuildingInfo,nX,nY,nW,nH,nTipsStrres,strAnitile,nTextOffsetX,nTextOffsetY
+炮场,90,139,158,197,330291,base_artillery,10,-10
+兵营,379,170,178,142,330292,base_barracks,0,-10
+重工,620,56,219,153,330293,base_tankmake,10,-10
+训练场,776,7,250,139,330294,base_equip,0,0
+军官学院,774,212,161,130,330295,base_school,-20,-10
+指挥中心,772,341,148,126,330296,base_command,-60,-10

@@ -1,0 +1,25 @@
+<APP_INFO>
+	<APP_ID>100</APP_ID>
+	<APP_KEY>100</APP_KEY>
+	<RES_VERSION>1012</RES_VERSION>
+	<RES_TYPE>mobile</RES_TYPE>
+	<RESFILE_PATH>/data/data/com.tq.daming/res</RESFILE_PATH>
+	<SO_PATH>/data/data/com.tq.daming/lib</SO_PATH>
+	<RES_COPY_DIR>assets/ani,assets/music,assets/ini,assets/var</RES_COPY_DIR>
+	<SDK_TYPE>NDSdkPlatform</SDK_TYPE>
+	<PROGRAM_VER>1012</PROGRAM_VER>
+</APP_INFO>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

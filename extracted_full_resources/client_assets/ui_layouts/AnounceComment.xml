@@ -1,0 +1,10 @@
+<Panel Rect="22,260,745,26">
+	<Static Name="StaAuthor"
+		Rect="1,-1,107,27"
+		Rich="1"
+		ClickEnable="1"/>
+	<Static Name="Static_1"
+		Rect="108,-1,634,27"
+		Rich="1"/>
+</Panel>
+

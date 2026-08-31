@@ -1,0 +1,14 @@
+<Panel Rect="57,228,867,60">
+	<Static Name="Static_0"
+		Rect="156,12,584,40"
+		Rich="1"/>
+	<Static Name="Static_1"
+		Rect="746,12,104,27"
+		AlignH="1"/>
+	<Image Name="Image_0"
+		Rect="9,56,841,4"
+		Background="dialog_compart:5"/>
+	<Static Name="StaticName"
+		Rect="9,12,139,22"/>
+</Panel>
+

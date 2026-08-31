@@ -1,0 +1,92 @@
+[
+  {
+    "strDescInfo": "建筑物点击加亮延迟时间ms",
+    "strKey": "ClickKeepTime",
+    "strValue": "600",
+    "strSection": "115"
+  },
+  {
+    "strDescInfo": "字体颜色",
+    "strKey": "TipsColor",
+    "strValue": "0xFFFFFFFF",
+    "strSection": "MapBase"
+  },
+  {
+    "strDescInfo": "字体大小",
+    "strKey": "FontSize",
+    "strValue": "14",
+    "strSection": "MapBase"
+  },
+  {
+    "strDescInfo": "文字底框左右边缘高度px",
+    "strKey": "TipsWidth",
+    "strValue": "4",
+    "strSection": "MapBase"
+  },
+  {
+    "strDescInfo": "文字底框上下边缘高度px",
+    "strKey": "TipsHeight",
+    "strValue": "2",
+    "strSection": "MapBase"
+  },
+  {
+    "strDescInfo": "文字底框颜色",
+    "strKey": "BlockColor",
+    "strValue": "0x88000000",
+    "strSection": "MapBase"
+  },
+  {
+    "strDescInfo": "服务器URL地址",
+    "strKey": "ServerURL",
+    "strValue": "server.sj.91.com",
+    "strSection": "MapBase"
+  },
+  {
+    "strDescInfo": "大明官网网址",
+    "strKey": "OfficialURL",
+    "strValue": "http://dj.51wan.com/wap/",
+    "strSection": "MapBase"
+  },
+  {
+    "strDescInfo": "全部VIP功能网址",
+    "strKey": "AllVip",
+    "strValue": "http://sobar.soso.com/t/90685203",
+    "strSection": "MapBase"
+  },
+  {
+    "strDescInfo": "大明客服",
+    "strKey": "Service",
+    "strValue": "http://dj.51wan.com/wap/",
+    "strSection": "MapBase"
+  },
+  {
+    "strDescInfo": "聊天信息最大数量",
+    "strKey": "ChatMsgMaxNum",
+    "strValue": "100",
+    "strSection": "DlgChat"
+  },
+  {
+    "strDescInfo": "聊天分段加载，刷新时间间隔",
+    "strKey": "ChatRefreshTick",
+    "strValue": "100",
+    "strSection": "DlgChat"
+  },
+  {
+    "strDescInfo": "clientid",
+    "strKey": "ClientID",
+    "strValue": "E7A9960E60E18477",
+    "strSection": "MapBase"
+  },
+  {
+    "strDescInfo": "secret",
+    "strKey": "Secret",
+    "strValue": "ef5a1d9f4de9dd54a551d10b73f9e27e",
+    "strSection": "MapBase"
+  },
+  {
+    "strDescInfo": "登录地址",
+    "strKey": "LoginURL",
+    "strValue": "http://wap.test.51wan.com/index.php?client_id=%s&sign=%s",
+    "strSection": "MapBase"
+  }
+]

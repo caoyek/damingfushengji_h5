@@ -1,0 +1,14 @@
+<Panel Rect="289,223,388,39">
+	<Static Name="StaticSex"
+		Rect="29,4,21,23"/>
+	<Image Name="ImageRankId"
+		Rect="6,4,20,23"/>
+	<Static Name="StaticName"
+		Rect="52,4,102,23"
+		TextColor="ff009c48"/>
+	<Static Name="StaticHurt"
+		Rect="155,4,133,23"/>
+	<Static Name="StaticHurtPer"
+		Rect="291,4,92,23"/>
+</Panel>
+

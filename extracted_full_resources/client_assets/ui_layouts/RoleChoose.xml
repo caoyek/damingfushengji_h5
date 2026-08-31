@@ -1,0 +1,8 @@
+<Panel Rect="46,21,172,494">
+	<List Name="Lst"
+		Rect="3,6,158,486"
+		ItemView="SelRoleInfo"
+		ItemSpace="10"
+		Scrollbar="1"/>
+</Panel>
+

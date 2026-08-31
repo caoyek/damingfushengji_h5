@@ -1,0 +1,23 @@
+<Panel Rect="210,85,525,61">
+	<Static Name="Sta_Num"
+		Rect="21,26,53,27"
+		AlignH="2"/>
+	<Static Name="Sta_Name"
+		Rect="83,26,115,27"
+		Underline="1"
+		TextColor="ff009c48"
+		ClickEnable="1"/>
+	<Static Name="Sta_level"
+		Rect="215,26,55,27"/>
+	<Static Name="Sta_Point"
+		Rect="291,26,76,27"/>
+	<Image Name="ImgGold"
+		Rect="379,23,29,27"
+		Background="icon_tongqian:2"/>
+	<Static Name="Sta_gold"
+		Rect="411,26,105,27"/>
+	<Image Name="Image_0"
+		Rect="5,55,511,4"
+		Background="dialog_compart:5"/>
+</Panel>
+

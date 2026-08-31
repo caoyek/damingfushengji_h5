@@ -1,0 +1,16 @@
+<Dialog Rect="659,91,233,272"
+		Background="dialog_gongge5:4"
+		ClickClose="1">
+	<Static Name="StaYourEnemy"
+		Rect="3,6,226,31"
+		Text="ÄãµÄ³ðµÐ"
+		TextColor="0xffde1e1e"
+		ClickEnable="1"
+		AlignH="2"
+		AlignV="2"/>
+	<List Name="listEnemy"
+		Rect="3,36,226,226"
+		ItemView="enemy"
+		Scrollbar="1"/>
+</Dialog>
+

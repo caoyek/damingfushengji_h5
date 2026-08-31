@@ -1,0 +1,36 @@
+<Dialog Rect="-335,-277,740,554"
+		Anchor="8"
+		Modal="1"
+		Topmost="1">
+	<Image Name="Image_0"
+		Rect="0,52,708,501"
+		Background="dialog_rimbg3:3"/>
+	<Image Name="Image_1"
+		Rect="32,135,640,393"
+		Background="dialog_gongge3:4"/>
+	<Image Name="imgHead"
+		Rect="81,228,190,170"
+		Background="cartoon_interface10:6"
+		SerialTime="100"/>
+	<Image Name="imgWin"
+		Rect="32,135,163,144"
+		Background="image_word42:2"
+		RotateAngle="335"/>
+	<Button Name="btnClose"
+		Rect="215,449,262,94"
+		Background="button_combtn1:2"
+		TextId="400257"
+		TextOffset="0,3"
+		FontSize="24"/>
+	<Static Name="Static_0"
+		Rect="297,164,363,276"
+		Rich="2"/>
+	<Static Name="Static_2"
+		Rect="274,89,167,27"
+		TextId="400553"
+		FontSize="26"
+		AlignH="2"
+		ShowType="2"
+		SecondColor="ff9c9c9c"/>
+</Dialog>
+

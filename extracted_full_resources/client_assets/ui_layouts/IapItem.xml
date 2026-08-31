@@ -1,0 +1,9 @@
+<Panel Rect="200,100,549,42">
+	<Static Name="stdDesc"
+		Rect="0,0,387,41"
+		Rich="1"/>
+	<Button Name="btnBuy"
+		Rect="390,2,156,38"
+		Text="¹ºÂò"/>
+</Panel>
+

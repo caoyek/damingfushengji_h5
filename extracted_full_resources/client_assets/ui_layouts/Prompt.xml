@@ -1,0 +1,29 @@
+<Dialog Topmost="1"
+		IgnoreEngross="1"
+		Rect="-265,-240,530,60"
+		Background="dialog_gongge5:4"
+		Anchor="8">
+	<Image Name="Image_0"
+		Rect="2,2,10,9"/>
+	<Image Name="imgSuc"
+		Rect="13,14,32,32"
+		Background="PromptSuc:1"/>
+	<Image Name="imgErr"
+		Rect="13,14,32,32"
+		Background="PromptErr:1"/>
+	<Static Name="staText"
+		Rect="8,7,515,49"
+		TextColor="ffffffff"
+		Rich="2"
+		AlignH="2"
+		AlignV="2"
+		Scrollbar="1"/>
+	<Button Name="btnOk"
+		Rect="204,107,84,30"
+		Visible="0"
+		Text="È·¶¨"/>
+	<Image Name="Image_0"
+		Rect="15,27,444,91"
+		Background="pub_bottom2bg:4"/>
+</Dialog>
+

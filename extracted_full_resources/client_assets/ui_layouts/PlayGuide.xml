@@ -1,0 +1,27 @@
+<Panel Rect="55,87,864,459">
+	<Image Name="Imgassistanet"
+		Rect="14,3,160,150"
+		Background="image_npc18:2"/>
+	<Image Name="ImgCase"
+		Rect="187,7,368,142"
+		Background="dialog_rim4:2"/>
+	<Static Name="StaRemain"
+		Rect="242,26,292,79"
+		TextId="400678"
+		Rich="1"/>
+	<Static Name="StaPassageWay"
+		Rect="381,69,153,64"
+		TextId="400679"
+		Underline="1"
+		TextColor="ff009c48"
+		ClickEnable="1"
+		AlignH="1"
+		AlignV="1"/>
+	<List Name="LstTips"
+		Rect="8,160,841,284"
+		ItemView="PlayGuideCard"
+		PageItem="19"
+		Scrollbar="1"
+		AlwaysShowBar="1"/>
+</Panel>
+

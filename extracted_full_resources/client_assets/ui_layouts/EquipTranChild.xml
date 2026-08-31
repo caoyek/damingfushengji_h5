@@ -1,0 +1,21 @@
+<Panel Rect="214,94,207,196">
+	<Static Name="staTip"
+		Rect="56,7,90,27"
+		FontSize="24"
+		AlignH="2"/>
+	<Static Name="staLev"
+		Rect="42,150,90,23"
+		TextId="400193"/>
+	<Static Name="staLevNum"
+		Rect="134,150,39,23"/>
+	<Static Name="staCur"
+		Rect="39,179,130,23"
+		TextId="400194"/>
+	<Panel Name="pnlEquip"
+		Rect="56,37,90,104"
+		Templ="PackItem"/>
+	<Static Name="Static_0"
+		Rect="11,7,184,180"
+		ClickEnable="1"/>
+</Panel>
+

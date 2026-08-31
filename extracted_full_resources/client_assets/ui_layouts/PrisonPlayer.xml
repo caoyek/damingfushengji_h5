@@ -1,0 +1,18 @@
+<Panel Rect="250,190,264,200">
+	<Image Name="ImgTouxiang"
+		Rect="6,1,154,171"
+		DrawMode="2"/>
+	<Static Name="Sta_Prof"
+		Rect="165,145,39,23"/>
+	<Static Name="Sta_Name"
+		Rect="6,172,103,23"/>
+	<Button Name="BtnSave"
+		Rect="173,170,31,23"
+		Background="icon_letterlao:2"/>
+	<Static Name="StaLev"
+		Rect="111,172,32,23"
+		TextId="400261"/>
+	<Static Name="Sta_level"
+		Rect="144,172,24,23"/>
+</Panel>
+

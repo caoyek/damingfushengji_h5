@@ -1,0 +1,25 @@
+<Panel Rect="181,13,162,63">
+	<Static Name="StaSkillName"
+		Rect="42,3,107,21"
+		Rich="1"
+		ClickEnable="1"/>
+	<Static Name="StaSkillLev"
+		Rect="91,27,66,21"
+		Rich="1"/>
+	<Static Name="StaLearnLev"
+		Rect="45,27,92,21"
+		Rich="1"/>
+	<Check Name="ChkSkill"
+		Rect="8,-20,40,73"
+		Background="button_comchecksquarebtn:2"/>
+	<Image Name="ImgCompart"
+		Rect="4,55,148,4"
+		Background="dialog_compart:5"/>
+	<Image Name="ImgGrayCheck"
+		Rect="9,-4,37,41"
+		Background="button_comchecksquarebtngrey:3"/>
+	<Image Name="ImgCheckFalse"
+		Rect="9,-4,37,41"
+		Background="button_comchecksquarebtngrey2:3"/>
+</Panel>
+

@@ -1,0 +1,14 @@
+<Panel Rect="27,117,906,488"
+		Background="dialog_esoteric6:2">
+	<Button Name="BtnPassageWay"
+		Rect="110,109,192,182"/>
+	<Static Name="StaPassageWay"
+		Rect="168,293,85,28"
+		TextId="400567"
+		Underline="1"
+		TextColor="ff009c48"
+		ClickEnable="1"/>
+	<Button Name="BtnFinalTarget"
+		Rect="649,71,145,242"/>
+</Panel>
+

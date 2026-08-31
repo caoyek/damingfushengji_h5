@@ -1,0 +1,8 @@
+﻿nType,nX,nY,strSoundTitle
+0,5,-30,
+1,0,-50,
+2,-55,-95,/music/catch.ogg
+3,80,-105,/music/catch.ogg
+4,40,-50,/music/buildup.ogg
+5,-30,-60,/music/buildup.ogg
+6,5,-30,/music/buildup.ogg

@@ -1,0 +1,36 @@
+<Dialog Rect="-299,-315,600,630"
+		Background="dialog_rimbg2:2"
+		Anchor="8"
+		Modal="1">
+	<Image Name="ImgInBG"
+		Rect="26,76,551,529"
+		Background="dialog_gongge3:4"/>
+	<Static Name="StaNoEquipTips"
+		Rect="86,99,205,23"
+		TextId="400073"
+		TextColor="ffde1e1e"/>
+	<List Name="LstEquip"
+		Rect="68,97,484,466"
+		ItemView="EquipInfo"
+		SelectBackground="dialog_rimitempick:3"
+		LineItem="4"
+		ItemSpace="20"
+		ItemSpaceV="20"
+		Scrollbar="1"/>
+	<Button Name="BtnClose"
+		Rect="474,-60,180,180"
+		Background="button_comclose2btn:2"/>
+	<Static Name="StaChoosePrompt"
+		Rect="218,39,164,27"
+		FontSize="26"
+		AlignH="2"
+		ShowType="2"
+		SecondColor="ff9c9c9c"/>
+	<Image Name="ImgExcalmatory"
+		Rect="48,564,25,33"
+		Background="icon_excalmatory:2"/>
+	<Static Name="Static_0"
+		Rect="86,572,382,23"
+		TextId="400074"/>
+</Dialog>
+

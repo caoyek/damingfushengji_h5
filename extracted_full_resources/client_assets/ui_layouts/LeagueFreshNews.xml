@@ -1,0 +1,24 @@
+<Dialog Modal="1"
+		Engross="1"
+		Rect="-480,-320,960,640"
+		Background="dialog_rimbg1:2"
+		Anchor="8">
+	<Image Name="Image_0"
+		Rect="28,78,906,537"
+		Background="dialog_gongge3:4"/>
+	<Static Name="Static_0"
+		Rect="388,41,186,24"
+		TextId="400452"
+		FontSize="26"
+		AlignH="2"
+		ShowType="2"
+		SecondColor="ff9c9c9c"/>
+	<Button Name="btnClose"
+		Rect="827,-51,180,180"
+		Background="button_comclosebtn:2"/>
+	<List Name="ListFreshNews"
+		Rect="48,105,867,482"
+		ItemView="LeagueFreshNewsItem"
+		Scrollbar="1"/>
+</Dialog>
+

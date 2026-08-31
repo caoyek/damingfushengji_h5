@@ -1,0 +1,23 @@
+<Panel Rect="199,100,94,93">
+	<Image Name="ImageBg"
+		Rect="4,4,84,85"
+		Background="image_gaowanbg3:2"
+		ClickEnable="1"
+		DrawMode="2"/>
+	<Image Name="ImageItem"
+		Rect="10,9,71,73"
+		DrawMode="6"
+		SerialTime="100"/>
+	<Static Name="staName"
+		Rect="17,63,58,21"
+		FontSize="15"
+		AlignH="2"
+		ShowType="2"/>
+	<Static Name="staSellMoney"
+		Rect="2,3,90,26"
+		TextColor="ffde1e1e"
+		FontSize="16"
+		AlignH="2"
+		ShowType="2"/>
+</Panel>
+

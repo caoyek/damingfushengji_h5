@@ -1,0 +1,21 @@
+<Panel Rect="48,211,859,151">
+	<Static Name="staId"
+		Rect="47,18,209,24"
+		Rich="1"/>
+	<Static Name="staWin"
+		Rect="258,1,52,41"
+		Rich="1"/>
+	<List Name="listExp"
+		Rect="47,45,764,70"
+		ItemView="BattleEndItem"
+		LineItem="3"
+		ItemSpace="10"
+		ItemSpaceV="15"/>
+	<Static Name="staItem"
+		Rect="45,115,265,24"
+		Rich="1"/>
+	<Image Name="Image_0"
+		Rect="9,146,842,4"
+		Background="dialog_compart:5"/>
+</Panel>
+

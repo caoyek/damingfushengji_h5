@@ -1,0 +1,19 @@
+<Panel Rect="39,121,525,463">
+	<Static Name="Static_0"
+		Rect="64,23,43,23"
+		TextId="400276"/>
+	<Static Name="Static_1"
+		Rect="176,23,83,23"
+		TextId="400277"/>
+	<Static Name="Static_2"
+		Rect="329,23,46,23"
+		TextId="400278"/>
+	<Static Name="Static_3"
+		Rect="412,23,45,23"
+		TextId="400491"/>
+	<List Name="listLast"
+		Rect="36,69,452,375"
+		ItemView="GonglueLastItem"
+		SelectBackground="dialog_selectstring:3"/>
+</Panel>
+

@@ -1,0 +1,23 @@
+<Panel Rect="43,131,597,461">
+	<Static Name="StaRemain"
+		Rect="15,22,540,58"
+		Rich="1"
+		AlignH="2"/>
+	<Button Name="BtnGetOrBuy"
+		Rect="174,208,223,84"
+		Background="button_combtn1:2"
+		TextId="400629"
+		TextOffset="0,3"
+		FontSize="24"/>
+	<Static Name="StaNextGift"
+		Rect="182,287,207,23"
+		TextId="400640"
+		AlignH="2"/>
+	<Panel Name="PnlCurrentVipGift"
+		Rect="15,93,567,116"
+		Templ="VipGiftCard"/>
+	<Panel Name="PnlNextVipGift"
+		Rect="15,320,567,116"
+		Templ="VipGiftCard"/>
+</Panel>
+

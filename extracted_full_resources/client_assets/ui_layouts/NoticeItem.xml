@@ -1,0 +1,10 @@
+<Panel Rect="225,102,327,32">
+	<Static Name="StaIndex"
+		Rect="5,4,40,26"
+		AlignH="2"/>
+	<Static Name="StaNoticeURL"
+		Rect="58,4,263,26"
+		Underline="1"
+		ClickEnable="1"/>
+</Panel>
+

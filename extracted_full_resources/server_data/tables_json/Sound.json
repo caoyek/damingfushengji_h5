@@ -1,0 +1,86 @@
+[
+  {
+    "strTitle": "BackSound",
+    "strFile": "music/bgm_city.ogg",
+    "nNum": 1,
+    "strDesc": "背景音乐"
+  },
+  {
+    "strTitle": "BattleSound",
+    "strFile": "music/bgm_battle.ogg",
+    "nNum": 1,
+    "strDesc": "通用背景音乐"
+  },
+  {
+    "strTitle": "BossSound",
+    "strFile": "music/bgm_battle_boss.ogg",
+    "nNum": 1,
+    "strDesc": "世界BOSS战斗音乐"
+  },
+  {
+    "strTitle": "snd_award_money",
+    "strFile": "music/coin.ogg",
+    "nNum": 1,
+    "strDesc": "获得或领取金币"
+  },
+  {
+    "strTitle": "snd_battle_fault",
+    "strFile": "music/lose.ogg",
+    "nNum": 1,
+    "strDesc": "战斗失败"
+  },
+  {
+    "strTitle": "snd_battle_victor",
+    "strFile": "music/win.ogg",
+    "nNum": 1,
+    "strDesc": "战斗胜利"
+  },
+  {
+    "strTitle": "snd_equipup_correct",
+    "strFile": "music/succeed.ogg",
+    "nNum": 1,
+    "strDesc": "强化装备成功"
+  },
+  {
+    "strTitle": "snd_equipup_fault",
+    "strFile": "music/failed.ogg",
+    "nNum": 1,
+    "strDesc": "强化装备失败"
+  },
+  {
+    "strTitle": "snd_exam_correct",
+    "strFile": "music/right.ogg",
+    "nNum": 1,
+    "strDesc": "考试答题正确"
+  },
+  {
+    "strTitle": "snd_exam_fault",
+    "strFile": "music/wrong.ogg",
+    "nNum": 1,
+    "strDesc": "考试答题错误"
+  },
+  {
+    "strTitle": "snd_found_hideplace",
+    "strFile": "music/find_point.ogg",
+    "nNum": 1,
+    "strDesc": "发现隐藏点"
+  },
+  {
+    "strTitle": "snd_salegoods",
+    "strFile": "music/store_open.ogg",
+    "nNum": 1,
+    "strDesc": "倒卖场"
+  },
+  {
+    "strTitle": "snd_task_complete",
+    "strFile": "music/mission.ogg",
+    "nNum": 1,
+    "strDesc": "完成任务"
+  },
+  {
+    "strTitle": "snd_uplev",
+    "strFile": "music/level_up.ogg",
+    "nNum": 1,
+    "strDesc": "人物升级"
+  }
+]

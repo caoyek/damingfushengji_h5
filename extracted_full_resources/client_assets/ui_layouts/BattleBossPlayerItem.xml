@@ -1,0 +1,15 @@
+<Panel Rect="282,188,218,37">
+	<Image Name="ImageCareer"
+		Rect="0,0,28,28"
+		DrawMode="3"/>
+	<Static Name="StaticSex"
+		Rect="32,4,16,23"/>
+	<Static Name="StaticName"
+		Rect="54,4,101,23"
+		Underline="1"
+		TextColor="ff009c48"
+		ClickEnable="1"/>
+	<Static Name="StaticLevel"
+		Rect="158,4,54,23"/>
+</Panel>
+

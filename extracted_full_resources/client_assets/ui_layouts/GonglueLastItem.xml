@@ -1,0 +1,25 @@
+<Panel Rect="177,100,452,52">
+	<Static Name="staRank"
+		Rect="23,17,52,23"
+		AlignH="2"/>
+	<Static Name="staName"
+		Rect="108,17,153,23"
+		Rich="1"
+		ClickEnable="1"
+		AlignH="2"/>
+	<Static Name="staLev"
+		Rect="285,17,62,23"
+		AlignH="2"/>
+	<Static Name="staView"
+		Rect="356,17,82,23"
+		TextId="400665"
+		Underline="1"
+		TextColor="ff009c48"
+		Rich="1"
+		ClickEnable="1"
+		AlignH="2"/>
+	<Image Name="Image_0"
+		Rect="13,45,425,4"
+		Background="dialog_compart:5"/>
+</Panel>
+

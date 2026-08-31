@@ -1,0 +1,32 @@
+<Panel Rect="205,107,504,60">
+	<Static Name="Static_0"
+		Rect="133,28,64,23"
+		AlignH="2"/>
+	<Static Name="Static_1"
+		Rect="225,28,64,23"
+		AlignH="2"/>
+	<Image Name="Image_0"
+		Rect="4,56,477,4"
+		Background="dialog_compart:5"/>
+	<Static Name="StaticName"
+		Rect="14,28,97,23"
+		Rich="1"
+		AlignH="2"/>
+	<Static Name="StaticApprove"
+		Rect="316,8,75,39"
+		TextId="400483"
+		Underline="1"
+		TextColor="ff009c48"
+		ClickEnable="1"
+		AlignH="2"
+		AlignV="1"/>
+	<Static Name="StaticRefuse"
+		Rect="396,8,75,39"
+		TextId="400484"
+		Underline="1"
+		TextColor="ff009c48"
+		ClickEnable="1"
+		AlignH="2"
+		AlignV="1"/>
+</Panel>
+

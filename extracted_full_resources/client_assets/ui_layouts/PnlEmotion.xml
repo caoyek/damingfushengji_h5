@@ -1,0 +1,8 @@
+<Panel Rect="306,227,73,72">
+	<Image Name="ImgEmotion"
+		Rect="3,2,68,68"
+		Background="dialog_rim14:3"
+		ClickEnable="1"
+		DrawMode="2"/>
+</Panel>
+

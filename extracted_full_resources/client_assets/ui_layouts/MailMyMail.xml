@@ -1,0 +1,20 @@
+<Panel Rect="60,123,880,372">
+	<Static Name="StcOperateText"
+		Rect="3,20,42,22"
+		TextId="510000"/>
+	<Static Name="StcSenderText"
+		Rect="73,20,56,22"
+		TextId="510001"/>
+	<Static Name="StcTitleText"
+		Rect="254,20,47,22"
+		TextId="510002"/>
+	<List Name="LstMyMail"
+		Rect="-2,49,880,322"
+		ItemView="MailMyMailItem"
+		SelectBackground="dialog_selectstring:3"
+		Scrollbar="1"/>
+	<Static Name="StcTime"
+		Rect="766,20,41,22"
+		TextId="510006"/>
+</Panel>
+

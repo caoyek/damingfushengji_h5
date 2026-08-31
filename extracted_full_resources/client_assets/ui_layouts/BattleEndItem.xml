@@ -1,0 +1,6 @@
+<Panel Rect="201,99,244,25">
+	<Static Name="staString"
+		Rect="0,1,243,23"
+		Rich="2"/>
+</Panel>
+

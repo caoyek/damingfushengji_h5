@@ -1,0 +1,35 @@
+<Dialog Modal="1"
+		Rect="-299,-315,600,630"
+		Background="dialog_rimbg2:2"
+		Anchor="8">
+	<Image Name="Image_0"
+		Rect="26,76,551,529"
+		Background="dialog_gongge3:4"/>
+	<Image Name="Image_1"
+		Rect="39,86,526,55"
+		Background="dialog_gongge4:4"/>
+	<Static Name="Static_0"
+		Rect="218,30,164,27"
+		TextId="400740"
+		FontSize="26"
+		AlignH="2"
+		ShowType="2"
+		SecondColor="ff9c9c9c"/>
+	<Button Name="btnClose"
+		Rect="474,-60,180,180"
+		Background="button_comclose2btn:2"/>
+	<Static Name="StaticRank"
+		Rect="80,106,42,22"
+		TextId="400741"/>
+	<Static Name="StaticReward"
+		Rect="208,106,44,22"
+		TextId="400742"/>
+	<Static Name="StaticRewardObject"
+		Rect="398,106,83,22"
+		TextId="400743"/>
+	<List Name="ListRewardItem"
+		Rect="39,149,526,433"
+		ItemView="BattleBossRewardItem"
+		Scrollbar="1"/>
+</Dialog>
+

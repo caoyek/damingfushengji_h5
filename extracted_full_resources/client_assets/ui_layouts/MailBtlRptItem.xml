@@ -1,0 +1,16 @@
+<Panel Rect="58,234,880,39">
+	<Static Name="StcTime"
+		Rect="715,11,155,23"
+		AlignH="2"/>
+	<Static Name="StcTitle"
+		Rect="100,11,599,23"
+		Rich="1"
+		ClickEnable="1"/>
+	<Static Name="StcType"
+		Rect="11,11,76,23"
+		AlignH="2"/>
+	<Image Name="ImgLine"
+		Rect="4,34,874,4"
+		Background="dialog_compart:5"/>
+</Panel>
+

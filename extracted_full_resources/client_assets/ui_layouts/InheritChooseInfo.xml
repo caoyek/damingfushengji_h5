@@ -1,0 +1,15 @@
+<Panel Rect="200,87,197,31">
+	<Static Name="StaRoleName"
+		Rect="2,5,104,23"
+		Rich="1"
+		AlignV="2"/>
+	<Static Name="StaRoleLev"
+		Rect="110,5,31,23"
+		AlignH="2"
+		AlignV="2"/>
+	<Static Name="StaProfession"
+		Rect="145,5,49,23"
+		AlignH="2"
+		AlignV="2"/>
+</Panel>
+

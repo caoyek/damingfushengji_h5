@@ -1,0 +1,137 @@
+[
+  {
+    "nIndex": 0,
+    "nParam": 150,
+    "strDesc": "显示按钮面板后的X偏移值"
+  },
+  {
+    "nIndex": 1,
+    "nParam": 100,
+    "strDesc": "显示按钮面板后的Y偏移值"
+  },
+  {
+    "nIndex": 2,
+    "nParam": 10,
+    "strDesc": "城市名称偏移值"
+  },
+  {
+    "nIndex": 3,
+    "nParam": 400,
+    "strDesc": "地图飞行时间ms"
+  },
+  {
+    "nIndex": 4,
+    "nParam": 18,
+    "strDesc": "城市名字体"
+  },
+  {
+    "nIndex": 5,
+    "nParam": 78,
+    "strDesc": "通关地图Text位置X"
+  },
+  {
+    "nIndex": 6,
+    "nParam": 445,
+    "strDesc": "通关地图Text位置Y"
+  },
+  {
+    "nIndex": 7,
+    "nParam": 150,
+    "strDesc": "人物当前位置X偏移值"
+  },
+  {
+    "nIndex": 8,
+    "nParam": 110,
+    "strDesc": "人物当前位置Y偏移值"
+  },
+  {
+    "nIndex": 9,
+    "nParam": 220,
+    "strDesc": "城市旗帜位置X偏移值"
+  },
+  {
+    "nIndex": 10,
+    "nParam": 105,
+    "strDesc": "城市旗帜位置Y偏移值"
+  },
+  {
+    "nIndex": 11,
+    "nParam": 235,
+    "strDesc": "城市旗号位置X偏移值"
+  },
+  {
+    "nIndex": 12,
+    "nParam": 110,
+    "strDesc": "城市旗号位置Y偏移值"
+  },
+  {
+    "nIndex": 13,
+    "nParam": 70,
+    "strDesc": "城市图片缩放比例X/100"
+  },
+  {
+    "nIndex": 14,
+    "nParam": 70,
+    "strDesc": "城市图片缩放比例Y/100"
+  },
+  {
+    "nIndex": 15,
+    "nParam": 80,
+    "strDesc": "内城建筑图片缩放比例X/100"
+  },
+  {
+    "nIndex": 16,
+    "nParam": 80,
+    "strDesc": "内城建筑图片缩放比例Y/100"
+  },
+  {
+    "nIndex": 17,
+    "nParam": 100,
+    "strDesc": "怪物图片缩放比例X/100"
+  },
+  {
+    "nIndex": 18,
+    "nParam": 100,
+    "strDesc": "怪物图片缩放比例X/100"
+  },
+  {
+    "nIndex": 19,
+    "nParam": 100,
+    "strDesc": "野怪中心怪物图片缩放比例X/100"
+  },
+  {
+    "nIndex": 20,
+    "nParam": 100,
+    "strDesc": "野怪中心怪物图片缩放比例Y/100"
+  },
+  {
+    "nIndex": 21,
+    "nParam": -10,
+    "strDesc": "过关通道flag偏移X"
+  },
+  {
+    "nIndex": 22,
+    "nParam": 0,
+    "strDesc": "过关通道flag偏移Y"
+  },
+  {
+    "nIndex": 23,
+    "nParam": 240,
+    "strDesc": "新手村老头坐标x"
+  },
+  {
+    "nIndex": 24,
+    "nParam": 200,
+    "strDesc": "老头坐标Y"
+  },
+  {
+    "nIndex": 25,
+    "nParam": 370,
+    "strDesc": "新手村小孩坐标x"
+  },
+  {
+    "nIndex": 26,
+    "nParam": 200,
+    "strDesc": "小孩坐标Y"
+  }
+]

@@ -1,0 +1,19 @@
+<Dialog Rect="0,0,960,640"
+		Modal="1"
+		Topmost="1">
+	<Static Name="Static_0"
+		Rect="388,41,186,24"
+		TextId="400252"
+		FontSize="24"
+		AlignH="2"
+		ShowType="2"/>
+	<Static Name="Sta_Time"
+		Rect="380,88,201,30"
+		Background="0"
+		FontSize="32"
+		AlignH="2"/>
+	<Image Name="Image_0"
+		Rect="76,419,112,135"
+		SerialTime="200"/>
+</Dialog>
+

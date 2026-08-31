@@ -1,0 +1,19 @@
+<Panel Rect="133,229,317,34">
+	<Static Name="StaCostPrompt"
+		Rect="45,5,42,23"
+		TextId="400061"
+		Rich="1"
+		ClickEnable="1"/>
+	<Image Name="ImgMoney"
+		Rect="91,1,33,23"
+		ClickEnable="1"
+		DrawMode="2"/>
+	<Static Name="StaCostMoney"
+		Rect="129,5,186,23"
+		Rich="1"
+		ClickEnable="1"/>
+	<Check Name="ChkCost"
+		Rect="14,7,300,23"
+		Background="button_comcheckroundbtn:1"/>
+</Panel>
+

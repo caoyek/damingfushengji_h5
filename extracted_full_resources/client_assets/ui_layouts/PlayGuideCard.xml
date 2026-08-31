@@ -1,0 +1,20 @@
+<Panel Rect="50,213,790,50">
+	<Image Name="ImgIcon"
+		Rect="9,8,26,23"/>
+	<Static Name="StaRemain"
+		Rect="44,16,583,23"
+		Rich="1"/>
+	<Image Name="ImgArrowGif"
+		Rect="639,16,64,23"
+		Background="icon_arrowheadredright:2"/>
+	<Static Name="StaGetOrGoto"
+		Rect="714,16,61,23"
+		Underline="1"
+		TextColor="ff009c48"
+		Rich="1"
+		AlignH="2"/>
+	<Image Name="Image_0"
+		Rect="7,44,779,4"
+		Background="dialog_compart:5"/>
+</Panel>
+

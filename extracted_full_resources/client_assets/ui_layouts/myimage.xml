@@ -1,0 +1,12 @@
+<Dialog Rect="200,100,575,351"
+		WireFrame="1">
+	<Progress Name="Progress_0"
+		Rect="89,265,418,34"/>
+	<Button Name="Button_0"
+		Rect="108,106,67,38"
+		Text="°´Å¥1"/>
+	<Button Name="Button_1"
+		Rect="331,99,67,37"
+		Text="°´Å¥2"/>
+</Dialog>
+

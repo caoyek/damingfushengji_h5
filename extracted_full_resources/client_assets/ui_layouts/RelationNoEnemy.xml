@@ -1,0 +1,18 @@
+<Panel Rect="40,123,523,369">
+	<Static Name="StaticNoEnemy"
+		Rect="62,158,405,29"
+		TextId="400787"
+		Rich="1"
+		AlignH="2"
+		AlignV="2"/>
+	<Static Name="StaticAddEnemy"
+		Rect="126,208,276,29"
+		TextId="400788"
+		Underline="1"
+		TextColor="ff009c48"
+		Rich="1"
+		ClickEnable="1"
+		AlignH="2"
+		AlignV="2"/>
+</Panel>
+

@@ -1,0 +1,22 @@
+<Panel Rect="200,100,98,159">
+	<Image Name="imgCraft"
+		Rect="4,3,90,90"
+		Background="dialog_rimitem:2"
+		DrawMode="2"/>
+	<Static Name="staReqState"
+		Rect="13,80,75,23"
+		Rich="1"
+		AlignH="1"
+		AlignV="2"
+		ShowType="2"/>
+	<Static Name="staCraftName"
+		Rect="-1,101,101,23"/>
+	<Static Name="staGoFor"
+		Rect="4,88,90,64"
+		TextId="400378"
+		Underline="1"
+		TextColor="ff009c48"
+		AlignH="2"
+		AlignV="1"/>
+</Panel>
+

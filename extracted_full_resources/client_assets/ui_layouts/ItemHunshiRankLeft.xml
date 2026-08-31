@@ -1,0 +1,6 @@
+<Panel Rect="200,100,114,39">
+	<Static Name="Static_0"
+		Rect="6,10,103,22"
+		AlignH="2"/>
+</Panel>
+

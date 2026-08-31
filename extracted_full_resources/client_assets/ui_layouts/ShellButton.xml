@@ -1,0 +1,11 @@
+<Panel Rect="325,5,79,81">
+	<Button Name="Button_0"
+		Rect="0,0,80,78"
+		Background="button_colourgiftbtn:2"
+		ClickSound="music/click.ogg"/>
+	<Image Name="Image_0"
+		Rect="0,0,80,81"
+		ClickEnable="1"
+		SerialTime="200"/>
+</Panel>
+

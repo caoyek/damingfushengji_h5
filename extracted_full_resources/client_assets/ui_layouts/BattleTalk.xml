@@ -1,0 +1,15 @@
+<Panel Rect="200,100,244,118">
+	<Image Name="imgAtt"
+		Rect="0,0,242,115"
+		Background="dialog_rim20:3"/>
+	<Image Name="imgDef"
+		Rect="2,2,242,115"
+		Background="dialog_rim20:3"
+		RotateType="2"/>
+	<Static Name="staName"
+		Rect="9,11,215,25"/>
+	<Static Name="staTalk"
+		Rect="9,39,226,57"
+		Rich="1"/>
+</Panel>
+

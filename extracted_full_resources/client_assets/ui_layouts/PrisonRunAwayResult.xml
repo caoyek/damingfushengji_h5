@@ -1,0 +1,37 @@
+<Dialog Rect="-299,-299,651,554"
+		Anchor="8"
+		Modal="1"
+		Topmost="1">
+	<Image Name="Image_0"
+		Rect="0,52,600,501"
+		Background="dialog_rimbg3:2"/>
+	<Image Name="Image_1"
+		Rect="32,135,537,393"
+		Background="dialog_gongge3:4"/>
+	<Static Name="Staresult"
+		Rect="217,86,167,27"
+		TextId="400256"
+		FontSize="26"
+		AlignH="2"
+		ShowType="2"
+		SecondColor="ff9c9c9c"/>
+	<Image Name="ImgResult"
+		Rect="53,151,183,228"/>
+	<Static Name="Sta_text"
+		Rect="281,229,231,138"
+		FontSize="24"
+		Rich="1"/>
+	<Button Name="BtnClose"
+		Rect="169,443,262,94"
+		Background="button_combtn1:2"
+		TextId="400257"
+		TextOffset="0,3"
+		FontSize="24"/>
+	<Button Name="BtnLookFightInfo"
+		Rect="80,365,173,79"
+		Background="image_seereport:2"/>
+	<Button Name="BtnOff"
+		Rect="469,-7,180,180"
+		Background="button_comclose2btn:2"/>
+</Dialog>
+

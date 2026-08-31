@@ -1,0 +1,422 @@
+[
+  {
+    "unLevel": 30,
+    "unTime": 20,
+    "unQuality": 0,
+    "unNumber": 5
+  },
+  {
+    "unLevel": 31,
+    "unTime": 20,
+    "unQuality": 0,
+    "unNumber": 5
+  },
+  {
+    "unLevel": 32,
+    "unTime": 20,
+    "unQuality": 0,
+    "unNumber": 5
+  },
+  {
+    "unLevel": 33,
+    "unTime": 20,
+    "unQuality": 0,
+    "unNumber": 5
+  },
+  {
+    "unLevel": 34,
+    "unTime": 20,
+    "unQuality": 0,
+    "unNumber": 5
+  },
+  {
+    "unLevel": 35,
+    "unTime": 20,
+    "unQuality": 0,
+    "unNumber": 5
+  },
+  {
+    "unLevel": 36,
+    "unTime": 20,
+    "unQuality": 0,
+    "unNumber": 5
+  },
+  {
+    "unLevel": 37,
+    "unTime": 20,
+    "unQuality": 0,
+    "unNumber": 5
+  },
+  {
+    "unLevel": 38,
+    "unTime": 20,
+    "unQuality": 0,
+    "unNumber": 5
+  },
+  {
+    "unLevel": 39,
+    "unTime": 20,
+    "unQuality": 0,
+    "unNumber": 5
+  },
+  {
+    "unLevel": 40,
+    "unTime": 25,
+    "unQuality": 1,
+    "unNumber": 5
+  },
+  {
+    "unLevel": 41,
+    "unTime": 25,
+    "unQuality": 1,
+    "unNumber": 5
+  },
+  {
+    "unLevel": 42,
+    "unTime": 25,
+    "unQuality": 1,
+    "unNumber": 5
+  },
+  {
+    "unLevel": 43,
+    "unTime": 25,
+    "unQuality": 1,
+    "unNumber": 5
+  },
+  {
+    "unLevel": 44,
+    "unTime": 25,
+    "unQuality": 1,
+    "unNumber": 5
+  },
+  {
+    "unLevel": 45,
+    "unTime": 25,
+    "unQuality": 1,
+    "unNumber": 5
+  },
+  {
+    "unLevel": 46,
+    "unTime": 25,
+    "unQuality": 1,
+    "unNumber": 5
+  },
+  {
+    "unLevel": 47,
+    "unTime": 25,
+    "unQuality": 1,
+    "unNumber": 5
+  },
+  {
+    "unLevel": 48,
+    "unTime": 25,
+    "unQuality": 1,
+    "unNumber": 5
+  },
+  {
+    "unLevel": 49,
+    "unTime": 25,
+    "unQuality": 1,
+    "unNumber": 5
+  },
+  {
+    "unLevel": 50,
+    "unTime": 28,
+    "unQuality": 2,
+    "unNumber": 5
+  },
+  {
+    "unLevel": 51,
+    "unTime": 28,
+    "unQuality": 2,
+    "unNumber": 5
+  },
+  {
+    "unLevel": 52,
+    "unTime": 28,
+    "unQuality": 2,
+    "unNumber": 5
+  },
+  {
+    "unLevel": 53,
+    "unTime": 28,
+    "unQuality": 2,
+    "unNumber": 5
+  },
+  {
+    "unLevel": 54,
+    "unTime": 28,
+    "unQuality": 2,
+    "unNumber": 5
+  },
+  {
+    "unLevel": 55,
+    "unTime": 28,
+    "unQuality": 2,
+    "unNumber": 5
+  },
+  {
+    "unLevel": 56,
+    "unTime": 28,
+    "unQuality": 2,
+    "unNumber": 5
+  },
+  {
+    "unLevel": 57,
+    "unTime": 28,
+    "unQuality": 2,
+    "unNumber": 5
+  },
+  {
+    "unLevel": 58,
+    "unTime": 28,
+    "unQuality": 2,
+    "unNumber": 5
+  },
+  {
+    "unLevel": 59,
+    "unTime": 28,
+    "unQuality": 2,
+    "unNumber": 5
+  },
+  {
+    "unLevel": 60,
+    "unTime": 30,
+    "unQuality": 2,
+    "unNumber": 6
+  },
+  {
+    "unLevel": 61,
+    "unTime": 30,
+    "unQuality": 2,
+    "unNumber": 6
+  },
+  {
+    "unLevel": 62,
+    "unTime": 30,
+    "unQuality": 2,
+    "unNumber": 6
+  },
+  {
+    "unLevel": 63,
+    "unTime": 30,
+    "unQuality": 2,
+    "unNumber": 6
+  },
+  {
+    "unLevel": 64,
+    "unTime": 30,
+    "unQuality": 2,
+    "unNumber": 6
+  },
+  {
+    "unLevel": 65,
+    "unTime": 30,
+    "unQuality": 2,
+    "unNumber": 6
+  },
+  {
+    "unLevel": 66,
+    "unTime": 30,
+    "unQuality": 2,
+    "unNumber": 6
+  },
+  {
+    "unLevel": 67,
+    "unTime": 30,
+    "unQuality": 2,
+    "unNumber": 6
+  },
+  {
+    "unLevel": 68,
+    "unTime": 30,
+    "unQuality": 2,
+    "unNumber": 6
+  },
+  {
+    "unLevel": 69,
+    "unTime": 30,
+    "unQuality": 2,
+    "unNumber": 6
+  },
+  {
+    "unLevel": 70,
+    "unTime": 32,
+    "unQuality": 2,
+    "unNumber": 7
+  },
+  {
+    "unLevel": 71,
+    "unTime": 32,
+    "unQuality": 2,
+    "unNumber": 7
+  },
+  {
+    "unLevel": 72,
+    "unTime": 32,
+    "unQuality": 2,
+    "unNumber": 7
+  },
+  {
+    "unLevel": 73,
+    "unTime": 32,
+    "unQuality": 2,
+    "unNumber": 7
+  },
+  {
+    "unLevel": 74,
+    "unTime": 32,
+    "unQuality": 2,
+    "unNumber": 7
+  },
+  {
+    "unLevel": 75,
+    "unTime": 32,
+    "unQuality": 2,
+    "unNumber": 7
+  },
+  {
+    "unLevel": 76,
+    "unTime": 32,
+    "unQuality": 2,
+    "unNumber": 7
+  },
+  {
+    "unLevel": 77,
+    "unTime": 32,
+    "unQuality": 2,
+    "unNumber": 7
+  },
+  {
+    "unLevel": 78,
+    "unTime": 32,
+    "unQuality": 2,
+    "unNumber": 7
+  },
+  {
+    "unLevel": 79,
+    "unTime": 32,
+    "unQuality": 2,
+    "unNumber": 7
+  },
+  {
+    "unLevel": 80,
+    "unTime": 35,
+    "unQuality": 2,
+    "unNumber": 8
+  },
+  {
+    "unLevel": 81,
+    "unTime": 35,
+    "unQuality": 2,
+    "unNumber": 8
+  },
+  {
+    "unLevel": 82,
+    "unTime": 35,
+    "unQuality": 2,
+    "unNumber": 8
+  },
+  {
+    "unLevel": 83,
+    "unTime": 35,
+    "unQuality": 2,
+    "unNumber": 8
+  },
+  {
+    "unLevel": 84,
+    "unTime": 35,
+    "unQuality": 2,
+    "unNumber": 8
+  },
+  {
+    "unLevel": 85,
+    "unTime": 35,
+    "unQuality": 2,
+    "unNumber": 8
+  },
+  {
+    "unLevel": 86,
+    "unTime": 35,
+    "unQuality": 2,
+    "unNumber": 8
+  },
+  {
+    "unLevel": 87,
+    "unTime": 35,
+    "unQuality": 2,
+    "unNumber": 8
+  },
+  {
+    "unLevel": 88,
+    "unTime": 35,
+    "unQuality": 2,
+    "unNumber": 8
+  },
+  {
+    "unLevel": 89,
+    "unTime": 35,
+    "unQuality": 2,
+    "unNumber": 8
+  },
+  {
+    "unLevel": 90,
+    "unTime": 38,
+    "unQuality": 2,
+    "unNumber": 10
+  },
+  {
+    "unLevel": 91,
+    "unTime": 38,
+    "unQuality": 2,
+    "unNumber": 10
+  },
+  {
+    "unLevel": 92,
+    "unTime": 38,
+    "unQuality": 2,
+    "unNumber": 10
+  },
+  {
+    "unLevel": 93,
+    "unTime": 38,
+    "unQuality": 2,
+    "unNumber": 10
+  },
+  {
+    "unLevel": 94,
+    "unTime": 38,
+    "unQuality": 2,
+    "unNumber": 10
+  },
+  {
+    "unLevel": 95,
+    "unTime": 38,
+    "unQuality": 2,
+    "unNumber": 10
+  },
+  {
+    "unLevel": 96,
+    "unTime": 38,
+    "unQuality": 2,
+    "unNumber": 10
+  },
+  {
+    "unLevel": 97,
+    "unTime": 38,
+    "unQuality": 2,
+    "unNumber": 10
+  },
+  {
+    "unLevel": 98,
+    "unTime": 38,
+    "unQuality": 2,
+    "unNumber": 10
+  },
+  {
+    "unLevel": 99,
+    "unTime": 38,
+    "unQuality": 2,
+    "unNumber": 10
+  }
+]

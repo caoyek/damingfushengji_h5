@@ -1,0 +1,25 @@
+<Panel Rect="43,236,880,57">
+	<Button Name="BtnOk"
+		Rect="581,1,53,51"
+		TextId="400896"
+		TextColor="ffde1e1e"/>
+	<Button Name="BtnCancel"
+		Rect="642,1,52,51"
+		TextId="400897"
+		TextColor="ffde1e1e"/>
+	<Static Name="StcTitle"
+		Rect="43,1,525,51"
+		Rich="1"
+		ClickEnable="1"
+		AlignV="2"/>
+	<Image Name="ImgLine"
+		Rect="4,52,874,4"
+		Background="dialog_compart:5"/>
+	<Static Name="StcTime"
+		Rect="707,11,180,51"
+		AlignV="2"/>
+	<Image Name="ImgSketch"
+		Rect="4,1,36,51"
+		DrawMode="2"/>
+</Panel>
+

@@ -1,0 +1,11 @@
+<Panel Rect="384,108,98,98">
+	<Image Name="ImgEquip"
+		Rect="4,4,90,90"
+		Background="dialog_rimitem:2"
+		DrawMode="2"/>
+	<Static Name="StaEquipLev"
+		Rect="52,-4,32,22"
+		TextColor="ffde1e1e"
+		ShowType="2"/>
+</Panel>
+

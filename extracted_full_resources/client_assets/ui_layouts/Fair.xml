@@ -1,0 +1,31 @@
+<Dialog Modal="1"
+		Rect="-480,-320,960,640"
+		Background="dialog_rimbg1:2"
+		Anchor="8">
+	<Static Name="Static_0"
+		Rect="388,41,186,24"
+		TextId="400934"
+		FontSize="26"
+		AlignH="2"
+		ShowType="2"
+		SecondColor="ff9c9c9c"/>
+	<Image Name="Image_0"
+		Rect="28,78,906,537"
+		Background="dialog_gongge3:4"/>
+	<Button Name="btnClose"
+		Rect="827,-51,180,180"
+		Background="button_comclosebtn:2"/>
+	<Static Name="staTime"
+		Rect="55,99,433,26"
+		TextId="400935"
+		FontSize="26"/>
+	<Static Name="staContent"
+		Rect="55,129,433,26"
+		FontSize="26"
+		Rich="1"/>
+	<List Name="FairList"
+		Rect="97,193,808,399"
+		ItemView="FairItem"
+		LineItem="3"/>
+</Dialog>
+

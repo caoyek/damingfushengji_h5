@@ -1,0 +1,37 @@
+<Dialog Modal="1"
+		Rect="-258,-241,594,419"
+		Anchor="8">
+	<Image Name="ImgBG"
+		Rect="0,60,540,360"
+		Background="dialog_rimbg4:2"/>
+	<Image Name="Image_0"
+		Rect="24,133,495,262"
+		Background="dialog_gongge3:4"/>
+	<Static Name="staRes"
+		Rect="52,175,436,27"
+		Rich="1"
+		AlignH="2"/>
+	<Static Name="staTip"
+		Rect="33,234,486,27"
+		TextId="400153"
+		TextColor="ffde1e1e"
+		Rich="1"
+		AlignH="2"/>
+	<Button Name="btnOK"
+		Rect="172,296,197,82"
+		Background="button_combtn1:2"
+		TextId="400053"
+		TextOffset="0,3"
+		FontSize="24"/>
+	<Button Name="btnClose"
+		Rect="420,0,180,180"
+		Background="button_comclose2btn:2"/>
+	<Static Name="StaTitle"
+		Rect="193,96,158,27"
+		TextId="400152"
+		FontSize="26"
+		AlignH="2"
+		ShowType="2"
+		SecondColor="ff9c9c9c"/>
+</Dialog>
+

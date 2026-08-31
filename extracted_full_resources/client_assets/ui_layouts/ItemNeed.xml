@@ -1,0 +1,11 @@
+<Panel Rect="200,100,94,117">
+	<Image Name="imgItem"
+		Rect="1,1,90,90"
+		Background="dialog_rimitem:2"
+		DrawMode="2"/>
+	<Static Name="staNeed"
+		Rect="1,95,90,20"
+		Rich="1"
+		AlignH="2"/>
+</Panel>
+

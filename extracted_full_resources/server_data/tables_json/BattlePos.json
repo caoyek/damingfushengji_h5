@@ -1,0 +1,74 @@
+[
+  {
+    "nIndex": 0,
+    "nParamX": 360,
+    "nParamY": 370,
+    "strDesc": "att1"
+  },
+  {
+    "nIndex": 1,
+    "nParamX": 245,
+    "nParamY": 435,
+    "strDesc": "att2"
+  },
+  {
+    "nIndex": 2,
+    "nParamX": 245,
+    "nParamY": 275,
+    "strDesc": "att3"
+  },
+  {
+    "nIndex": 3,
+    "nParamX": 130,
+    "nParamY": 370,
+    "strDesc": "att4"
+  },
+  {
+    "nIndex": 4,
+    "nParamX": 360,
+    "nParamY": 525,
+    "strDesc": "att5"
+  },
+  {
+    "nIndex": 5,
+    "nParamX": 130,
+    "nParamY": 525,
+    "strDesc": "att6"
+  },
+  {
+    "nIndex": 6,
+    "nParamX": 600,
+    "nParamY": 370,
+    "strDesc": "def2"
+  },
+  {
+    "nIndex": 7,
+    "nParamX": 715,
+    "nParamY": 275,
+    "strDesc": "def1"
+  },
+  {
+    "nIndex": 8,
+    "nParamX": 715,
+    "nParamY": 435,
+    "strDesc": "def3"
+  },
+  {
+    "nIndex": 9,
+    "nParamX": 830,
+    "nParamY": 370,
+    "strDesc": "def4"
+  },
+  {
+    "nIndex": 10,
+    "nParamX": 600,
+    "nParamY": 525,
+    "strDesc": "def5"
+  },
+  {
+    "nIndex": 11,
+    "nParamX": 830,
+    "nParamY": 525,
+    "strDesc": "def6"
+  }
+]

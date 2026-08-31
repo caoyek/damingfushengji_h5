@@ -1,0 +1,12 @@
+<Panel Rect="221,138,188,26">
+	<Static Name="StaticParam"
+		Rect="128,2,61,23"
+		AlignH="1"/>
+	<Image Name="ImageNiuRen"
+		Rect="1,-1,23,23"
+		DrawMode="2"/>
+	<Static Name="StaticName"
+		Rect="24,2,101,23"
+		ClickEnable="1"/>
+</Panel>
+

@@ -1,0 +1,11 @@
+<Panel Rect="200,97,139,57">
+	<Static Name="staAttr1"
+		Rect="7,3,65,23"/>
+	<Static Name="staAttr2"
+		Rect="7,31,65,23"/>
+	<Static Name="staAttr1Num"
+		Rect="75,3,57,23"/>
+	<Static Name="staAttr2Num"
+		Rect="75,31,57,23"/>
+</Panel>
+

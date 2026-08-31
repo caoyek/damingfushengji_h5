@@ -1,0 +1,17 @@
+<Panel Rect="189,94,177,213">
+	<Button Name="__ITM_VISUAL__"
+		Rect="18,-2,128,58"
+		Background="dialog_rim5:2"/>
+	<Button Name="__BTN_DROP_DOWN__"
+		Rect="5,6,269,44"
+		Background="button_arrowheadinfobule:2"/>
+	<List Name="__LST_DROP_DOWN__"
+		Rect="2,47,160,141"
+		Background="dialog_gongge9:4"
+		ItemBackground="dialog_gongge9:4"
+		SelectBackground="dialog_selectstring:3"
+		TextOffset="8,8"
+		ItemHeight="35"
+		Scrollbar="1"/>
+</Panel>
+

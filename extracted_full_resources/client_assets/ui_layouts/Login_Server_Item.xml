@@ -1,0 +1,9 @@
+<Panel Rect="383,288,289,46">
+	<Check Name="chkServerName"
+		Rect="0,0,289,46"
+		Background="setup_rightbtn:1"
+		TextColor="ffffff00"
+		TextOffset="-40,-2"
+		FontSize="22"/>
+</Panel>
+

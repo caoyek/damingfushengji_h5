@@ -1,0 +1,20 @@
+<Panel Rect="200,100,140,214">
+	<Static Name="staRank"
+		Rect="4,7,132,27"
+		FontSize="24"
+		Rich="1"
+		AlignH="2"/>
+	<Image Name="imgUser"
+		Rect="11,43,118,113"
+		DrawMode="3"/>
+	<Static Name="staUserName"
+		Rect="4,165,132,23"
+		Rich="2"
+		ClickEnable="1"
+		AlignH="2"/>
+	<Static Name="staUserLev"
+		Rect="4,192,132,23"
+		Rich="1"
+		AlignH="2"/>
+</Panel>
+

@@ -1,0 +1,18 @@
+<Dialog Rect="-480,-320,960,640"
+		Anchor="8"
+		Topmost="1"
+		IgnoreEngross="1">
+	<Image Name="Image_1"
+		Rect="318,270,333,82"
+		Background="dialog_rim15:2"/>
+	<Image Name="Image_0"
+		Rect="456,274,45,42"
+		Background="cartoon_interface14:6"
+		SerialTime="150"/>
+	<Static Name="Static_0"
+		Rect="347,315,269,23"
+		TextId="400620"
+		TextColor="ff0166ff"
+		AlignH="2"/>
+</Dialog>
+

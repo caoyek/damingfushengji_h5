@@ -1,0 +1,13 @@
+<Panel Rect="200,100,506,46">
+	<Static Name="staContent"
+		Rect="7,3,492,36"
+		Rich="2"/>
+	<Static Name="staFW"
+		Rect="112,3,238,23"
+		Underline="1"
+		Rich="2"/>
+	<Image Name="Image_0"
+		Rect="7,39,492,4"
+		Background="dialog_compart:5"/>
+</Panel>
+

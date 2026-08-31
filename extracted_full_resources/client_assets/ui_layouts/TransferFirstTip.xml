@@ -1,0 +1,34 @@
+<Dialog Rect="-299,-301,651,554"
+		Anchor="8"
+		Modal="1"
+		Topmost="1">
+	<Image Name="Image_1"
+		Rect="0,52,600,500"
+		Background="dialog_rimbg3:2"/>
+	<Image Name="Image_2"
+		Rect="35,132,531,378"
+		Background="dialog_gongge3:4"/>
+	<Static Name="Static_0"
+		Rect="161,403,279,28"
+		TextId="400900"/>
+	<Button Name="btnConfirm"
+		Rect="169,423,262,94"
+		Background="button_combtn1:2"
+		TextId="400221"
+		TextOffset="0,3"
+		FontSize="24"/>
+	<Button Name="btnClose"
+		Rect="471,-7,180,180"
+		Background="button_comclose2btn:2"/>
+	<Image Name="Image_0"
+		Rect="35,157,531,237"
+		Background="dialog_rim22:2"/>
+	<Static Name="Static_1"
+		Rect="215,93,167,27"
+		TextId="400158"
+		FontSize="26"
+		AlignH="2"
+		ShowType="2"
+		SecondColor="ff9c9c9c"/>
+</Dialog>
+

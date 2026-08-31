@@ -1,0 +1,26 @@
+<Panel Rect="178,142,600,50">
+	<Static Name="StaFunction"
+		Rect="5,19,210,23"
+		Rich="1"/>
+	<Static Name="StaBenefit"
+		Rect="57,19,158,23"
+		Alpha="100"
+		TextColor="ffde1e1e"
+		ClickEnable="1"/>
+	<Static Name="StaCurrentVip"
+		Rect="223,19,65,23"
+		TextColor="ff009c48"
+		Rich="1"
+		AlignH="2"/>
+	<Static Name="StaNextVip"
+		Rect="306,19,65,23"
+		TextColor="ffde1e1e"
+		Rich="1"
+		AlignH="2"/>
+	<Static Name="StaExplain"
+		Rect="379,19,203,23"/>
+	<Image Name="Image_0"
+		Rect="5,45,580,4"
+		Background="dialog_compart:5"/>
+</Panel>
+

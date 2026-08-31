@@ -1,0 +1,9 @@
+<Panel Rect="200,243,244,57">
+	<Static Name="staContent"
+		Rect="0,9,244,38"
+		Underline="1"
+		TextColor="ffa9e0e7"
+		FontSize="18"
+		AlignH="2"/>
+</Panel>
+

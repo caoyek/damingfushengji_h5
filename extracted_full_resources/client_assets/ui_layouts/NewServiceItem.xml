@@ -1,0 +1,28 @@
+<Panel Rect="34,306,848,56">
+	<Static Name="staRank"
+		Rect="13,13,151,21"
+		Rich="1"
+		AlignH="2"/>
+	<Static Name="staReward"
+		Rect="423,13,231,21"
+		Rich="1"
+		ClickEnable="1"
+		AlignH="2"/>
+	<Static Name="staName"
+		Rect="203,13,173,21"
+		Underline="1"
+		ClickEnable="1"
+		AlignH="2"/>
+	<Static Name="staAccept"
+		Rect="687,13,151,21"
+		AlignH="2"/>
+	<Button Name="btnAccept"
+		Rect="674,-2,174,50"
+		Background="button_combtn1:2"
+		TextId="400955"
+		TextOffset="0,3"/>
+	<Image Name="Image_0"
+		Rect="0,51,848,4"
+		Background="dialog_compart:5"/>
+</Panel>
+

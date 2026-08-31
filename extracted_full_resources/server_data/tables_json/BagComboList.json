@@ -1,0 +1,272 @@
+[
+  {
+    "unSid": 0,
+    "nType": 0,
+    "strShow": "全部",
+    "nSendID": 0
+  },
+  {
+    "unSid": 1,
+    "nType": 0,
+    "strShow": "1-10级",
+    "nSendID": 10
+  },
+  {
+    "unSid": 2,
+    "nType": 1,
+    "strShow": "全部",
+    "nSendID": 5
+  },
+  {
+    "unSid": 3,
+    "nType": 1,
+    "strShow": "白色",
+    "nSendID": 0
+  },
+  {
+    "unSid": 4,
+    "nType": 2,
+    "strShow": "全部",
+    "nSendID": 0
+  },
+  {
+    "unSid": 5,
+    "nType": 2,
+    "strShow": "一级",
+    "nSendID": 1
+  },
+  {
+    "unSid": 6,
+    "nType": 3,
+    "strShow": "全部",
+    "nSendID": 5
+  },
+  {
+    "unSid": 7,
+    "nType": 3,
+    "strShow": "白色",
+    "nSendID": 0
+  },
+  {
+    "unSid": 8,
+    "nType": 4,
+    "strShow": "全部",
+    "nSendID": 0
+  },
+  {
+    "unSid": 9,
+    "nType": 4,
+    "strShow": "新手村",
+    "nSendID": 6
+  },
+  {
+    "unSid": 10,
+    "nType": 0,
+    "strShow": "11-20级",
+    "nSendID": 20
+  },
+  {
+    "unSid": 11,
+    "nType": 0,
+    "strShow": "21-30级",
+    "nSendID": 30
+  },
+  {
+    "unSid": 12,
+    "nType": 0,
+    "strShow": "31-40级",
+    "nSendID": 40
+  },
+  {
+    "unSid": 13,
+    "nType": 0,
+    "strShow": "41-50级",
+    "nSendID": 50
+  },
+  {
+    "unSid": 14,
+    "nType": 0,
+    "strShow": "51-60级",
+    "nSendID": 60
+  },
+  {
+    "unSid": 15,
+    "nType": 0,
+    "strShow": "61-70级",
+    "nSendID": 70
+  },
+  {
+    "unSid": 16,
+    "nType": 0,
+    "strShow": "71-80级",
+    "nSendID": 80
+  },
+  {
+    "unSid": 17,
+    "nType": 0,
+    "strShow": "81-90级",
+    "nSendID": 90
+  },
+  {
+    "unSid": 18,
+    "nType": 0,
+    "strShow": "91-99级",
+    "nSendID": 99
+  },
+  {
+    "unSid": 19,
+    "nType": 1,
+    "strShow": "绿色",
+    "nSendID": 1
+  },
+  {
+    "unSid": 20,
+    "nType": 1,
+    "strShow": "蓝色",
+    "nSendID": 2
+  },
+  {
+    "unSid": 21,
+    "nType": 1,
+    "strShow": "红色",
+    "nSendID": 3
+  },
+  {
+    "unSid": 22,
+    "nType": 1,
+    "strShow": "紫色",
+    "nSendID": 4
+  },
+  {
+    "unSid": 23,
+    "nType": 2,
+    "strShow": "二级",
+    "nSendID": 2
+  },
+  {
+    "unSid": 24,
+    "nType": 2,
+    "strShow": "三级",
+    "nSendID": 3
+  },
+  {
+    "unSid": 25,
+    "nType": 2,
+    "strShow": "四级",
+    "nSendID": 4
+  },
+  {
+    "unSid": 26,
+    "nType": 2,
+    "strShow": "五级",
+    "nSendID": 5
+  },
+  {
+    "unSid": 27,
+    "nType": 2,
+    "strShow": "六级",
+    "nSendID": 6
+  },
+  {
+    "unSid": 28,
+    "nType": 2,
+    "strShow": "七级",
+    "nSendID": 7
+  },
+  {
+    "unSid": 29,
+    "nType": 2,
+    "strShow": "八级",
+    "nSendID": 8
+  },
+  {
+    "unSid": 30,
+    "nType": 2,
+    "strShow": "九级",
+    "nSendID": 9
+  },
+  {
+    "unSid": 31,
+    "nType": 2,
+    "strShow": "十级",
+    "nSendID": 10
+  },
+  {
+    "unSid": 32,
+    "nType": 3,
+    "strShow": "绿色",
+    "nSendID": 1
+  },
+  {
+    "unSid": 33,
+    "nType": 3,
+    "strShow": "蓝色",
+    "nSendID": 2
+  },
+  {
+    "unSid": 34,
+    "nType": 3,
+    "strShow": "红色",
+    "nSendID": 3
+  },
+  {
+    "unSid": 35,
+    "nType": 3,
+    "strShow": "紫色",
+    "nSendID": 4
+  },
+  {
+    "unSid": 36,
+    "nType": 4,
+    "strShow": "广州",
+    "nSendID": 8
+  },
+  {
+    "unSid": 37,
+    "nType": 4,
+    "strShow": "福州",
+    "nSendID": 5
+  },
+  {
+    "unSid": 38,
+    "nType": 4,
+    "strShow": "成都",
+    "nSendID": 1
+  },
+  {
+    "unSid": 39,
+    "nType": 4,
+    "strShow": "宁波",
+    "nSendID": 2
+  },
+  {
+    "unSid": 40,
+    "nType": 4,
+    "strShow": "南京",
+    "nSendID": 11
+  },
+  {
+    "unSid": 41,
+    "nType": 4,
+    "strShow": "武汉",
+    "nSendID": 3
+  },
+  {
+    "unSid": 42,
+    "nType": 4,
+    "strShow": "西安",
+    "nSendID": 7
+  },
+  {
+    "unSid": 43,
+    "nType": 4,
+    "strShow": "大同",
+    "nSendID": 10
+  },
+  {
+    "unSid": 44,
+    "nType": 4,
+    "strShow": "北京",
+    "nSendID": 9
+  }
+]

@@ -1,0 +1,23 @@
+<Panel Rect="143,91,101,100">
+	<Image Name="Image_0"
+		Rect="7,7,85,85"
+		Background="dialog_rimitem:2"
+		DrawMode="2"/>
+	<Static Name="staAddLev"
+		Rect="52,0,33,23"
+		TextColor="ffde1e1e"
+		Rich="1"
+		AlignH="2"
+		AlignV="2"
+		ShowType="2"/>
+	<Static Name="staNum"
+		Rect="56,83,23,22"
+		AlignH="2"
+		AlignV="2"
+		ShowType="2"/>
+	<Image Name="imgLev"
+		Rect="4,2,23,24"/>
+	<Image Name="imgBck"
+		Rect="10,27,84,76"/>
+</Panel>
+

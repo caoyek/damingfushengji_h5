@@ -1,0 +1,68 @@
+[
+  {
+    "strBuildingInfo": "炮场",
+    "nX": 90,
+    "nY": 139,
+    "nW": 158,
+    "nH": 197,
+    "nTipsStrres": 330291,
+    "strAnitile": "base_artillery",
+    "nTextOffsetX": 10,
+    "nTextOffsetY": -10
+  },
+  {
+    "strBuildingInfo": "兵营",
+    "nX": 379,
+    "nY": 170,
+    "nW": 178,
+    "nH": 142,
+    "nTipsStrres": 330292,
+    "strAnitile": "base_barracks",
+    "nTextOffsetX": 0,
+    "nTextOffsetY": -10
+  },
+  {
+    "strBuildingInfo": "重工",
+    "nX": 620,
+    "nY": 56,
+    "nW": 219,
+    "nH": 153,
+    "nTipsStrres": 330293,
+    "strAnitile": "base_tankmake",
+    "nTextOffsetX": 10,
+    "nTextOffsetY": -10
+  },
+  {
+    "strBuildingInfo": "训练场",
+    "nX": 776,
+    "nY": 7,
+    "nW": 250,
+    "nH": 139,
+    "nTipsStrres": 330294,
+    "strAnitile": "base_equip",
+    "nTextOffsetX": 0,
+    "nTextOffsetY": 0
+  },
+  {
+    "strBuildingInfo": "军官学院",
+    "nX": 774,
+    "nY": 212,
+    "nW": 161,
+    "nH": 130,
+    "nTipsStrres": 330295,
+    "strAnitile": "base_school",
+    "nTextOffsetX": -20,
+    "nTextOffsetY": -10
+  },
+  {
+    "strBuildingInfo": "指挥中心",
+    "nX": 772,
+    "nY": 341,
+    "nW": 148,
+    "nH": 126,
+    "nTipsStrres": 330296,
+    "strAnitile": "base_command",
+    "nTextOffsetX": -60,
+    "nTextOffsetY": -10
+  }
+]

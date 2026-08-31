@@ -1,0 +1,11 @@
+<Dialog Rect="22,5,929,624"
+		WireFrame="1"
+		Topmost="1">
+	<List Name="listIap"
+		Rect="2,2,555,591"
+		ItemView="IapItem"/>
+	<Button Name="btnClose"
+		Rect="832,2,89,79"
+		Text="¹Ø±Õ"/>
+</Dialog>
+

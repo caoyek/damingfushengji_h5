@@ -1,0 +1,102 @@
+[
+  {
+    "nIndex": 0,
+    "nParam": 300,
+    "strDesc": "默认的人物动作时间"
+  },
+  {
+    "nIndex": 1,
+    "nParam": 800,
+    "strDesc": "默认的技能时间"
+  },
+  {
+    "nIndex": 2,
+    "nParam": 100,
+    "strDesc": "默认的帧间隔"
+  },
+  {
+    "nIndex": 3,
+    "nParam": 150,
+    "strDesc": "HP_MAX_HEIGHT"
+  },
+  {
+    "nIndex": 4,
+    "nParam": 400,
+    "strDesc": "HP_TIME"
+  },
+  {
+    "nIndex": 5,
+    "nParam": 10,
+    "strDesc": "HP_FRAME"
+  },
+  {
+    "nIndex": 6,
+    "nParam": -10,
+    "strDesc": "HP_ADD增加数值与减值的位差posY"
+  },
+  {
+    "nIndex": 7,
+    "nParam": 80,
+    "strDesc": "技能名次动画的高度"
+  },
+  {
+    "nIndex": 8,
+    "nParam": 50,
+    "strDesc": "加载百分比动画"
+  },
+  {
+    "nIndex": 9,
+    "nParam": 80,
+    "strDesc": "战斗开始文字动画的帧率"
+  },
+  {
+    "nIndex": 10,
+    "nParam": 400,
+    "strDesc": "烟雾播放时间"
+  },
+  {
+    "nIndex": 11,
+    "nParam": 200,
+    "strDesc": "烟雾帧率"
+  },
+  {
+    "nIndex": 12,
+    "nParam": -100,
+    "strDesc": "技能名称Y轴偏移"
+  },
+  {
+    "nIndex": 13,
+    "nParam": -50,
+    "strDesc": "掉血X轴偏移"
+  },
+  {
+    "nIndex": 14,
+    "nParam": -50,
+    "strDesc": "掉血y轴偏移"
+  },
+  {
+    "nIndex": 15,
+    "nParam": 500,
+    "strDesc": "延时ms后播放死亡动作"
+  },
+  {
+    "nIndex": 16,
+    "nParam": 100,
+    "strDesc": "延时ms后播放受击动作"
+  },
+  {
+    "nIndex": 17,
+    "nParam": 100,
+    "strDesc": "延时ms后播放技能"
+  },
+  {
+    "nIndex": 18,
+    "nParam": 5,
+    "strDesc": "死亡倒地动作，延长播放的帧数"
+  },
+  {
+    "nIndex": 19,
+    "nParam": 90,
+    "strDesc": "骂战对话框偏移大小px"
+  }
+]

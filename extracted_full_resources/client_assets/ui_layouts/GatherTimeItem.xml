@@ -1,0 +1,8 @@
+<Panel Rect="200,99,152,35">
+	<Static Name="staGatherTime"
+		Rect="29,7,110,22"/>
+	<Check Name="chkGatherTime"
+		Rect="6,7,140,22"
+		Background="button_comcheckroundbtn:1"/>
+</Panel>
+

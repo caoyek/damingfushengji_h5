@@ -1,0 +1,9 @@
+<Dialog Rect="582,270,277,280"
+		WireFrame="1"
+		ClickClose="1">
+	<Grid Name="GrdEmotion"
+		Rect="0,0,277,280"
+		DefaultCellType="PnlEmotion"
+		GridSize="4,4"/>
+</Dialog>
+

@@ -1,0 +1,17 @@
+<Panel Rect="177,100,452,52">
+	<Static Name="staRank"
+		Rect="23,17,94,23"
+		AlignH="2"/>
+	<Static Name="staName"
+		Rect="141,17,187,23"
+		Rich="1"
+		ClickEnable="1"
+		AlignH="2"/>
+	<Static Name="staLev"
+		Rect="354,17,82,23"
+		AlignH="2"/>
+	<Image Name="Image_0"
+		Rect="13,45,425,4"
+		Background="dialog_compart:5"/>
+</Panel>
+

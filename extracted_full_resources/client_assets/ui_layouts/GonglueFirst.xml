@@ -1,0 +1,16 @@
+<Panel Rect="39,121,525,463">
+	<Static Name="Static_0"
+		Rect="85,23,43,23"
+		TextId="400276"/>
+	<Static Name="Static_1"
+		Rect="227,23,85,23"
+		TextId="400277"/>
+	<Static Name="Static_2"
+		Rect="408,23,46,23"
+		TextId="400278"/>
+	<List Name="listFirst"
+		Rect="36,69,452,375"
+		ItemView="GonglueFirstItem"
+		SelectBackground="dialog_selectstring:3"/>
+</Panel>
+

@@ -1,0 +1,15 @@
+<Dialog Rect="-480,-320,960,640"
+		Background="server_loadingbg:2"
+		Anchor="8">
+	<Image Name="Image_1"
+		Rect="43,8,26,16"/>
+	<Panel Name="pnlSelServer"
+		Rect="0,0,960,640"
+		Visible="0"
+		Templ="LoginSelServer"/>
+	<Static Name="Static_0"
+		Rect="177,325,588,33"
+		Text="ÕýÔÚµÇÂ¼£¬ÇëÉÔµÈ......."
+		AlignH="2"/>
+</Dialog>
+

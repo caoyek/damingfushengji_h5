@@ -1,0 +1,22 @@
+<Dialog Rect="-480,-320,960,640"
+		Background="server_loadingbg:2"
+		Anchor="8">
+	<Progress Name="PrgUpdate"
+		Rect="-325,-63,633,63"
+		Anchor="8"
+		ProgressImage="dialog_progress6"/>
+	<Static Name="StaRemain"
+		Rect="374,336,201,22"
+		Text="检查是否需要更新...."/>
+	<Image Name="Image_0"
+		Rect="-325,-63,633,63"
+		Background="dialog_progress6bg:3"
+		Anchor="8"/>
+	<Image Name="Image_1"
+		Rect="75,546,141,93"
+		Background="dialog_logo:3"/>
+	<Image Name="Image_2"
+		Rect="-321,-308,243,62"
+		Anchor="8"/>
+</Dialog>
+

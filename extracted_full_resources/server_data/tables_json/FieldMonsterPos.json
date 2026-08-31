@@ -1,0 +1,38 @@
+[
+  {
+    "nIndex": 0,
+    "nParamX": 107,
+    "nParamY": 135,
+    "strDesc": "1"
+  },
+  {
+    "nIndex": 1,
+    "nParamX": 278,
+    "nParamY": 135,
+    "strDesc": "2"
+  },
+  {
+    "nIndex": 2,
+    "nParamX": 458,
+    "nParamY": 135,
+    "strDesc": "3"
+  },
+  {
+    "nIndex": 3,
+    "nParamX": 107,
+    "nParamY": 300,
+    "strDesc": "4"
+  },
+  {
+    "nIndex": 4,
+    "nParamX": 278,
+    "nParamY": 300,
+    "strDesc": "5"
+  },
+  {
+    "nIndex": 5,
+    "nParamX": 458,
+    "nParamY": 300,
+    "strDesc": "6"
+  }
+]

@@ -1,0 +1,33 @@
+<Panel Rect="58,202,874,60">
+	<Static Name="Static_0"
+		Rect="21,30,56,23"
+		AlignH="2"/>
+	<Static Name="Static_1"
+		Rect="126,30,130,23"
+		AlignH="2"/>
+	<Static Name="Static_2"
+		Rect="308,30,56,23"
+		AlignH="2"/>
+	<Static Name="Static_3"
+		Rect="434,30,75,23"
+		AlignH="2"/>
+	<Image Name="Image_0"
+		Rect="14,56,842,4"
+		Background="dialog_compart:5"/>
+	<Static Name="StaticJoin"
+		Rect="717,11,111,39"
+		TextId="400547"
+		Underline="1"
+		TextColor="ff009c48"
+		ClickEnable="1"
+		AlignH="2"
+		AlignV="1"/>
+	<Static Name="StaticName"
+		Rect="537,11,149,39"
+		Underline="1"
+		TextColor="ff009c48"
+		ClickEnable="1"
+		AlignH="2"
+		AlignV="1"/>
+</Panel>
+

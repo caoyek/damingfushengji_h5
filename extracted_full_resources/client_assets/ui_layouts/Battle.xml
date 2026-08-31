@@ -1,0 +1,31 @@
+<Dialog Modal="1"
+		Rect="-480,-320,960,640"
+		Background="dialog_rimbg1:2"
+		Anchor="8">
+	<Image Name="imgFightBG"
+		Rect="28,78,906,537"
+		Background="dialog_gongge3:4"
+		DrawMode="3"/>
+	<Image Name="imgDungeonBG"
+		Rect="28,78,906,537"/>
+	<Static Name="staRound"
+		Rect="379,98,203,30"
+		AlignH="2"/>
+	<Button Name="btnResult"
+		Rect="330,503,300,120"
+		Background="button_combtn1:2"
+		TextId="400552"
+		TextOffset="0,3"
+		FontSize="24"/>
+	<Static Name="Static_0"
+		Rect="388,41,186,24"
+		TextId="400551"
+		FontSize="26"
+		AlignH="2"
+		ShowType="2"
+		SecondColor="ff9c9c9c"/>
+	<Panel Name="pnlTalk"
+		Rect="264,194,244,117"
+		Templ="BattleTalk"/>
+</Dialog>
+

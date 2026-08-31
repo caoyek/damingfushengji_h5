@@ -1,0 +1,33 @@
+<Dialog Modal="1"
+		Rect="-299,-315,600,630"
+		Background="dialog_rimbg2:2"
+		Anchor="8">
+	<Image Name="Image_0"
+		Rect="26,76,551,529"
+		Background="dialog_gongge3:4"/>
+	<Image Name="Image_1"
+		Rect="40,86,524,55"
+		Background="dialog_gongge4:4"/>
+	<Static Name="StaticTitle "
+		Rect="218,39,164,27"
+		TextId="400612"
+		FontSize="26"
+		AlignH="2"
+		ShowType="2"
+		SecondColor="ff9c9c9c"/>
+	<Static Name="StaticPlayerName"
+		Rect="122,106,100,23"
+		TextId="400613"/>
+	<Static Name="StaticReachDay"
+		Rect="407,106,84,23"
+		TextId="400614"/>
+	<List Name="ListTop10"
+		Rect="40,144,524,485"
+		ItemView="AchievTop10Unit"
+		PageItem="10"
+		ItemSpace="3"/>
+	<Button Name="ButtonReturn"
+		Rect="474,-60,180,180"
+		Background="button_comclose2btn:2"/>
+</Dialog>
+

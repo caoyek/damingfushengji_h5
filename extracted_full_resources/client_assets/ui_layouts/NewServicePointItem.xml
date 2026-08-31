@@ -1,0 +1,20 @@
+<Panel Rect="40,308,848,38">
+	<Static Name="staRank"
+		Rect="32,11,151,21"
+		Rich="1"
+		AlignH="2"/>
+	<Static Name="staReward"
+		Rect="270,11,323,21"
+		Rich="1"
+		ClickEnable="1"
+		AlignH="2"/>
+	<Static Name="staName"
+		Rect="668,11,151,21"
+		Underline="1"
+		ClickEnable="1"
+		AlignH="2"/>
+	<Image Name="Image_0"
+		Rect="0,34,848,4"
+		Background="dialog_compart:5"/>
+</Panel>
+

@@ -1,0 +1,14 @@
+<Panel Rect="208,190,524,42">
+	<Image Name="ImageRanking"
+		Rect="49,2,27,27"
+		DrawMode="2"/>
+	<Static Name="StaticPlayerName"
+		Rect="82,5,138,27"/>
+	<Static Name="StaticReachDay"
+		Rect="359,5,103,27"
+		AlignH="2"/>
+	<Image Name="Image_0"
+		Rect="15,35,497,4"
+		Background="dialog_compart:5"/>
+</Panel>
+

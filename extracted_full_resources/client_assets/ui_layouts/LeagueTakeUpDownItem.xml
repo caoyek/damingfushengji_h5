@@ -1,0 +1,34 @@
+<Panel Rect="24,236,875,60">
+	<Static Name="Static_0"
+		Rect="184,30,58,23"
+		AlignH="2"/>
+	<Static Name="Static_1"
+		Rect="285,30,58,23"
+		AlignH="2"/>
+	<Static Name="Static_2"
+		Rect="410,30,100,23"
+		AlignH="2"/>
+	<Static Name="Static_3"
+		Rect="563,30,103,23"
+		AlignH="2"/>
+	<Image Name="Image_0"
+		Rect="8,56,830,4"
+		Background="dialog_compart:5"/>
+	<Static Name="StaticName"
+		Rect="8,11,143,39"
+		Underline="1"
+		TextColor="ff009c48"
+		Rich="1"
+		ClickEnable="1"
+		AlignH="2"
+		AlignV="1"/>
+	<Static Name="StaticTakeUp"
+		Rect="703,11,114,39"
+		TextId="400520"
+		Underline="1"
+		TextColor="ff009c48"
+		ClickEnable="1"
+		AlignH="2"
+		AlignV="1"/>
+</Panel>
+

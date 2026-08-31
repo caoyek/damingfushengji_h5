@@ -1,0 +1,16 @@
+﻿strDescInfo,strKey,strValue,strSection
+建筑物点击加亮延迟时间ms,ClickKeepTime,600,115
+字体颜色,TipsColor,0xFFFFFFFF,MapBase
+字体大小,FontSize,14,MapBase
+文字底框左右边缘高度px,TipsWidth,4,MapBase
+文字底框上下边缘高度px,TipsHeight,2,MapBase
+文字底框颜色,BlockColor,0x88000000,MapBase
+服务器URL地址,ServerURL,server.sj.91.com,MapBase
+大明官网网址,OfficialURL,http://dj.51wan.com/wap/,MapBase
+全部VIP功能网址,AllVip,http://sobar.soso.com/t/90685203,MapBase
+大明客服,Service,http://dj.51wan.com/wap/,MapBase
+聊天信息最大数量,ChatMsgMaxNum,100,DlgChat
+聊天分段加载，刷新时间间隔,ChatRefreshTick,100,DlgChat
+clientid,ClientID,E7A9960E60E18477,MapBase
+secret,Secret,ef5a1d9f4de9dd54a551d10b73f9e27e,MapBase
+登录地址,LoginURL,http://wap.test.51wan.com/index.php?client_id=%s&sign=%s,MapBase

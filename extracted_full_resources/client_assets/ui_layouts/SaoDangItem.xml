@@ -1,0 +1,14 @@
+<Panel Rect="200,100,524,46">
+	<Button Name="btnAdd"
+		Rect="403,3,104,36"
+		Background="button_comaddbtn:2"/>
+	<Static Name="staName"
+		Rect="24,11,139,22"/>
+	<Static Name="staTimes"
+		Rect="208,11,139,22"
+		AlignH="2"/>
+	<Image Name="Image_0"
+		Rect="7,41,510,4"
+		Background="dialog_compart:5"/>
+</Panel>
+

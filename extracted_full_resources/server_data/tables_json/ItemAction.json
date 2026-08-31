@@ -1,0 +1,44 @@
+[
+  {
+    "nType": 0,
+    "nX": 5,
+    "nY": -30,
+    "strSoundTitle": ""
+  },
+  {
+    "nType": 1,
+    "nX": 0,
+    "nY": -50,
+    "strSoundTitle": ""
+  },
+  {
+    "nType": 2,
+    "nX": -55,
+    "nY": -95,
+    "strSoundTitle": "/music/catch.ogg"
+  },
+  {
+    "nType": 3,
+    "nX": 80,
+    "nY": -105,
+    "strSoundTitle": "/music/catch.ogg"
+  },
+  {
+    "nType": 4,
+    "nX": 40,
+    "nY": -50,
+    "strSoundTitle": "/music/buildup.ogg"
+  },
+  {
+    "nType": 5,
+    "nX": -30,
+    "nY": -60,
+    "strSoundTitle": "/music/buildup.ogg"
+  },
+  {
+    "nType": 6,
+    "nX": 5,
+    "nY": -30,
+    "strSoundTitle": "/music/buildup.ogg"
+  }
+]

@@ -1,0 +1,32 @@
+<Panel Rect="43,131,608,461">
+	<Image Name="ImgBackGround"
+		Rect="3,3,601,55"
+		Background="dialog_gongge4:4"/>
+	<Static Name="Stafunction"
+		Rect="29,23,66,24"
+		TextId="400636"/>
+	<Static Name="Stacurrentvip"
+		Rect="220,23,73,24"
+		TextId="400637"/>
+	<Static Name="Stanextvip"
+		Rect="306,23,73,24"
+		TextId="400638"/>
+	<Static Name="Staexplain"
+		Rect="406,23,48,24"
+		TextId="400639"/>
+	<List Name="LstPrivilege"
+		Rect="3,62,601,366"
+		ItemView="VipPrivilegeCard"
+		SelectBackground="dialog_selectstring:3"
+		Scrollbar="1"
+		AlwaysShowBar="1"/>
+	<Static Name="StaFullVip"
+		Rect="188,228,231,26"/>
+	<Static Name="StaAllVipFeature"
+		Rect="233,438,112,22"
+		TextId="400879"
+		Underline="1"
+		TextColor="ff009c48"
+		ClickEnable="1"/>
+</Panel>
+

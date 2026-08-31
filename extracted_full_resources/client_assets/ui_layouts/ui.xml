@@ -1,0 +1,59 @@
+<Config>
+
+<DefaultPath>960x640</DefaultPath>
+<DialogOpenTime>200</DialogOpenTime>
+<DialogCloseTime>300</DialogCloseTime>
+
+<Platform>
+  <Size>2048,1536</Size>
+  <Path>960x640</Path>
+  <FontSize>32</FontSize>
+  <AnchorCenterOffset>0,0</AnchorCenterOffset>
+</Platform>
+
+<Platform>
+  <Size>1280,960</Size>
+  <Path>960x640</Path>
+  <FontSize>20</FontSize>
+  <AnchorCenterOffset>0,0</AnchorCenterOffset>
+</Platform>
+
+<Platform>
+  <Size>1024,768</Size>
+  <Path>960x640</Path>
+  <FontSize>16</FontSize>
+  <AnchorCenterOffset>0,0</AnchorCenterOffset>
+</Platform>
+
+<Platform>
+  <Size>960,640</Size>
+  <Path>960x640</Path>
+  <FontSize>20</FontSize>
+  <AnchorCenterOffset>0,0</AnchorCenterOffset>
+</Platform>
+
+
+<Platform>
+  <Size>800,480</Size>
+  <Path>960x640</Path>
+  <FontSize>14</FontSize>
+  <AnchorCenterOffset>0,0</AnchorCenterOffset>
+</Platform>
+
+<Platform>
+  <Size>480,320</Size>
+  <Path>960x640</Path>
+  <FontSize>10</FontSize>
+  <AnchorCenterOffset>0,0</AnchorCenterOffset>
+</Platform>
+
+<Platform>
+  <Size>320,240</Size>
+  <Path>960x640</Path>
+  <FontSize>8</FontSize>
+  <AnchorCenterOffset>0,0</AnchorCenterOffset>
+</Platform>
+
+</Config>
+
+

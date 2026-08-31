@@ -1,0 +1,6 @@
+<Panel Rect="196,97,110,40">
+	<Check Name="chkTab"
+		Rect="54,22,1,1"
+		Background="button_compage4btn:2"/>
+</Panel>
+

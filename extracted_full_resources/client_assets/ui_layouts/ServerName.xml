@@ -1,0 +1,14 @@
+<Panel Rect="206,102,313,71">
+	<Image Name="imgBack"
+		Rect="57,5,229,61"/>
+	<Static Name="staName"
+		Rect="57,5,229,62"
+		TextColor="0xffffffff"
+		FontSize="22"
+		AlignH="2"
+		AlignV="2"/>
+	<Image Name="imgHotOrNew"
+		Rect="14,14,79,46"
+		DrawMode="2"/>
+</Panel>
+

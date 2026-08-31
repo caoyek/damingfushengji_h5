@@ -1,0 +1,18 @@
+<Panel Rect="28,120,906,495"
+		Background="dialog_gongge3:4">
+	<Static Name="Static_0"
+		Rect="335,197,238,44"
+		TextId="400874"
+		TextColor="ff7f7f7f"
+		AlignH="2"
+		AlignV="2"/>
+	<Static Name="StaticPutOnEquip"
+		Rect="335,248,238,44"
+		TextId="400875"
+		Underline="1"
+		TextColor="ff009c48"
+		ClickEnable="1"
+		AlignH="2"
+		AlignV="2"/>
+</Panel>
+

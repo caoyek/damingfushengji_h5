@@ -1,0 +1,9 @@
+<Panel Rect="40,123,523,369">
+	<List Name="ListEnemy"
+		Rect="8,7,504,352"
+		ItemView="RelationEnemyUnit"
+		SelectBackground="dialog_selectstring:3"
+		ItemSpace="10"
+		Scrollbar="1"/>
+</Panel>
+

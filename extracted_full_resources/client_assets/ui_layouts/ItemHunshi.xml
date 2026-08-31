@@ -1,0 +1,19 @@
+<Panel Rect="74,281,852,48">
+	<Static Name="skill"
+		Rect="44,13,110,19"/>
+	<Static Name="level"
+		Rect="517,13,311,19"/>
+	<Progress Name="Progress_0"
+		Rect="226,13,217,21"
+		Background="dialog_progress2bg:2"
+		ProgressImage="dialog_progresssmall"/>
+	<Image Name="Image_0"
+		Rect="4,44,840,4"
+		Background="dialog_compart:5"/>
+	<Static Name="sta_process"
+		Rect="236,15,196,17"
+		AlignH="2"/>
+	<Static Name="Sta_Num"
+		Rect="293,15,77,19"/>
+</Panel>
+

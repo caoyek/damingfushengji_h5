@@ -1,0 +1,332 @@
+[
+  {
+    "strAnitile": "flashs/assets/effects/1.swf",
+    "unTimeFrame": 0,
+    "unTimeAction": 1000,
+    "nLeftX": -110,
+    "nRightX": 0,
+    "nY": -210,
+    "unDelay": 100,
+    "strSoundtile": "music/skill/m_tks.ogg"
+  },
+  {
+    "strAnitile": "flashs/assets/effects/2.swf",
+    "unTimeFrame": 0,
+    "unTimeAction": 1000,
+    "nLeftX": -180,
+    "nRightX": 0,
+    "nY": -220,
+    "unDelay": 100,
+    "strSoundtile": "music/skill/m_sst.ogg"
+  },
+  {
+    "strAnitile": "flashs/assets/effects/3.swf",
+    "unTimeFrame": 0,
+    "unTimeAction": 1000,
+    "nLeftX": -90,
+    "nRightX": 0,
+    "nY": -300,
+    "unDelay": 100,
+    "strSoundtile": "music/skill/m_zbz.ogg"
+  },
+  {
+    "strAnitile": "flashs/assets/effects/16.swf",
+    "unTimeFrame": 0,
+    "unTimeAction": 1000,
+    "nLeftX": -130,
+    "nRightX": 0,
+    "nY": -220,
+    "unDelay": 100,
+    "strSoundtile": "music/skill/m_fxjs.ogg"
+  },
+  {
+    "strAnitile": "flashs/assets/effects/17.swf",
+    "unTimeFrame": 0,
+    "unTimeAction": 1000,
+    "nLeftX": -170,
+    "nRightX": 0,
+    "nY": -240,
+    "unDelay": 100,
+    "strSoundtile": "music/skill/m_hfzy.ogg"
+  },
+  {
+    "strAnitile": "flashs/assets/effects/18.swf",
+    "unTimeFrame": 0,
+    "unTimeAction": 1000,
+    "nLeftX": -140,
+    "nRightX": 0,
+    "nY": -210,
+    "unDelay": 100,
+    "strSoundtile": "music/skill/m_lfsg.ogg"
+  },
+  {
+    "strAnitile": "flashs/assets/effects/19.swf",
+    "unTimeFrame": 0,
+    "unTimeAction": 1000,
+    "nLeftX": -60,
+    "nRightX": 0,
+    "nY": -250,
+    "unDelay": 100,
+    "strSoundtile": "music/skill/m_xqyj.ogg"
+  },
+  {
+    "strAnitile": "flashs/assets/effects/20.swf",
+    "unTimeFrame": 0,
+    "unTimeAction": 1000,
+    "nLeftX": -180,
+    "nRightX": 0,
+    "nY": -230,
+    "unDelay": 100,
+    "strSoundtile": "music/skill/m_jfzq.ogg"
+  },
+  {
+    "strAnitile": "flashs/assets/effects/21.swf",
+    "unTimeFrame": 0,
+    "unTimeAction": 1000,
+    "nLeftX": -260,
+    "nRightX": 0,
+    "nY": -300,
+    "unDelay": 100,
+    "strSoundtile": "music/skill/m_sjmd.ogg"
+  },
+  {
+    "strAnitile": "flashs/assets/effects/22.swf",
+    "unTimeFrame": 0,
+    "unTimeAction": 1000,
+    "nLeftX": 0,
+    "nRightX": 350,
+    "nY": 200,
+    "unDelay": 100,
+    "strSoundtile": "music/skill/m_tmlxq.ogg"
+  },
+  {
+    "strAnitile": "flashs/assets/effects/23.swf",
+    "unTimeFrame": 0,
+    "unTimeAction": 1000,
+    "nLeftX": 0,
+    "nRightX": 400,
+    "nY": 150,
+    "unDelay": 100,
+    "strSoundtile": "music/skill/m_nhsdd.ogg"
+  },
+  {
+    "strAnitile": "flashs/assets/effects/24.swf",
+    "unTimeFrame": 0,
+    "unTimeAction": 1000,
+    "nLeftX": -150,
+    "nRightX": 0,
+    "nY": -220,
+    "unDelay": 100,
+    "strSoundtile": "music/skill/m_jhsn.ogg"
+  },
+  {
+    "strAnitile": "flashs/assets/effects/25.swf",
+    "unTimeFrame": 0,
+    "unTimeAction": 1000,
+    "nLeftX": 0,
+    "nRightX": 0,
+    "nY": 0,
+    "unDelay": 100,
+    "strSoundtile": "music/skill/m_yzd.ogg"
+  },
+  {
+    "strAnitile": "flashs/assets/effects/26.swf",
+    "unTimeFrame": 0,
+    "unTimeAction": 1000,
+    "nLeftX": -110,
+    "nRightX": 0,
+    "nY": -390,
+    "unDelay": 100,
+    "strSoundtile": "music/skill/m_zcdf.ogg"
+  },
+  {
+    "strAnitile": "flashs/assets/effects/27.swf",
+    "unTimeFrame": 0,
+    "unTimeAction": 1000,
+    "nLeftX": -120,
+    "nRightX": 0,
+    "nY": -380,
+    "unDelay": 100,
+    "strSoundtile": "music/skill/m_txwn.ogg"
+  },
+  {
+    "strAnitile": "flashs/assets/effects/28.swf",
+    "unTimeFrame": 0,
+    "unTimeAction": 1000,
+    "nLeftX": -120,
+    "nRightX": 0,
+    "nY": -140,
+    "unDelay": 100,
+    "strSoundtile": "music/skill/m_wycy.ogg"
+  },
+  {
+    "strAnitile": "flashs/assets/effects/29.swf",
+    "unTimeFrame": 0,
+    "unTimeAction": 1000,
+    "nLeftX": 380,
+    "nRightX": 200,
+    "nY": 60,
+    "unDelay": 100,
+    "strSoundtile": "music/skill/m_hsz.ogg"
+  },
+  {
+    "strAnitile": "flashs/assets/effects/30.swf",
+    "unTimeFrame": 0,
+    "unTimeAction": 1000,
+    "nLeftX": -150,
+    "nRightX": 0,
+    "nY": -200,
+    "unDelay": 100,
+    "strSoundtile": "music/skill/m_xxdf.ogg"
+  },
+  {
+    "strAnitile": "flashs/assets/effects/31.swf",
+    "unTimeFrame": 0,
+    "unTimeAction": 1000,
+    "nLeftX": -90,
+    "nRightX": 0,
+    "nY": -190,
+    "unDelay": 100,
+    "strSoundtile": "music/skill/m_jzz.ogg"
+  },
+  {
+    "strAnitile": "flashs/assets/effects/32.swf",
+    "unTimeFrame": 0,
+    "unTimeAction": 1000,
+    "nLeftX": -130,
+    "nRightX": 0,
+    "nY": -200,
+    "unDelay": 100,
+    "strSoundtile": "music/skill/m_gkft.ogg"
+  },
+  {
+    "strAnitile": "flashs/assets/effects/33.swf",
+    "unTimeFrame": 0,
+    "unTimeAction": 1000,
+    "nLeftX": -135,
+    "nRightX": 0,
+    "nY": -295,
+    "unDelay": 100,
+    "strSoundtile": "music/skill/m_tdd.ogg"
+  },
+  {
+    "strAnitile": "flashs/assets/effects/34.swf",
+    "unTimeFrame": 0,
+    "unTimeAction": 1000,
+    "nLeftX": -130,
+    "nRightX": 0,
+    "nY": -240,
+    "unDelay": 100,
+    "strSoundtile": "music/skill/m_gdjx.ogg"
+  },
+  {
+    "strAnitile": "flashs/assets/effects/35.swf",
+    "unTimeFrame": 0,
+    "unTimeAction": 1000,
+    "nLeftX": 0,
+    "nRightX": 0,
+    "nY": 0,
+    "unDelay": 100,
+    "strSoundtile": "music/skill/m_ajb.ogg"
+  },
+  {
+    "strAnitile": "flashs/assets/effects/36.swf",
+    "unTimeFrame": 0,
+    "unTimeAction": 1000,
+    "nLeftX": -80,
+    "nRightX": 0,
+    "nY": -130,
+    "unDelay": 100,
+    "strSoundtile": "music/skill/m_hmsz.ogg"
+  },
+  {
+    "strAnitile": "flashs/assets/effects/37.swf",
+    "unTimeFrame": 0,
+    "unTimeAction": 1000,
+    "nLeftX": -135,
+    "nRightX": 0,
+    "nY": -135,
+    "unDelay": 100,
+    "strSoundtile": "music/skill/m_dcdh.ogg"
+  },
+  {
+    "strAnitile": "flashs/assets/effects/38.swf",
+    "unTimeFrame": 0,
+    "unTimeAction": 1000,
+    "nLeftX": -145,
+    "nRightX": 0,
+    "nY": -130,
+    "unDelay": 100,
+    "strSoundtile": "music/skill/m_rmsd.ogg"
+  },
+  {
+    "strAnitile": "flashs/assets/effects/39.swf",
+    "unTimeFrame": 0,
+    "unTimeAction": 1000,
+    "nLeftX": -70,
+    "nRightX": 400,
+    "nY": 140,
+    "unDelay": 100,
+    "strSoundtile": "music/skill/m_jxfm.ogg"
+  },
+  {
+    "strAnitile": "flashs/assets/effects/40.swf",
+    "unTimeFrame": 0,
+    "unTimeAction": 1000,
+    "nLeftX": -120,
+    "nRightX": 0,
+    "nY": -390,
+    "unDelay": 100,
+    "strSoundtile": "music/skill/m_gftj.ogg"
+  },
+  {
+    "strAnitile": "flashs/assets/effects/41.swf",
+    "unTimeFrame": 0,
+    "unTimeAction": 1000,
+    "nLeftX": 70,
+    "nRightX": 530,
+    "nY": 130,
+    "unDelay": 100,
+    "strSoundtile": "music/skill/m_cnl.ogg"
+  },
+  {
+    "strAnitile": "flashs/assets/effects/42.swf",
+    "unTimeFrame": 0,
+    "unTimeAction": 1000,
+    "nLeftX": 0,
+    "nRightX": 0,
+    "nY": 0,
+    "unDelay": 100,
+    "strSoundtile": "music/skill/m_wylr.ogg"
+  },
+  {
+    "strAnitile": "flashs/assets/effects/43.swf",
+    "unTimeFrame": 0,
+    "unTimeAction": 1000,
+    "nLeftX": 50,
+    "nRightX": 450,
+    "nY": 80,
+    "unDelay": 100,
+    "strSoundtile": "music/skill/m_fstd.ogg"
+  },
+  {
+    "strAnitile": "flashs/assets/effects/44.swf",
+    "unTimeFrame": 0,
+    "unTimeAction": 1000,
+    "nLeftX": -100,
+    "nRightX": 500,
+    "nY": 120,
+    "unDelay": 100,
+    "strSoundtile": "music/skill/m_qzwq.ogg"
+  },
+  {
+    "strAnitile": "flashs/assets/effects/45.swf",
+    "unTimeFrame": 0,
+    "unTimeAction": 1000,
+    "nLeftX": 0,
+    "nRightX": 0,
+    "nY": 0,
+    "unDelay": 100,
+    "strSoundtile": "music/skill/m_hd.ogg"
+  }
+]

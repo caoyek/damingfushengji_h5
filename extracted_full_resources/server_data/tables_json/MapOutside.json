@@ -1,0 +1,587 @@
+[
+  {
+    "nCityId": 1,
+    "nTag": 70,
+    "strName": "进城",
+    "nX": 267,
+    "nY": 110,
+    "nWidth": 187,
+    "nHeight": 150
+  },
+  {
+    "nCityId": 1,
+    "nTag": 71,
+    "strName": "通关通道",
+    "nX": 77,
+    "nY": 0,
+    "nWidth": 150,
+    "nHeight": 150
+  },
+  {
+    "nCityId": 1,
+    "nTag": 72,
+    "strName": "采集点",
+    "nX": 513,
+    "nY": 80,
+    "nWidth": 176,
+    "nHeight": 131
+  },
+  {
+    "nCityId": 1,
+    "nTag": 73,
+    "strName": "隐藏地点",
+    "nX": 67,
+    "nY": 327,
+    "nWidth": 265,
+    "nHeight": 156
+  },
+  {
+    "nCityId": 1,
+    "nTag": 74,
+    "strName": "野怪中心",
+    "nX": 447,
+    "nY": 339,
+    "nWidth": 236,
+    "nHeight": 140
+  },
+  {
+    "nCityId": 2,
+    "nTag": 70,
+    "strName": "进城",
+    "nX": 259,
+    "nY": 151,
+    "nWidth": 190,
+    "nHeight": 126
+  },
+  {
+    "nCityId": 2,
+    "nTag": 71,
+    "strName": "通关通道",
+    "nX": 37,
+    "nY": 91,
+    "nWidth": 176,
+    "nHeight": 116
+  },
+  {
+    "nCityId": 2,
+    "nTag": 72,
+    "strName": "采集点",
+    "nX": 502,
+    "nY": 83,
+    "nWidth": 198,
+    "nHeight": 131
+  },
+  {
+    "nCityId": 2,
+    "nTag": 73,
+    "strName": "隐藏地点",
+    "nX": 49,
+    "nY": 302,
+    "nWidth": 211,
+    "nHeight": 151
+  },
+  {
+    "nCityId": 2,
+    "nTag": 74,
+    "strName": "野怪中心",
+    "nX": 470,
+    "nY": 237,
+    "nWidth": 141,
+    "nHeight": 167
+  },
+  {
+    "nCityId": 3,
+    "nTag": 70,
+    "strName": "进城",
+    "nX": 274,
+    "nY": 34,
+    "nWidth": 183,
+    "nHeight": 123
+  },
+  {
+    "nCityId": 3,
+    "nTag": 71,
+    "strName": "通关通道",
+    "nX": 24,
+    "nY": 88,
+    "nWidth": 228,
+    "nHeight": 119
+  },
+  {
+    "nCityId": 3,
+    "nTag": 72,
+    "strName": "采集点",
+    "nX": 463,
+    "nY": 107,
+    "nWidth": 219,
+    "nHeight": 119
+  },
+  {
+    "nCityId": 3,
+    "nTag": 73,
+    "strName": "隐藏地点",
+    "nX": 34,
+    "nY": 357,
+    "nWidth": 272,
+    "nHeight": 128
+  },
+  {
+    "nCityId": 3,
+    "nTag": 74,
+    "strName": "野怪中心",
+    "nX": 445,
+    "nY": 368,
+    "nWidth": 241,
+    "nHeight": 128
+  },
+  {
+    "nCityId": 4,
+    "nTag": 70,
+    "strName": "进城",
+    "nX": 249,
+    "nY": 149,
+    "nWidth": 198,
+    "nHeight": 127
+  },
+  {
+    "nCityId": 4,
+    "nTag": 71,
+    "strName": "通关通道",
+    "nX": 28,
+    "nY": 34,
+    "nWidth": 198,
+    "nHeight": 127
+  },
+  {
+    "nCityId": 4,
+    "nTag": 72,
+    "strName": "采集点",
+    "nX": 479,
+    "nY": 133,
+    "nWidth": 198,
+    "nHeight": 127
+  },
+  {
+    "nCityId": 4,
+    "nTag": 73,
+    "strName": "隐藏地点",
+    "nX": 80,
+    "nY": 328,
+    "nWidth": 240,
+    "nHeight": 135
+  },
+  {
+    "nCityId": 4,
+    "nTag": 74,
+    "strName": "野怪中心",
+    "nX": 459,
+    "nY": 370,
+    "nWidth": 240,
+    "nHeight": 135
+  },
+  {
+    "nCityId": 5,
+    "nTag": 70,
+    "strName": "进城",
+    "nX": 245,
+    "nY": 177,
+    "nWidth": 192,
+    "nHeight": 122
+  },
+  {
+    "nCityId": 5,
+    "nTag": 71,
+    "strName": "通关通道",
+    "nX": 32,
+    "nY": 81,
+    "nWidth": 192,
+    "nHeight": 140
+  },
+  {
+    "nCityId": 5,
+    "nTag": 72,
+    "strName": "采集点",
+    "nX": 491,
+    "nY": 94,
+    "nWidth": 192,
+    "nHeight": 140
+  },
+  {
+    "nCityId": 5,
+    "nTag": 73,
+    "strName": "隐藏地点",
+    "nX": 84,
+    "nY": 338,
+    "nWidth": 227,
+    "nHeight": 140
+  },
+  {
+    "nCityId": 5,
+    "nTag": 74,
+    "strName": "野怪中心",
+    "nX": 430,
+    "nY": 353,
+    "nWidth": 227,
+    "nHeight": 140
+  },
+  {
+    "nCityId": 6,
+    "nTag": 70,
+    "strName": "进城",
+    "nX": 285,
+    "nY": 200,
+    "nWidth": 192,
+    "nHeight": 131
+  },
+  {
+    "nCityId": 6,
+    "nTag": 71,
+    "strName": "通关通道",
+    "nX": 129,
+    "nY": 97,
+    "nWidth": 140,
+    "nHeight": 126
+  },
+  {
+    "nCityId": 7,
+    "nTag": 70,
+    "strName": "进城",
+    "nX": 261,
+    "nY": 80,
+    "nWidth": 194,
+    "nHeight": 126
+  },
+  {
+    "nCityId": 7,
+    "nTag": 71,
+    "strName": "通关通道",
+    "nX": 21,
+    "nY": 83,
+    "nWidth": 168,
+    "nHeight": 137
+  },
+  {
+    "nCityId": 7,
+    "nTag": 72,
+    "strName": "采集点",
+    "nX": 505,
+    "nY": 112,
+    "nWidth": 168,
+    "nHeight": 137
+  },
+  {
+    "nCityId": 7,
+    "nTag": 73,
+    "strName": "隐藏地点",
+    "nX": 65,
+    "nY": 323,
+    "nWidth": 207,
+    "nHeight": 167
+  },
+  {
+    "nCityId": 7,
+    "nTag": 74,
+    "strName": "野怪中心",
+    "nX": 457,
+    "nY": 325,
+    "nWidth": 207,
+    "nHeight": 167
+  },
+  {
+    "nCityId": 8,
+    "nTag": 70,
+    "strName": "进城",
+    "nX": 219,
+    "nY": 61,
+    "nWidth": 190,
+    "nHeight": 118
+  },
+  {
+    "nCityId": 8,
+    "nTag": 71,
+    "strName": "通关通道",
+    "nX": 12,
+    "nY": 109,
+    "nWidth": 205,
+    "nHeight": 135
+  },
+  {
+    "nCityId": 8,
+    "nTag": 72,
+    "strName": "采集点",
+    "nX": 511,
+    "nY": 79,
+    "nWidth": 187,
+    "nHeight": 101
+  },
+  {
+    "nCityId": 9,
+    "nTag": 70,
+    "strName": "进城",
+    "nX": 272,
+    "nY": 99,
+    "nWidth": 187,
+    "nHeight": 119
+  },
+  {
+    "nCityId": 9,
+    "nTag": 71,
+    "strName": "通关通道",
+    "nX": 28,
+    "nY": 61,
+    "nWidth": 155,
+    "nHeight": 130
+  },
+  {
+    "nCityId": 9,
+    "nTag": 72,
+    "strName": "采集点",
+    "nX": 488,
+    "nY": 100,
+    "nWidth": 172,
+    "nHeight": 140
+  },
+  {
+    "nCityId": 9,
+    "nTag": 73,
+    "strName": "隐藏地点",
+    "nX": 93,
+    "nY": 298,
+    "nWidth": 250,
+    "nHeight": 153
+  },
+  {
+    "nCityId": 9,
+    "nTag": 74,
+    "strName": "野怪中心",
+    "nX": 453,
+    "nY": 360,
+    "nWidth": 239,
+    "nHeight": 143
+  },
+  {
+    "nCityId": 10,
+    "nTag": 70,
+    "strName": "进城",
+    "nX": 260,
+    "nY": 76,
+    "nWidth": 189,
+    "nHeight": 129
+  },
+  {
+    "nCityId": 10,
+    "nTag": 71,
+    "strName": "通关通道",
+    "nX": 21,
+    "nY": 68,
+    "nWidth": 189,
+    "nHeight": 148
+  },
+  {
+    "nCityId": 10,
+    "nTag": 72,
+    "strName": "采集点",
+    "nX": 464,
+    "nY": 85,
+    "nWidth": 176,
+    "nHeight": 126
+  },
+  {
+    "nCityId": 10,
+    "nTag": 73,
+    "strName": "隐藏地点",
+    "nX": 31,
+    "nY": 321,
+    "nWidth": 304,
+    "nHeight": 147
+  },
+  {
+    "nCityId": 10,
+    "nTag": 74,
+    "strName": "野怪中心",
+    "nX": 450,
+    "nY": 253,
+    "nWidth": 222,
+    "nHeight": 179
+  },
+  {
+    "nCityId": 11,
+    "nTag": 70,
+    "strName": "进城",
+    "nX": 271,
+    "nY": 147,
+    "nWidth": 191,
+    "nHeight": 121
+  },
+  {
+    "nCityId": 11,
+    "nTag": 71,
+    "strName": "通关通道",
+    "nX": 29,
+    "nY": 92,
+    "nWidth": 191,
+    "nHeight": 125
+  },
+  {
+    "nCityId": 11,
+    "nTag": 72,
+    "strName": "采集点",
+    "nX": 474,
+    "nY": 111,
+    "nWidth": 199,
+    "nHeight": 129
+  },
+  {
+    "nCityId": 11,
+    "nTag": 73,
+    "strName": "隐藏地点",
+    "nX": 62,
+    "nY": 354,
+    "nWidth": 199,
+    "nHeight": 129
+  },
+  {
+    "nCityId": 11,
+    "nTag": 74,
+    "strName": "野怪中心",
+    "nX": 474,
+    "nY": 323,
+    "nWidth": 199,
+    "nHeight": 129
+  },
+  {
+    "nCityId": 12,
+    "nTag": 70,
+    "strName": "进城",
+    "nX": 265,
+    "nY": 81,
+    "nWidth": 199,
+    "nHeight": 129
+  },
+  {
+    "nCityId": 12,
+    "nTag": 71,
+    "strName": "通关通道",
+    "nX": 26,
+    "nY": 77,
+    "nWidth": 199,
+    "nHeight": 129
+  },
+  {
+    "nCityId": 12,
+    "nTag": 72,
+    "strName": "采集点",
+    "nX": 483,
+    "nY": 95,
+    "nWidth": 199,
+    "nHeight": 129
+  },
+  {
+    "nCityId": 12,
+    "nTag": 73,
+    "strName": "隐藏地点",
+    "nX": 48,
+    "nY": 323,
+    "nWidth": 215,
+    "nHeight": 139
+  },
+  {
+    "nCityId": 12,
+    "nTag": 74,
+    "strName": "野怪中心",
+    "nX": 439,
+    "nY": 310,
+    "nWidth": 215,
+    "nHeight": 173
+  },
+  {
+    "nCityId": 13,
+    "nTag": 70,
+    "strName": "进城",
+    "nX": 266,
+    "nY": 91,
+    "nWidth": 198,
+    "nHeight": 127
+  },
+  {
+    "nCityId": 13,
+    "nTag": 71,
+    "strName": "通关通道",
+    "nX": 29,
+    "nY": 126,
+    "nWidth": 170,
+    "nHeight": 127
+  },
+  {
+    "nCityId": 13,
+    "nTag": 72,
+    "strName": "采集点",
+    "nX": 493,
+    "nY": 135,
+    "nWidth": 170,
+    "nHeight": 117
+  },
+  {
+    "nCityId": 13,
+    "nTag": 73,
+    "strName": "隐藏地点",
+    "nX": 40,
+    "nY": 320,
+    "nWidth": 188,
+    "nHeight": 154
+  },
+  {
+    "nCityId": 13,
+    "nTag": 74,
+    "strName": "野怪中心",
+    "nX": 466,
+    "nY": 334,
+    "nWidth": 188,
+    "nHeight": 139
+  },
+  {
+    "nCityId": 15,
+    "nTag": 70,
+    "strName": "进城",
+    "nX": 272,
+    "nY": 165,
+    "nWidth": 188,
+    "nHeight": 105
+  },
+  {
+    "nCityId": 15,
+    "nTag": 71,
+    "strName": "通关通道",
+    "nX": 25,
+    "nY": 4,
+    "nWidth": 181,
+    "nHeight": 135
+  },
+  {
+    "nCityId": 15,
+    "nTag": 72,
+    "strName": "采集点",
+    "nX": 479,
+    "nY": 103,
+    "nWidth": 203,
+    "nHeight": 110
+  },
+  {
+    "nCityId": 15,
+    "nTag": 73,
+    "strName": "隐藏地点",
+    "nX": 28,
+    "nY": 301,
+    "nWidth": 172,
+    "nHeight": 148
+  },
+  {
+    "nCityId": 15,
+    "nTag": 74,
+    "strName": "野怪中心",
+    "nX": 456,
+    "nY": 341,
+    "nWidth": 223,
+    "nHeight": 149
+  }
+]

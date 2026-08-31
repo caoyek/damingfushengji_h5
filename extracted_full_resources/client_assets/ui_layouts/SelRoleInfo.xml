@@ -1,0 +1,32 @@
+<Panel Rect="173,44,155,118">
+	<Image Name="ImgRoleHead"
+		Rect="7,2,72,71"
+		DrawMode="3"/>
+	<Static Name="StaRoleName"
+		Rect="9,77,134,22"
+		Rich="1"/>
+	<Static Name="StaRoleLev"
+		Rect="93,9,56,20"/>
+	<Image Name="ImgDevide"
+		Rect="7,46,142,4"
+		Background="dialog_compart:5"/>
+	<Static Name="StaBuyPartner"
+		Rect="31,80,84,20"
+		TextId="400001"
+		Underline="1"
+		TextColor="ff009c48"
+		ClickEnable="1"/>
+	<Image Name="ImgProfession"
+		Rect="58,2,31,27"
+		DrawMode="2"/>
+	<Static Name="StaStatus"
+		Rect="9,100,134,19"
+		Rich="1"
+		AlignH="1"/>
+	<Static Name="StaRest"
+		Rect="20,24,47,33"
+		TextId="400890"
+		AlignH="2"
+		AlignV="2"/>
+</Panel>
+

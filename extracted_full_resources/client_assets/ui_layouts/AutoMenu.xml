@@ -1,0 +1,22 @@
+<Dialog ClickClose="1"
+		Rect="200,100,142,149">
+	<Button Name="btnGarther"
+		Rect="1,1,140,49"
+		Background="button_combtn1:2"
+		TextId="400626"
+		TextOffset="0,3"
+		FontSize="24"/>
+	<Button Name="btnMonster"
+		Rect="1,50,140,49"
+		Background="button_combtn1:2"
+		TextId="400627"
+		TextOffset="0,3"
+		FontSize="24"/>
+	<Button Name="btnDungeon"
+		Rect="1,99,140,49"
+		Background="button_combtn1:2"
+		TextId="400628"
+		TextOffset="0,3"
+		FontSize="24"/>
+</Dialog>
+

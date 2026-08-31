@@ -1,0 +1,23 @@
+<Panel Rect="305,110,350,107">
+	<Image Name="ImageAchievType"
+		Rect="6,7,90,90"
+		Background="dialog_rimitem:2"/>
+	<Static Name="Static_0"
+		Rect="106,30,90,22"
+		TextId="400872"/>
+	<Static Name="Static_1"
+		Rect="106,75,90,22"
+		TextId="400873"/>
+	<Image Name="ImageReward"
+		Rect="198,72,27,22"
+		DrawMode="2"/>
+	<Static Name="StaticRewardFenShu"
+		Rect="226,75,118,22"/>
+	<Static Name="StaticAchievName"
+		Rect="198,30,146,22"
+		Rich="1"/>
+	<Image Name="Image_0"
+		Rect="6,103,338,4"
+		Background="dialog_compart:5"/>
+</Panel>
+

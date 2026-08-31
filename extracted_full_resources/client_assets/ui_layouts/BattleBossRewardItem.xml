@@ -1,0 +1,16 @@
+<Panel Rect="213,205,526,36">
+	<Static Name="StaticRank"
+		Rect="40,6,47,24"
+		TextColor="ffbb51da"
+		AlignH="2"/>
+	<Image Name="Image_0"
+		Rect="149,4,22,24"
+		Background="icon_tongqian:2"/>
+	<Static Name="StaticMoney"
+		Rect="179,6,94,24"/>
+	<Static Name="StaticPack"
+		Rect="321,6,163,24"
+		ClickEnable="1"
+		AlignH="2"/>
+</Panel>
+

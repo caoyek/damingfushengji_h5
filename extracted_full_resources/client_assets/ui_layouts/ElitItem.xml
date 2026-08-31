@@ -1,0 +1,32 @@
+<Panel Rect="39,174,875,55">
+	<Static Name="staCity"
+		Rect="45,20,104,23"
+		Rich="1"
+		AlignH="2"/>
+	<Static Name="staHideName"
+		Rect="165,20,144,23"
+		Rich="1"
+		AlignH="2"/>
+	<Static Name="staLastTimes"
+		Rect="342,20,119,23"
+		Rich="1"
+		AlignH="2"/>
+	<Static Name="staStatus"
+		Rect="505,20,106,23"
+		Rich="1"
+		AlignH="2"/>
+	<Button Name="btnEnter"
+		Rect="626,5,102,43"
+		TextId="400813"
+		TextColor="ff009c48"
+		TextOffset="0,4"/>
+	<Button Name="btnSaodang"
+		Rect="735,5,105,43"
+		TextId="400814"
+		TextColor="ff009c48"
+		TextOffset="0,4"/>
+	<Image Name="Image_0"
+		Rect="6,48,845,4"
+		Background="dialog_compart:5"/>
+</Panel>
+

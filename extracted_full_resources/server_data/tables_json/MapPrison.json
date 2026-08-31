@@ -1,0 +1,138 @@
+[
+  {
+    "nId": 0,
+    "strName": "Prisoner",
+    "nX": 60,
+    "nY": 60,
+    "nWidth": 118,
+    "nHeight": 180
+  },
+  {
+    "nId": 1,
+    "strName": "Prisoner",
+    "nX": 250,
+    "nY": 60,
+    "nWidth": 118,
+    "nHeight": 180
+  },
+  {
+    "nId": 2,
+    "strName": "Prisoner",
+    "nX": 440,
+    "nY": 60,
+    "nWidth": 118,
+    "nHeight": 180
+  },
+  {
+    "nId": 3,
+    "strName": "Prisoner",
+    "nX": 60,
+    "nY": 240,
+    "nWidth": 118,
+    "nHeight": 180
+  },
+  {
+    "nId": 4,
+    "strName": "Prisoner",
+    "nX": 250,
+    "nY": 240,
+    "nWidth": 118,
+    "nHeight": 180
+  },
+  {
+    "nId": 5,
+    "strName": "Prisoner",
+    "nX": 440,
+    "nY": 240,
+    "nWidth": 118,
+    "nHeight": 180
+  },
+  {
+    "nId": 6,
+    "strName": "Laoren",
+    "nX": 60,
+    "nY": 60,
+    "nWidth": 118,
+    "nHeight": 180
+  },
+  {
+    "nId": 7,
+    "strName": "Laoren",
+    "nX": 250,
+    "nY": 60,
+    "nWidth": 118,
+    "nHeight": 180
+  },
+  {
+    "nId": 8,
+    "strName": "Laoren",
+    "nX": 440,
+    "nY": 60,
+    "nWidth": 118,
+    "nHeight": 180
+  },
+  {
+    "nId": 9,
+    "strName": "Laoren",
+    "nX": 60,
+    "nY": 240,
+    "nWidth": 118,
+    "nHeight": 180
+  },
+  {
+    "nId": 10,
+    "strName": "Laoren",
+    "nX": 250,
+    "nY": 240,
+    "nWidth": 118,
+    "nHeight": 180
+  },
+  {
+    "nId": 11,
+    "strName": "Laoren",
+    "nX": 440,
+    "nY": 240,
+    "nWidth": 118,
+    "nHeight": 180
+  },
+  {
+    "nId": 12,
+    "strName": "BtnGotoLaber",
+    "nX": 276,
+    "nY": 45,
+    "nWidth": 120,
+    "nHeight": 35
+  },
+  {
+    "nId": 13,
+    "strName": "BtnLeft",
+    "nX": 5,
+    "nY": 240,
+    "nWidth": 68,
+    "nHeight": 48
+  },
+  {
+    "nId": 14,
+    "strName": "BtnRight",
+    "nX": 570,
+    "nY": 240,
+    "nWidth": 68,
+    "nHeight": 48
+  },
+  {
+    "nId": 15,
+    "strName": "BtnIWantOut",
+    "nX": 320,
+    "nY": 450,
+    "nWidth": 120,
+    "nHeight": 35
+  },
+  {
+    "nId": 16,
+    "strName": "BtnSearch",
+    "nX": 550,
+    "nY": 450,
+    "nWidth": 70,
+    "nHeight": 70
+  }
+]

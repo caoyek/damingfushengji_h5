@@ -1,0 +1,14 @@
+<Panel Rect="50,120,620,485">
+	<Static Rect="10,7,510,49"
+		Text="活动倒计时:...."/>
+	<List Name="listBuy"
+		Rect="15,33,604,451"
+		ItemView="BuyYBLimitItem"
+		SelectBackground="dialog_selectstring:3"
+		Scrollbar="1"/>
+	<Static Name="staTime"
+		Rect="134,7,475,22"
+		Rich="1"
+		AlignV="2"/>
+</Panel>
+

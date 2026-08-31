@@ -1,0 +1,12 @@
+<Panel Rect="16,77,877,309">
+	<List Name="LstMyGoods"
+		Rect="15,6,853,297"
+		ItemView="MyGoodsCard"
+		PageItem="30"
+		LineItem="4"
+		ItemSpace="10"
+		ItemSpaceV="10"
+		Scrollbar="1"
+		AlwaysShowBar="1"/>
+</Panel>
+

@@ -1,0 +1,20 @@
+<Panel Rect="109,219,410,38">
+	<Static Name="Sta_name"
+		Rect="11,4,103,23"/>
+	<Static Name="Sta_gold"
+		Rect="134,4,93,23"
+		AlignH="2"/>
+	<Static Name="Sta_time"
+		Rect="235,5,91,23"
+		AlignH="2"/>
+	<Image Name="Image_0"
+		Rect="6,32,400,4"
+		Background="dialog_compart:5"/>
+	<Static Name="StaDelete"
+		Rect="346,6,53,21"
+		TextId="400357"
+		Underline="1"
+		TextColor="0xffde1e1e"
+		ClickEnable="1"/>
+</Panel>
+

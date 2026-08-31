@@ -1,0 +1,16 @@
+﻿strAnimationInfo,nX,nY,nDelay,nPatrol,nEndX,nEndY,nTimeTotal,nTimeStop,strAnitile,strAnitile2
+海水动画,0,0,200,0,0,0,0,0,base_seawater,
+炮场烟囱,147,33,200,0,0,0,0,0,base_chimney,
+坦克动画,472,283,300,0,0,0,0,0,base_tank,
+坦克正前方士兵,598,270,300,0,0,0,0,0,base_tankdirect,
+坦克侧面士兵,566,336,300,0,0,0,0,0,base_tankside,
+重工前士兵,655,195,300,0,0,0,0,0,base_industry,
+训练场射击,848,80,400,0,0,0,0,0,base_equiparms,
+飞机动画,-13,402,300,0,0,0,0,0,base_airscrew,
+飞机前士兵,18,418,300,0,0,0,0,0,base_commandarms,
+单人巡逻兵,519,435,400,1,720,338,25000,3000,base_patrol1,base_patrol2
+双人巡逻兵1,230,207,400,1,410,125,25000,3000,base_patrol1,base_patrol2
+双人巡逻兵2,250,202,400,1,430,113,25000,3000,base_patrol1,base_patrol2
+双人巡逻2兵1,555,54,400,1,699,-21,25000,3000,base_patrol1,base_patrol2
+双人巡逻2兵2,575,44,400,1,719,-29,25000,3000,base_patrol1,base_patrol2
+亮窗动画,218,413,200,3,0,0,0,0,base_window,

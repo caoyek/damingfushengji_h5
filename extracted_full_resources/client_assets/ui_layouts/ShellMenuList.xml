@@ -1,0 +1,8 @@
+<Panel Rect="446,131,81,325">
+	<List Name="ListShelMenu"
+		Rect="0,0,83,323"
+		ItemView="ShellButton"
+		Scrollbar="1"
+		ScrollWidth="0"/>
+</Panel>
+

@@ -1,0 +1,26 @@
+<Dialog Rect="329,99,315,400"
+		Background="dialog_gongge5:4"
+		Topmost="1"
+		ClickClose="1">
+	<Button Name="btn1"
+		Rect="159,276,141,54"
+		Background="button_combtn1:2"
+		TextOffset="0,3"
+		FontSize="24"/>
+	<Button Name="btn2"
+		Rect="14,333,141,54"
+		Background="button_combtn1:2"
+		TextOffset="0,3"
+		FontSize="24"/>
+	<Button Name="btn3"
+		Rect="159,333,141,54"
+		Background="button_combtn1:2"
+		TextOffset="0,3"
+		FontSize="24"/>
+	<Button Name="btn0"
+		Rect="14,276,141,54"
+		Background="button_combtn1:2"
+		TextOffset="0,3"
+		FontSize="24"/>
+</Dialog>
+

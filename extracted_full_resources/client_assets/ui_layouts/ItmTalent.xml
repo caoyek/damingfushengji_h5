@@ -1,0 +1,34 @@
+<Panel Rect="37,207,884,102">
+	<Image Name="imgHead"
+		Rect="24,8,80,80"
+		Background="dialog_rimitem:2"
+		DrawMode="3"/>
+	<Image Name="imgBottom"
+		Rect="109,63,30,25"/>
+	<Static Name="staName"
+		Rect="181,38,150,23"
+		Rich="1"/>
+	<Static Name="staQuliaty"
+		Rect="373,38,50,23"
+		Rich="1"/>
+	<Static Name="staCost"
+		Rect="484,38,130,23"/>
+	<Button Name="btnRecruit"
+		Rect="676,8,194,80"
+		Background="button_combtn1:2"
+		TextId="400120"
+		TextOffset="0,3"
+		FontSize="24"/>
+	<Image Name="imgCover"
+		Rect="24,8,80,80"
+		Background="image_conscribe:2"/>
+	<Image Name="imgskill"
+		Rect="733,8,80,80"
+		Background="dialog_rimitem:3"
+		ClickEnable="1"
+		DrawMode="2"/>
+	<Image Name="Image_0"
+		Rect="4,94,876,6"
+		Background="dialog_compart:2"/>
+</Panel>
+

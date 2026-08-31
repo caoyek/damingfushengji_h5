@@ -1,0 +1,22 @@
+<Dialog ClickClose="1"
+		Rect="199,100,147,146">
+	<Button Name="btnDetail"
+		Rect="2,3,141,46"
+		Background="button_combtn1:2"
+		TextId="400707"
+		TextOffset="0,3"
+		FontSize="24"/>
+	<Button Name="btnStrategy"
+		Rect="2,49,141,46"
+		Background="button_combtn1:2"
+		TextId="400708"
+		TextOffset="0,3"
+		FontSize="24"/>
+	<Button Name="btnAuto"
+		Rect="2,95,141,46"
+		Background="button_combtn1:2"
+		TextId="400709"
+		TextOffset="0,3"
+		FontSize="24"/>
+</Dialog>
+

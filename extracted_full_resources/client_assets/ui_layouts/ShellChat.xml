@@ -1,0 +1,18 @@
+<Panel Rect="0,589,87,51">
+	<Button Name="btnChat"
+		Rect="-1,-1,87,52"
+		Background="dialog_rimchat1:1"/>
+	<RollStatic Name="rollStaRTInfo"
+		Rect="93,9,9,9"
+		FontSize="20"
+		Rich="1"
+		Speed="60"
+		Direction="1"
+		LineSpace="10"/>
+	<Image Name="ImgChatBlink"
+		Rect="-16,-18,107,82"
+		Background="cartoon_interface25:6"
+		Visible="0"
+		SerialTime="150"/>
+</Panel>
+

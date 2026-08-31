@@ -1,0 +1,8 @@
+<Dialog Rect="0,0,960,640"
+		Drag="1"
+		WireFrame="0">
+	<Panel Name="Panel_0"
+		Rect="420,260,91,81"
+		Templ="BallStoreItem"/>
+</Dialog>
+

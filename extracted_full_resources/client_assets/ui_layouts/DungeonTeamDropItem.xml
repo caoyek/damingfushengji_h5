@@ -1,0 +1,7 @@
+<Panel Rect="200,99,95,95"
+		Background="dialog_rimitem:3">
+	<Image Name="imgItem"
+		Rect="8,10,79,76"
+		DrawMode="3"/>
+</Panel>
+

@@ -1,0 +1,17 @@
+<Panel Rect="144,90,155,154">
+	<Image Name="imgItem"
+		Rect="9,12,132,124"
+		Background="dialog_rimitem2:2"
+		DrawMode="2"/>
+	<Static Name="staTitle"
+		Rect="28,16,93,50"
+		Rich="1"
+		AlignH="2"/>
+	<Image Name="imgWork"
+		Rect="9,39,132,100"
+		DrawMode="2"/>
+	<Image Name="ImgIsWorking"
+		Rect="58,90,77,28"
+		Background="icon_working:3"/>
+</Panel>
+

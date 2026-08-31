@@ -1,0 +1,7 @@
+<Dialog Rect="180,95,376,63"
+		WireFrame="1">
+	<Static Name="staContent"
+		Rect="12,11,353,42"
+		Text="这里是提示内容"/>
+</Dialog>
+

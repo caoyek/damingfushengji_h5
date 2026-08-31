@@ -1,0 +1,29 @@
+<Dialog WireFrame="1"
+		ClickClose="1"
+		Rect="200,100,146,193">
+	<Button Name="ButtonChaKan"
+		Rect="1,1,143,47"
+		Background="button_combtn1:2"
+		TextId="400761"
+		TextOffset="0,3"
+		FontSize="24"/>
+	<Button Name="ButtonQiuHun"
+		Rect="1,95,143,47"
+		Background="button_combtn1:2"
+		TextId="400764"
+		TextOffset="0,3"
+		FontSize="24"/>
+	<Button Name="ButtonJiaHaoYou"
+		Rect="1,48,143,47"
+		Background="button_combtn1:2"
+		TextId="400768"
+		TextOffset="0,3"
+		FontSize="24"/>
+	<Button Name="ButtonQuXiao"
+		Rect="1,142,143,47"
+		Background="button_combtn1:2"
+		TextId="400054"
+		TextOffset="0,3"
+		FontSize="24"/>
+</Dialog>
+

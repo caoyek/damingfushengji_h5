@@ -1,0 +1,29 @@
+<Dialog Topmost="0"
+		FlyDirection="8:500"
+		Rect="-322,-164,684,256"
+		Anchor="8">
+	<Image Name="Image_0"
+		Rect="0,3,684,253"
+		Background="dialog_gongge3:4"/>
+	<Image Name="Image_1"
+		Rect="36,68,620,172"
+		Background="dialog_gongge5:4"/>
+	<Static Name="Static_0"
+		Rect="250,15,183,44"
+		Text="服务器列表"
+		TextOffset="0,6"
+		FontSize="24"
+		AlignH="2"/>
+	<List Name="lstServer"
+		Rect="48,78,598,153"
+		ItemView="Login_Server_Item"
+		SelectBackground="setup_preloginpic:1"
+		PageItem="3"
+		LineItem="2"
+		ItemSpace="5"
+		ItemSpaceV="20"/>
+	<Button Name="BtnClose"
+		Rect="601,-9,99,83"
+		Background="button_comclose2btn:2"/>
+</Dialog>
+

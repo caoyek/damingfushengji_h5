@@ -1,0 +1,212 @@
+[
+  {
+    "nCityId": 1,
+    "nX": 320,
+    "nY": 400,
+    "strTitle": "map_chengpai",
+    "nFrameRate": 5
+  },
+  {
+    "nCityId": 1,
+    "nX": 320,
+    "nY": 400,
+    "strTitle": "map_name1",
+    "nFrameRate": 0
+  },
+  {
+    "nCityId": 2,
+    "nX": 267,
+    "nY": 406,
+    "strTitle": "map_chengpai",
+    "nFrameRate": 5
+  },
+  {
+    "nCityId": 2,
+    "nX": 267,
+    "nY": 406,
+    "strTitle": "map_name2",
+    "nFrameRate": 0
+  },
+  {
+    "nCityId": 3,
+    "nX": 140,
+    "nY": 393,
+    "strTitle": "map_chengpai",
+    "nFrameRate": 5
+  },
+  {
+    "nCityId": 3,
+    "nX": 140,
+    "nY": 393,
+    "strTitle": "map_name3",
+    "nFrameRate": 0
+  },
+  {
+    "nCityId": 4,
+    "nX": 0,
+    "nY": 0,
+    "strTitle": "0",
+    "nFrameRate": 0
+  },
+  {
+    "nCityId": 4,
+    "nX": 0,
+    "nY": 0,
+    "strTitle": "0",
+    "nFrameRate": 0
+  },
+  {
+    "nCityId": 5,
+    "nX": 372,
+    "nY": 410,
+    "strTitle": "map_chengpai",
+    "nFrameRate": 5
+  },
+  {
+    "nCityId": 5,
+    "nX": 372,
+    "nY": 410,
+    "strTitle": "map_name5",
+    "nFrameRate": 0
+  },
+  {
+    "nCityId": 6,
+    "nX": 0,
+    "nY": 0,
+    "strTitle": "0",
+    "nFrameRate": 0
+  },
+  {
+    "nCityId": 6,
+    "nX": 0,
+    "nY": 0,
+    "strTitle": "0",
+    "nFrameRate": 0
+  },
+  {
+    "nCityId": 7,
+    "nX": 303,
+    "nY": 395,
+    "strTitle": "map_chengpai",
+    "nFrameRate": 5
+  },
+  {
+    "nCityId": 7,
+    "nX": 303,
+    "nY": 395,
+    "strTitle": "map_name7",
+    "nFrameRate": 0
+  },
+  {
+    "nCityId": 8,
+    "nX": 0,
+    "nY": 0,
+    "strTitle": "0",
+    "nFrameRate": 0
+  },
+  {
+    "nCityId": 8,
+    "nX": 0,
+    "nY": 0,
+    "strTitle": "0",
+    "nFrameRate": 0
+  },
+  {
+    "nCityId": 9,
+    "nX": 0,
+    "nY": 0,
+    "strTitle": "0",
+    "nFrameRate": 0
+  },
+  {
+    "nCityId": 9,
+    "nX": 0,
+    "nY": 0,
+    "strTitle": "0",
+    "nFrameRate": 0
+  },
+  {
+    "nCityId": 10,
+    "nX": 322,
+    "nY": 411,
+    "strTitle": "map_chengpai",
+    "nFrameRate": 5
+  },
+  {
+    "nCityId": 10,
+    "nX": 322,
+    "nY": 411,
+    "strTitle": "map_name10",
+    "nFrameRate": 0
+  },
+  {
+    "nCityId": 11,
+    "nX": 317,
+    "nY": 411,
+    "strTitle": "map_chengpai",
+    "nFrameRate": 5
+  },
+  {
+    "nCityId": 11,
+    "nX": 317,
+    "nY": 411,
+    "strTitle": "map_name11",
+    "nFrameRate": 0
+  },
+  {
+    "nCityId": 12,
+    "nX": 0,
+    "nY": 0,
+    "strTitle": "0",
+    "nFrameRate": 0
+  },
+  {
+    "nCityId": 12,
+    "nX": 0,
+    "nY": 0,
+    "strTitle": "0",
+    "nFrameRate": 0
+  },
+  {
+    "nCityId": 13,
+    "nX": 0,
+    "nY": 0,
+    "strTitle": "0",
+    "nFrameRate": 0
+  },
+  {
+    "nCityId": 13,
+    "nX": 0,
+    "nY": 0,
+    "strTitle": "0",
+    "nFrameRate": 0
+  },
+  {
+    "nCityId": 14,
+    "nX": 0,
+    "nY": 0,
+    "strTitle": "0",
+    "nFrameRate": 0
+  },
+  {
+    "nCityId": 14,
+    "nX": 0,
+    "nY": 0,
+    "strTitle": "0",
+    "nFrameRate": 0
+  },
+  {
+    "nCityId": 15,
+    "nX": 355,
+    "nY": 400,
+    "strTitle": "map_chengpai",
+    "nFrameRate": 5
+  },
+  {
+    "nCityId": 15,
+    "nX": 355,
+    "nY": 400,
+    "strTitle": "map_name15",
+    "nFrameRate": 0
+  }
+]

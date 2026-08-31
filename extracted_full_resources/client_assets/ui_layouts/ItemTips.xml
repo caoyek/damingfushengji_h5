@@ -1,0 +1,15 @@
+<Dialog Rect="-75,-200,264,294"
+		Background="pub_tipsbg:4"
+		Anchor="8"
+		Topmost="1"
+		ClickClose="1">
+	<List Name="lsOp"
+		Rect="7,168,251,119"
+		ItemView="ItemOp"
+		PageItem="5"
+		LineItem="2"/>
+	<Panel Name="pnlPreItem"
+		Rect="-253,0,255,271"
+		Background="pub_tipsbg:4"/>
+</Dialog>
+

@@ -1,0 +1,36 @@
+<Dialog Modal="1"
+		Rect="-480,-320,960,640"
+		Background="dialog_rimbg1:2"
+		Anchor="8">
+	<Image Name="ImgLeftBG"
+		Rect="28,78,178,537"
+		Background="dialog_gongge3:4"/>
+	<Image Name="ImgRightBG"
+		Rect="217,78,717,537"
+		Background="dialog_gongge3:4"/>
+	<Panel Name="PnlRoleChoose"
+		Rect="34,85,166,513"
+		Templ="RoleChoose"/>
+	<Panel Name="PnlCheekyInfo"
+		Rect="310,81,547,478"
+		Templ="CheekyInfo"/>
+	<Static Name="StaTip"
+		Rect="384,285,369,46"
+		TextId="350138"
+		AlignH="2"/>
+	<Button Name="BtnClose"
+		Rect="827,-51,180,180"
+		Background="button_comclosebtn:2"/>
+	<Static Name="StaTitle"
+		Rect="388,41,186,24"
+		TextId="400094"
+		FontSize="26"
+		AlignH="2"
+		ShowType="2"
+		SecondColor="ff9c9c9c"/>
+	<Static Name="Static_0"
+		Rect="310,381,516,49"
+		TextId="350139"
+		AlignH="2"/>
+</Dialog>
+

@@ -1,0 +1,11 @@
+<Panel Rect="200,100,299,47">
+	<Static Name="staTaskTitle"
+		Rect="7,19,247,23"/>
+	<Image Name="imgState"
+		Rect="259,8,30,30"
+		DrawMode="3"/>
+	<Image Name="Image_0"
+		Rect="4,43,292,4"
+		Background="dialog_compart:5"/>
+</Panel>
+

@@ -1,0 +1,36 @@
+<Dialog Rect="0,0,0,0"
+		Background="server_loadingbg:2"
+		Anchor="0">
+	<Image Name="Image_0"
+		Rect="-325,-63,633,63"
+		Background="dialog_progress6bg:2"
+		Anchor="8"/>
+	<Progress Name="progLoading"
+		Rect="-325,-63,633,63"
+		Anchor="8"
+		ProgressImage="dialog_progress6"/>
+	<Static Name="staTitle"
+		Rect="-227,21,436,23"
+		Anchor="8"
+		Rich="1"
+		AlignH="2"/>
+	<Image Name="Image_1"
+		Rect="-325,-313,37,32"
+		Visible="0"
+		Anchor="8"/>
+	<Image Name="Image_2"
+		Rect="-244,-302,243,62"
+		Anchor="8"/>
+	<Image Name="Image_3"
+		Rect="-238,-296,32,20"
+		Visible="0"
+		Anchor="8"/>
+	<Image Name="Image_4"
+		Rect="75,546,141,93"
+		Background="dialog_logo:3"/>
+	<Static Name="staVersion"
+		Rect="33,22,193,43"
+		Rich="2"
+		AlignH="2"/>
+</Dialog>
+

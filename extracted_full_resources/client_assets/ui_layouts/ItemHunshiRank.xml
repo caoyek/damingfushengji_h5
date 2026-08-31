@@ -1,0 +1,20 @@
+<Panel Rect="110,232,705,48">
+	<Static Name="Sta_Datas"
+		Rect="4,-1,674,38"/>
+	<Static Name="Sta_MOrFeM"
+		Rect="122,18,27,24"
+		Rich="1"/>
+	<Static Name="Sta_Name"
+		Rect="154,18,170,24"
+		Underline="1"
+		TextColor="ff009c48"/>
+	<Static Name="Sta_level_exp"
+		Rect="353,18,304,24"/>
+	<Static Name="Sta_rank"
+		Rect="32,18,44,24"
+		AlignH="2"/>
+	<Image Name="Image_0"
+		Rect="12,43,690,4"
+		Background="dialog_compart:5"/>
+</Panel>
+

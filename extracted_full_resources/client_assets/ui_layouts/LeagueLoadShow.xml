@@ -1,0 +1,14 @@
+<Dialog Modal="1"
+		Rect="307,253,398,85"
+		BackColor="0x00FFFFFF">
+	<Static Name="Static_0"
+		Rect="107,45,194,21"
+		Background="0x00ffffff"
+		Text="正在为您努力加载中。。。。"
+		FontSize="15"/>
+	<Image Name="Image_0"
+		Rect="176,11,38,29"
+		Background="setup_picloading"
+		BackColor="0x00000000"/>
+</Dialog>
+
