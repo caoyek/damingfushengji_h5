@@ -64,20 +64,36 @@
 
 ---
 
-## 四、 阶段推进策略与当前状态
+## 四、 核心工程规范文档索引 (`docs/`)
 
-### 4.1 核心策略：聚焦基础，分步落地
-- 严控复杂度：当前阶段暂不引入夫妻双修、城主争霸、大姨妈世界BOSS等外围庞杂玩法。
-- 严格遵循真实游戏进度推进。
-
-### 4.2 第一阶段（Phase 1）目标与范围
-- **目标**：从零启动游戏 -> 创角起名 -> 广州城二婶子对话领取一星晾衣杆 -> 换装穿戴 -> 学习提升技能 -> 出城进入过关通道打通前三场战斗（1-1 流氓、1-2 恶霸、1-3 地痞）-> 结算奖励。
-- **详细落地规范**：参见 `docs/phase1_playable_development_plan.md`。
+| 文档路径 | 规范全称 | 核心涵盖范围与工程依据 |
+| :--- | :--- | :--- |
+| [`docs/server_data_and_combat_specification.md`](file:///c:/Users/Administrator/WeChatProjects/minigame-1/docs/server_data_and_combat_specification.md) | **服务端权威数据下发、技能战斗推演与 SQLite 架构白皮书** | 三维数据权责划分矩阵、混混 20 级转职与资产继承契约、技能双轨制与限选 3 技能机制、官方 34 恶搞技能谱系、服务端战斗推演算法与伤害公式、怪物十维同构体系、SQLite 单文件运行时架构。 |
+| [`docs/libEnvRelay_so_protocol_specification.md`](file:///c:/Users/Administrator/WeChatProjects/minigame-1/docs/libEnvRelay_so_protocol_specification.md) | **真机 libEnvRelay.so 核心网络协议规范** | 50 个 CMsg 协议逆向内存映射、包头包体结构、封包解包流程。 |
+| [`docs/phase1_playable_development_plan.md`](file:///c:/Users/Administrator/WeChatProjects/minigame-1/docs/phase1_playable_development_plan.md) | **第一阶段（Phase 1）可玩闭环开发推进计划** | 创角起名、主城交互、穿戴装备、技能升级、广州外道前三战可玩闭环。 |
 
 ---
 
-## 五、 代码开发规范与原则
+## 五、 阶段推进策略与当前状态
+
+### 5.1 核心策略：聚焦基础，分步落地
+- 严控复杂度：当前阶段暂不引入夫妻双修、城主争霸、大姨妈世界BOSS等外围庞杂玩法。
+- 严格遵循真实游戏进度推进。
+
+### 5.2 第一阶段（Phase 1）目标与范围
+- **目标**：从零启动游戏 -> 创角起名 -> 广州城二婶子对话领取一星晾衣杆 -> 换装穿戴 -> 学习提升技能 -> 出城进入过关通道打通前三场战斗（1-1 流氓、1-2 恶霸、1-3 地痞）-> 结算奖励。
+- **当前执行状态**：
+  - 核心设计与权责已全量归档（`server_data_and_combat_specification.md`）；
+  - baseline 基础数据源已就位（`server/data/baseline/*.json`）；
+  - `better-sqlite3` 等服务端依赖安装完毕；
+  - 严格按用户要求“先写文档，不是建数据库写代码”，下一步待用户审阅确认后，方可启动 SQLite 建表与代码开发。
+
+---
+
+## 六、 代码开发规范与原则
 
 1. **中文原生原则**：说明、注释、规划与 Git 提交信息一律使用中文；
 2. **零臆测原则**：所有配置表字段与类名严格使用已解析的真实标识符；
-3. **分层清晰**：核心战斗与数值引擎（`CoreEngine`）与视图渲染层（Canvas/DOM/UI）解耦，便于跨端共享。
+3. **分层清晰**：核心战斗与数值引擎（`CoreEngine`）与视图渲染层（Canvas/DOM/UI）解耦，便于跨端共享；
+4. **数据存储基线**：直接以轻量级文件数据库 SQLite (`better-sqlite3` / `server/daming.db`) 作为权威数据源，零外部配置，天然具备事务原子性，避免内存模拟导致的二次重构。
+

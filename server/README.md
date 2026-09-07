@@ -2,7 +2,9 @@
 
 > **文档性质**：工程级全量服务端数据库与配置表设计规范  
 > **服务技术栈**：`Node.js (LTS 18+)` + `Express` + `better-sqlite3`（可无缝上云迁移至 MySQL/PostgreSQL）  
-> **设计目标**：完整支撑客户端 `libEnvRelay.so` 逆向得出的 **50 个 CMsg 协议模块**，涵盖从前期单机起步到后期数百人多人联机的所有数据实体。
+> **设计目标**：完整支撑客户端 `libEnvRelay.so` 逆向得出的 **50 个 CMsg 协议模块**，涵盖从前期单机起步到后期数百人多人联机的所有数据实体。  
+> **核心白皮书**：关于服务端数据权威下发、战斗推演算法与三维权责矩阵，详见顶层规划文档：[`docs/server_data_and_combat_specification.md`](file:///c:/Users/Administrator/WeChatProjects/minigame-1/docs/server_data_and_combat_specification.md)。
+
 
 ---
 
