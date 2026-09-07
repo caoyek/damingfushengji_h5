@@ -1,0 +1,44 @@
+/* 《大明浮生记》古风水墨 H5 样式表 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: #1a1714; /* 深色古典背景衬托 */
+  font-family: "PingFang SC", "Microsoft YaHei", "SimSun", serif;
+}
+
+#game-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background: radial-gradient(circle, #2d2620 0%, #14110f 100%);
+}
+
+/* 960x640 宣纸水墨居中画幅 */
+#gameCanvas {
+  background-color: #d9cca8; /* 宣纸泛黄底色 */
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.8), 0 0 0 2px #4a3d31;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+  max-width: 100vw;
+  max-height: 100vh;
+}
+
+/* 隐藏的原生输入框用于移动端或键盘输入 */
+#hidden-input {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+  opacity: 0;
+}

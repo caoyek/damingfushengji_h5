@@ -48,21 +48,21 @@
     "name": "恶霸头目",
     "level": 3,
     "caty": 1001,
-    "swf": "c3/monster/001137050.c3",
-    "max_hp": 260,
-    "mp": 40,
+    "swf": "flashs/assets/players/1000_dz_b_nan.swf",
+    "max_hp": 170,
+    "mp": 30,
     "shuxing": {
-      "melee": 28,
+      "melee": 18,
       "magic": 0,
-      "defend": 12,
+      "defend": 10,
       "magic_def": 5,
-      "speed": 12,
-      "hit": 96,
-      "dodge": 8,
-      "cri": 10
+      "speed": 11,
+      "hit": 95,
+      "dodge": 5,
+      "cri": 8
     },
     "used_skills": [
-      1011
+      1004
     ]
   }
 ]

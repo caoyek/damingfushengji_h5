@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>《大明浮生记》H5可玩实机版 (Phase 1 Playable)</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="game-container">
+    <canvas id="gameCanvas"></canvas>
+  </div>
+
+  <!-- 游戏引擎核心 -->
+  <script src="src/net/ApiClient.js"></script>
+  <script src="src/engine/AudioManager.js"></script>
+  <script src="src/engine/ResourceManager.js"></script>
+  <script src="src/engine/CanvasRenderer.js"></script>
+  <script src="src/engine/SceneManager.js"></script>
+
+  <!-- 各场景组件 -->
+  <script src="src/scenes/LoginScene.js"></script>
+  <script src="src/scenes/CreateRoleScene.js"></script>
+  <script src="src/scenes/MainCityScene.js"></script>
+  <script src="src/scenes/BattleScene.js"></script>
+
+  <!-- 启动主循环 -->
+  <script src="src/main.js"></script>
+</body>
+</html>

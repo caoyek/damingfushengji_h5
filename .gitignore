@@ -7,7 +7,11 @@ yarn-error.log*
 # SQLite Database runtime
 server/daming.db
 server/daming.db-journal
+server/daming.db-shm
+server/daming.db-wal
 *.db
+*.db-shm
+*.db-wal
 *.sqlite
 
 # OS & Editor files
