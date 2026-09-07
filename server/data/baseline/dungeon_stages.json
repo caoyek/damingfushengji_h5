@@ -2,7 +2,7 @@
   {
     "dungeon_id": 0,
     "stage_wave": 1,
-    "stage_name": "广州城外通道 0-1",
+    "stage_name": "新手村城外通道 0-1",
     "bg": "6_ggtd_xsc.png",
     "monsters": [
       {
@@ -17,7 +17,7 @@
       "drops": [
         {
           "item_id": 1001,
-          "chance": 0.5
+          "chance": 1.0
         }
       ]
     }
@@ -25,7 +25,7 @@
   {
     "dungeon_id": 0,
     "stage_wave": 2,
-    "stage_name": "广州城外通道 0-2",
+    "stage_name": "新手村城外通道 0-2",
     "bg": "6_ggtd_xsc.png",
     "monsters": [
       {
@@ -40,7 +40,7 @@
       "drops": [
         {
           "item_id": 1003,
-          "chance": 0.4
+          "chance": 1.0
         }
       ]
     }
@@ -48,7 +48,7 @@
   {
     "dungeon_id": 0,
     "stage_wave": 3,
-    "stage_name": "广州城外通道 0-3 (恶霸据点)",
+    "stage_name": "新手村城外通道 0-3 (恶霸据点)",
     "bg": "6_ggtd_xsc.png",
     "monsters": [
       {
