@@ -116,6 +116,64 @@ flowchart TD
 
 ---
 
+
+---
+
+## 三点五、 核心 UI 布局 XML 映射、控件坐标与前后渲染层级 (Z-Order)
+
+> **核心原则**：**所有 UI 控件的屏幕绝对坐标 (X, Y)、长宽 (W, H)、背景贴图、以及从底到顶的渲染层级，100% 严格依照 `extracted_full_resources/client_assets/ui_layouts/*.xml` 原始定义执行，严禁凭空手搓与盲猜坐标！**
+
+在原版 C3 引擎中，XML 文件内的**节点书写先后顺序，直接决定了界面的绘制层级（后面的节点绘制在前面的节点上方）**。第一阶段涉及的核心 XML 及其控件树全景如下：
+
+### 1. 创角界面布局：`CreateRole.xml`
+* **目标文件**：`extracted_full_resources/client_assets/ui_layouts/CreateRole.xml`
+* **画布基准**：`960 × 640`
+* **控件渲染层级树（从下至上依次绘制）**：
+  1. `Dialog` (根容器): `Rect="-480,-320,960,640"`, 基础背景图 `dialog_rimbg8:2` (宣纸古风大底框)
+  2. `Image (imgMale)`: `Rect="155, 193, 300, 270"`, 男主角 42 帧呼吸立绘
+  3. `Image (imgFemale)`: `Rect="506, 193, 300, 270"`, 女主角 42 帧呼吸立绘
+  4. `Static (Static_0)`: `Rect="221, 472, 112, 30"`, 男角色职业/描述文本
+  5. `Static (Static_1)`: `Rect="631, 472, 109, 30"`, 女角色职业/描述文本
+  6. `Edit (edtRoleName)`: `Rect="464, 586, 122, 26"`, 中文姓名输入框 (LimitText="10")
+  7. `Static (staGetNameRand)`: `Rect="601, 551, 135, 58"`, 【随机起名】按钮，文字带下划线，支持点击事件
+  8. `Button (btnCreate)`: `Rect="753, 529, 246, 137"`, 【踏入大明】主按钮，背景贴图 `button_combtn1:2`, 文字居中偏下 3px
+  9. `Check (chkMale / chkFemale)`: `Rect="144, 176, 279, 331"`, 隐形点击判定框，点击切换男女焦点
+
+### 2. 新手村剧情对话气泡：`RookieNpc.xml`
+* **目标文件**：`extracted_full_resources/client_assets/ui_layouts/RookieNpc.xml`
+* **属性**：`Modal="1"` (阻断下层点击), `Topmost="1"` (永远置顶)
+* **控件渲染层级树（从下至上依次绘制）**：
+  1. `Image (Image_0)` (最底层底框): `Rect="200, 134, 540, 360"`, 背景贴图 `dialog_rimbg4:2` (水墨外框)
+  2. `Image (Image_1)` (内衬中层): `Rect="224, 207, 495, 262"`, 背景贴图 `dialog_gongge3:4` (浅色宣纸九宫格)
+  3. `Image (imgNpc)` (NPC半身立绘): `Rect="171, 124, 217, 329"`, 覆盖在框左侧，绘制二婶子(`npc/6.png`)或小翠(`npc/16.png`)
+  4. `Static (Static_0)` (NPC称谓标题): `Rect="393, 170, 158, 27"`, 字体 26px, 文字如【邻居二婶子】
+  5. `Static (staNpcTalk)` (NPC主台词): `Rect="395, 221, 310, 75"`, 富文本渲染，自动换行
+  6. `Static (staOpContent)` (玩家选择选项): `Rect="395, 317, 310, 64"`, 绿色下划线超链接样式 (`TextColor="ff009c48"`), 点击推进剧情
+  7. `Static (staGetContent)` (获得道具通知): `Rect="395, 404, 310, 49"`, 如展示“获得装备：一星晾衣杆”
+
+### 3. 主界面外壳与底栏功能：`Shell.xml`
+* **目标文件**：`extracted_full_resources/client_assets/ui_layouts/Shell.xml`
+* **控件渲染层级树**：
+  1. 左上角玩家头像框 (`head_icon`) 与 VIP 等级铭牌
+  2. 右下角功能操作栏 (`pnlBtn`): 包含【角色】、【强化】、【技能】、【背包】四个图标
+  3. 顶层快捷地图按钮: 点击弹出世界大地图切换
+
+### 4. 角色属性面板：`PlayerInfo.xml`
+* **目标文件**：`extracted_full_resources/client_assets/ui_layouts/PlayerInfo.xml`
+* **控件排版**：
+  1. 武器槽 (`slot_weapon`): 坐标对应原始槽位，未穿戴显示虚影，穿戴后显示 `1002 晾衣杆` 图标；
+  2. 物理攻击文本框 (`staPhyAtk`): 初始为 10，穿戴武器后动态更新为 25；
+  3. 关闭按钮 (`btnClose`): 右上角 `(600, 80)` 点击关闭弹窗。
+
+### 5. 战斗结算弹窗：`BattleEnd.xml`
+* **目标文件**：`extracted_full_resources/client_assets/ui_layouts/BattleEnd.xml`
+* **控件渲染层级树**：
+  1. 全屏半透明黑色遮罩 (`rgba(0, 0, 0, 0.6)`)
+  2. 弹窗背景板: `dialog_rimbg2.png` 居中显示
+  3. 胜利毛笔书法横幅: 【大获全胜】
+  4. 奖励列表: 银两图标 + `+100`，经验图标 + `+50`
+  5. 确定按钮: 点击关闭结算并返回大地图通道
+
 ## 四、 阶段交付验收与测试方案 (Definition of Done)
 
 只有通过以下 **10 项严格测试**，第一阶段才算真正验收合格，确保“能玩、可玩、不卡死”：
