@@ -9,8 +9,9 @@
 
 ```text
 .
-├── 📁 docs/                         # 【逆向与架构白皮书】
-│   └── libEnvRelay_so_protocol_specification.md  # 50 个 CMsg 协议与 86 个业务类逆向白皮书 (41.6 KB)
+├── 📁 docs/                         # 【权威逆向与可玩开发方案】
+│   ├── libEnvRelay_so_protocol_specification.md  # 50 个 CMsg 协议与 86 个业务类逆向白皮书 (41.6 KB)
+│   └── phase1_playable_development_plan.md       # 第一阶段可玩骨干工程方案（含最高工程铁律与严苛验收用例）
 │
 ├── 📁 extracted_full_resources/     # ⭐⭐⭐【原版全量资源矿藏库】(10,703 个文件, 51 MB)
 │   ├── 📁 client_assets/            # 10,213 张原版高清切图 (PNG)、348 个 UI 布局 (XML)、53 首音频 (OGG)
