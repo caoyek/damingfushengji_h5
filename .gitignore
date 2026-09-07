@@ -1,0 +1,29 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# SQLite Database runtime
+server/daming.db
+server/daming.db-journal
+*.db
+*.sqlite
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Heavy tools intermediate outputs (400MB+ build caches)
+tools/
+*.apk
+*.class
+*.keystore
+*.dex

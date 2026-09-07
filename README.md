@@ -1,118 +1,92 @@
-# 大明浮生记 H5
+# 《大明浮生记》多端现代化复刻与全量资产档案工程 (Daming Fushengji Remaster)
 
-基于安卓《大明浮生记》客户端资源整理的 H5 离线可玩版本。当前仓库只保留浏览器运行所需文件，不包含 APK 原包、解包研究目录、反汇编资料、审计脚本和后端工程。
+> 本仓库是对经典国产国风网游《大明浮生记》（NetDragon 福建网龙 C3 引擎开发）进行**全量协议逆向解密、美术资产解构、以及多端现代化复刻**的完整工程档案库。  
+> 汇集了原版 10,703 个全量美术/音频资产、31 张官方配置底表、50 大 CMsg 网络协议白皮书与 26 张服务端动态数据库 DDL。
 
-## 快速体验
+---
 
-本地直接打开：
-
-```text
-index.html?play=rookie&chrome=0
-```
-
-也可以用任意静态服务器托管本目录后访问同一路径。例如：
-
-```powershell
-python -m http.server 8765
-```
-
-然后打开：
-
-```text
-http://127.0.0.1:8765/index.html?play=rookie&chrome=0
-```
-
-如果开启 GitHub Pages，入口通常是：
-
-```text
-https://caoyek.github.io/damingfushengji_h5/index.html?play=rookie&chrome=0
-```
-
-## 游戏画面
-
-### 登录选服
-
-![登录选服](screenshots/login-select-server.png)
-
-### 创建角色
-
-![创建角色](screenshots/create-role.png)
-
-### 新手村
-
-![新手村](screenshots/rookie-field.png)
-
-### 战斗界面
-
-![战斗界面](screenshots/battle.png)
-
-## 玩家流程
-
-1. 进入 `index.html?play=rookie&chrome=0`。
-2. 在登录/选服界面选择服务器。
-3. 点击进入本地离线创角流程。
-4. 创建角色后进入新手引导。
-5. 按引导获得并穿戴新手装备。
-6. 进入过关通道，打开 `DungeonTeam -> Battle -> BattleEnd` 战斗链路。
-7. 后续可体验部分地图、转职、武将招募和仓库页面。
-
-这个版本是离线 H5 体验，不连接原服务器，也不复用原服登录协议。
-
-## 实现流程
-
-本仓库的 H5 包来自原客户端资源的整理结果，流程如下：
-
-1. 解包安卓客户端资源。
-2. 提取 UI XML、PNG、字体、`.fdb` 表、`.ani` 动画定义。
-3. 将 UI XML 转成浏览器可渲染的页面数据。
-4. 将已确认的本地配置整理成运行时数据。
-5. 用原生 HTML/CSS/JavaScript 渲染页面和离线流程。
-6. 只把 H5 运行所需文件发布到本仓库。
-
-## 目录说明
+## 一、 项目全景目录索引
 
 ```text
 .
-├── index.html                    # H5 入口
-├── styles.css                    # 页面样式
-├── renderer.js                   # 页面渲染和可玩流程
-├── runtime-state.js              # 浏览器本地运行状态
-├── backend-adapter.js            # 可选后端适配；静态运行时不会强制使用
-├── reviewed-runtime-resolver.js  # 已审核数据解析辅助
-├── data/
-│   ├── pages-data.js             # 由原 UI XML 生成的页面数据
-│   ├── offline-flows.js          # 离线新手流程数据
-│   ├── page-actions.js           # 已确认页面动作
-│   ├── runtime-seed.js           # 已确认本地运行时种子
-│   └── reviewed-master-data.js   # 已审核外部数据占位
-├── assets/                       # 游戏图片和字体资源
-├── shared/
-│   └── tw-ui-renderer.js         # 共享 UI 渲染器
-└── screenshots/                  # README 展示截图
+├── 📁 docs/                         # 【逆向与架构白皮书】
+│   └── libEnvRelay_so_protocol_specification.md  # 50 个 CMsg 协议与 86 个业务类逆向白皮书 (41.6 KB)
+│
+├── 📁 extracted_full_resources/     # ⭐⭐⭐【原版全量资源矿藏库】(10,703 个文件, 51 MB)
+│   ├── 📁 client_assets/            # 10,213 张原版高清切图 (PNG)、348 个 UI 布局 (XML)、53 首音频 (OGG)
+│   ├── 📁 server_data/              # 31 张核心静态配置表 (CSV/JSON，涵盖职业/站位/剧本/充值)
+│   └── 📁 docs/                     # ⭐【原版策划设计案】门派设计 (GDD-01)、战斗公式 (GDD-02)、搞丸系统 (GDD-05)
+│
+├── 📁 server/                       # 【通用后端工程】Node.js + Express + SQLite
+│   ├── package.json                # 依赖声明 (express, better-sqlite3, cors)
+│   └── README.md                   # 26 张动态业务表全量 SQL DDL、50 个 CMsg 路由映射与四阶段路线图
+│
+├── 📁 minigame/                     # 【微信小游戏工程】基于 Canvas 的轻量小程序
+│   ├── game.json / project.config  # 微信横屏配置
+│   ├── src/                        # 平台基础设施 (CanvasRenderer 960x640 视口缩放、AudioService 音频池)
+│   └── README.md                   # 视口映射算法与 GDD-02 战斗时序落地规范
+│
+├── 📁 web/                          # 【H5 网页端】免安装、任意浏览器即开即玩的 Web 单页工程
+│   └── README.md                   # 纯前端轻量 SPA 架构说明与快速体验指南
+│
+└── 📁 android-app/                  # 【Android 移动端方案】
+    ├── offline-solution/           # 原版 APK 离线私服 (MockServer.java + 8 字节持久 SO Patch)
+    └── README.md                   # 原版离线实机部署手册 + 现代 64 位纯单机 APK 壳规划说明
 ```
 
-## 当前可玩范围
+---
 
-- 登录/选服界面展示。
-- 本地离线进入创角。
-- 创建角色页面。
-- 新手引导主线。
-- 新手装备获得和穿戴。
-- 过关战斗页面链路。
-- 部分地图、转职、招募和仓库壳层。
+## 二、 核心资产与官方数值机制全景
 
-## 当前边界
+### 2.1 视听与表现资产 (10,703 个资源全部齐备)
+* **10,213 张原版高清切图 (PNG)**：包括洛阳、南京、襄阳等 15 座州府全景底图、全套武将/NPC 立绘、怪物切图、装备/道具图标、宣纸水墨 UI 边框；
+* **348 个界面布局 (XML)**：涵盖游戏全部弹窗、界面的像素级排版坐标与锚点；
+* **53 首背景音乐与战斗音效 (OGG)**：包括战斗 BGM、BOSS 战音乐、技能受击音效与胜利结算乐曲；
+* **1 套原版楷体矢量字库 (TTF)**：原版水墨字库文件。
 
-以下内容没有写死进 H5 玩法：
+### 2.2 31 张官方核心配置数据表 (`extracted_full_resources/server_data/`)
+涵盖当年的全部底层规则：
+1. `CreateRoleInfo.csv`：**百家姓起名库（292姓氏+348名字）**；
+2. `BattlePos.csv`：**战斗九宫格站位像素坐标（att1~9, def1~9）**；
+3. `BattleSetting.csv`：入场 300ms、攻击 800ms、受击击退 400ms、暴击震屏 60ms、死亡淡出 1000ms；
+4. `SkillAction.csv` (1.7MB) / `ArmyAction.csv` (1.7MB)：技能与招式动作映射大表；
+5. `RookieGuideInfo.csv`：新手村 120 步主线剧情剧本与奖励表；
+6. `MapInsideGate.csv` / `MapOutside.csv` / `HidePlace.csv`：世界地图、城门与野外寻宝据点；
+7. `InAppPurchase.csv`：元宝充值档位；
+8. `ProfessionName.csv`：四大门派定义（混混、攻将、防将、阉派）。
 
-- 原服务器鉴权和真实账号数据。
-- 怪物队伍、掉落、奖励和完整战斗公式。
-- 物品全表、装备属性、强化成本。
-- 武将完整属性、品质、费用、技能和刷新权重。
-- 任务、邮件、排行、社交等服务器运行时数据。
+### 2.3 官方原版战斗数值公式 (`extracted_full_resources/docs/GDD/02`)
+* **先手规则**：按全场角色 `Speed` 从高到低排序；
+* **格挡规则**：触发格挡直接减免 **50% 伤害**；
+* **暴击规则**：暴击伤害固定为基础伤害的 **150%**；
+* **命中公式**：
+  $$\text{命中率} = \max\left(10\%, \min\left(100\%, 95\% + \frac{\text{攻方Hit} - \text{守方Dodge}}{\text{等级系数}}\right)\right)$$
+* **伤害公式**：
+  $$\text{最终伤害} = (\text{攻方攻击} \times \text{技能倍率} - \text{守方防御} \times \text{抵扣系数}) \times (1 - \text{减伤率})$$
 
-缺失数据只保留为待确认状态，不凭记忆或猜测补进游戏。
+### 2.4 原版魔性特色玩法：搞丸系统 (`GDD/05`)
+* 玩家在“搞丸房”搓丸子，产出经验丸、属性丸、垃圾丸与丸子碎片；
+* 拥有 6 大搞丸境界地宫，境界越高出神丸概率越高；
+* 支持一键吞噬丸子升级，并镶嵌至角色的 8 个命盘孔位；垃圾丸分解的碎片可保底兑换极品神丸。
 
-## 项目性质
+---
 
-本项目用于经典游戏界面与玩法流程的非商业保存、学习和复刻研究。仓库中的 H5 包只用于离线展示和体验。
+## 三、 逆向技术突破与工程治理
+
+1. **底层动态库深度解密**：
+   * 详见 [docs/libEnvRelay_so_protocol_specification.md](docs/libEnvRelay_so_protocol_specification.md)；
+   * 彻底打通了客户端 50 个 CMsg 通信协议与战报标准 JSON 数组模型。
+2. **服务端全量数据表建模**：
+   * 详见 [server/README.md](server/README.md)；
+   * 完整定义了 26 张动态业务表（账号、角色、伙伴、装备强化、命格宝珠、农庄挂机、世界 BOSS、科举答题、通缉越狱等）的 SQL DDL 与四阶段演进路线。
+3. **彻底清除历史假数据**：
+   * 废弃了早期未逆向时手工拼凑的静态 mock 流程（`data/`、旧 `renderer.js` 等），统一以官方正统协议为唯一准则。
+
+---
+
+## 四、 多端协同开发指引
+
+* **后端开发**：进入 `server/`，通过 `npm install && npm start` 启动服务；
+* **微信小游戏**：使用微信开发者工具打开 `minigame/` 导入运行；
+* **网页版体验**：在 `web/` 目录下启动静态 HTTP 服务打开浏览器；
+* **Android 真机**：参考 `android-app/README.md` 运行离线私服与 8 字节补丁。
