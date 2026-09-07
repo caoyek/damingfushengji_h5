@@ -270,6 +270,39 @@ CREATE TABLE IF NOT EXISTS fight_road_progress (
     last_challenge_at DATETIME DEFAULT CURRENT_TIMESTAMP,
     FOREIGN KEY(role_id) REFERENCES roles(id)
 );
+-- 10.1 关卡怪物模板与属性表 (Combat Engine 数据源)
+CREATE TABLE IF NOT EXISTS dungeon_monsters (
+    monster_id INTEGER PRIMARY KEY,         -- 怪物全局唯一模板ID
+    name VARCHAR(64) NOT NULL,              -- 怪物显示名称 (如 市井流氓, 恶霸头目)
+    level INTEGER DEFAULT 1,                -- 怪物等级
+    caty INTEGER DEFAULT 1000,              -- 门派职业: 1000混混, 1001攻将, 1002防将, 1003阉派
+    swf VARCHAR(128) NOT NULL,              -- 怪物形象贴图与动画路径
+    max_hp INTEGER NOT NULL,                -- 最大气血上限
+    mp INTEGER DEFAULT 50,                  -- 初始气力值
+    melee INTEGER DEFAULT 0,                -- 物理攻击
+    magic INTEGER DEFAULT 0,                -- 法术攻击
+    defend INTEGER DEFAULT 0,               -- 物理防御
+    magic_def INTEGER DEFAULT 0,            -- 法术防御
+    speed INTEGER DEFAULT 10,               -- 出手速度 (决定全场先手顺序)
+    hit INTEGER DEFAULT 95,                 -- 命中率基础值
+    dodge INTEGER DEFAULT 5,                -- 闪避率基础值
+    cri INTEGER DEFAULT 5,                  -- 暴击率基础值
+    used_skills TEXT DEFAULT '[]'           -- 配置出战技能ID数组 JSON (最多3个, 选自官方34个技能池)
+);
+
+-- 10.2 副本关卡波次与怪物站位表
+CREATE TABLE IF NOT EXISTS dungeon_stages (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    dungeon_id INTEGER NOT NULL,            -- 关卡ID (如 0 代表广州新手村通道)
+    stage_wave INTEGER DEFAULT 1,           -- 关卡波次/小节 (如 1, 2, 3)
+    formation_pos INTEGER NOT NULL,         -- 九宫格守方阵位 def1~def6 (1~6)
+    monster_id INTEGER NOT NULL,            -- 关联 dungeon_monsters.monster_id
+    reward_exp INTEGER DEFAULT 50,          -- 通关掉落基础经验
+    reward_gold INTEGER DEFAULT 100,        -- 通关掉落银两
+    reward_merit INTEGER DEFAULT 20,        -- 通关掉落战功
+    reward_drops TEXT DEFAULT '[]',         -- 掉落物品池 (装备/宝石模版ID与概率 JSON)
+    FOREIGN KEY(monster_id) REFERENCES dungeon_monsters(monster_id)
+);
 ```
 
 ### 3.7 命格占星与宝珠系统（Fate Balls / Astrology）
