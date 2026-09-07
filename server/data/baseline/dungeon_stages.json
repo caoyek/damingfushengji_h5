@@ -1,0 +1,71 @@
+[
+  {
+    "dungeon_id": 0,
+    "stage_wave": 1,
+    "stage_name": "广州城外通道 0-1",
+    "bg": "6_ggtd_xsc.png",
+    "monsters": [
+      {
+        "formation_pos": 2,
+        "monster_id": 9001
+      }
+    ],
+    "rewards": {
+      "exp": 40,
+      "gold": 60,
+      "merit": 15,
+      "drops": [
+        {
+          "item_id": 1001,
+          "chance": 0.5
+        }
+      ]
+    }
+  },
+  {
+    "dungeon_id": 0,
+    "stage_wave": 2,
+    "stage_name": "广州城外通道 0-2",
+    "bg": "6_ggtd_xsc.png",
+    "monsters": [
+      {
+        "formation_pos": 2,
+        "monster_id": 9002
+      }
+    ],
+    "rewards": {
+      "exp": 60,
+      "gold": 90,
+      "merit": 25,
+      "drops": [
+        {
+          "item_id": 1003,
+          "chance": 0.4
+        }
+      ]
+    }
+  },
+  {
+    "dungeon_id": 0,
+    "stage_wave": 3,
+    "stage_name": "广州城外通道 0-3 (恶霸据点)",
+    "bg": "6_ggtd_xsc.png",
+    "monsters": [
+      {
+        "formation_pos": 2,
+        "monster_id": 9003
+      }
+    ],
+    "rewards": {
+      "exp": 100,
+      "gold": 150,
+      "merit": 40,
+      "drops": [
+        {
+          "item_id": 1004,
+          "chance": 1.0
+        }
+      ]
+    }
+  }
+]

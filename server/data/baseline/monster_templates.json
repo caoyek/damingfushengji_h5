@@ -1,0 +1,68 @@
+[
+  {
+    "monster_id": 9001,
+    "name": "市井流氓",
+    "level": 1,
+    "caty": 1000,
+    "swf": "flashs/assets/players/1000_dz_b_nan.swf",
+    "max_hp": 100,
+    "mp": 20,
+    "shuxing": {
+      "melee": 12,
+      "magic": 0,
+      "defend": 4,
+      "magic_def": 2,
+      "speed": 8,
+      "hit": 95,
+      "dodge": 5,
+      "cri": 5
+    },
+    "used_skills": [
+      1002
+    ]
+  },
+  {
+    "monster_id": 9002,
+    "name": "地痞打手",
+    "level": 2,
+    "caty": 1000,
+    "swf": "flashs/assets/players/1000_dz_b_nan.swf",
+    "max_hp": 160,
+    "mp": 30,
+    "shuxing": {
+      "melee": 18,
+      "magic": 0,
+      "defend": 7,
+      "magic_def": 3,
+      "speed": 10,
+      "hit": 95,
+      "dodge": 6,
+      "cri": 6
+    },
+    "used_skills": [
+      1003
+    ]
+  },
+  {
+    "monster_id": 9003,
+    "name": "恶霸头目",
+    "level": 3,
+    "caty": 1001,
+    "swf": "c3/monster/001137050.c3",
+    "max_hp": 260,
+    "mp": 40,
+    "shuxing": {
+      "melee": 28,
+      "magic": 0,
+      "defend": 12,
+      "magic_def": 5,
+      "speed": 12,
+      "hit": 96,
+      "dodge": 8,
+      "cri": 10
+    },
+    "used_skills": [
+      1016
+    ]
+  }
+]
