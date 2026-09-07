@@ -6,6 +6,39 @@
 
 ---
 
+
+---
+
+## 核心最高工程铁律：严禁盲猜与写死，100% 基于真实逻辑与资产 (Zero-Guesswork & Zero-Hardcode)
+
+> ### 🚨 【项目红线】
+> **整个项目的所有核心代码，严禁任何人凭借主观猜测、或者为了“先把画面跑起来”而采取硬编码写死（Hardcode / Fake Mock / Fixture）！**  
+> **所有的数据结构、协议封包、界面坐标、战斗公式与剧情台词，必须 100% 严格基于项目内已提取解密的真实底层资产与官方策划文档！**
+
+### 1. 通信协议与数据流（对齐 SO 逆向白皮书）
+* ❌ **严禁**：私自捏造怪异事件名（如严禁再出现早期手搓的 `toggleEvt: "city_dungeon_pk_0_1"`、`help_member-panel` 等假字符串）；
+* ✅ **必依**：必须 100% 严格遵照 [docs/libEnvRelay_so_protocol_specification.md](libEnvRelay_so_protocol_specification.md) 中的 50 个 `CMsg` 真实网络动作与标准 JSON 数组回包（如 `CMsgBattle::SendPKMemberId`、`LOGIN_RECIEVE_EVENT`、`SHOW_BATTLE_RESULT`、`SHOW_BIG_MAP`）。
+
+### 2. 界面坐标与排版层级（对齐 348 个 UI XML）
+* ❌ **严禁**：在 JS/CSS 中拍脑袋瞎猜按钮坐标、弹窗大小、切图名称或手写样式；
+* ✅ **必依**：必须 100% 逐行解析 `extracted_full_resources/client_assets/ui_layouts/*.xml` 原始文件中的 `Rect="X, Y, W, H"`、`Background`、`FontSize` 与节点嵌套书写顺序（Z-Order 层级），保证像素与图层 1:1 绝对吻合。
+
+### 3. 战斗机制与伤害演算（对齐 GDD-02 官方策划案）
+* ❌ **严禁**：写死伤害数字（如严禁再出现早期写死的固定扣血 268、固定胜利这种虚假逻辑）；
+* ✅ **必依**：必须 100% 按照 `extracted_full_resources/docs/GDD/02_战斗机制与数值公式设计.md` 编写通用的战斗公式引擎：
+  * 先手顺序按双方真实 `Speed` 排序；
+  * 命中率、暴击率（150%伤害）、格挡率（50%减伤）走真实动态概率骰子；
+  * 伤害必须根据双方当前的 `攻击力 - 防御力抵扣` 进行真实浮动演算；
+  * 阵位严格读取 `BattlePos.csv`，时序严格依照 `BattleSetting.csv`（入场 300ms、出招 800ms、击退 400ms、暴击震屏 60ms）。
+
+### 4. 剧情对话与任务推进（对齐 31 张官方配置表）
+* ❌ **严禁**：在 JS 脚本里手写台词字串或臆造流程步骤；
+* ✅ **必依**：必须直接从 `extracted_full_resources/server_data/tables_csv/RookieGuideInfo.csv` 动态驱动台词气泡展示与奖励发放；随机起名必须从 `CreateRoleInfo.csv` 动态抽取。
+
+### 5. 装备、物品与数值成长（对齐 GDD-01 / GDD-03）
+* ❌ **严禁**：在代码里针对某件装备（如 1002 晾衣杆）编写专有的 `if (id === 1002)` 特殊逻辑；
+* ✅ **必依**：必须建立通用的装备词条与穿戴插槽系统，任何装备的数值加成均统一通过公式折算进角色的四维属性矩阵。
+
 ## 一、 第一阶段功能范围与玩家完整体验动线
 
 ```mermaid
